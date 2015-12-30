@@ -1,0 +1,25 @@
+{
+  "name": "ecommerce",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "hxghxg527 <hxghxg527@163.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/hxghxg527/eCommerce",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.8",
+    "bootstrap": "~3.3.6",
+    "font-awesome": "fontawesome#~4.5.0"
+  }
+}
