@@ -5,5 +5,6 @@
 'use strict';
 
 angular.module('ecController', [
-    'ecMainController'
+    'ecMainController',
+    'ecMainPageController'
 ]);

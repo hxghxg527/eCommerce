@@ -7,14 +7,15 @@
     <link type="text/css" rel="stylesheet" href="css/eCommerce.css">
     <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="lib/angular/angular.min.js"></script>
+    <script type="text/javascript" src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
 </head>
 <body>
 <div class="container" ng-controller="ecMainController">
-    <ec-main-page></ec-main-page>
-    <ng-view></ng-view>
+    <ui-view></ui-view>
 </div>
 </body>
-<script type="text/javascript" src="js/controller/mainController.js"></script>
+<script type="text/javascript" src="js/controller/main.js"></script>
+<script type="text/javascript" src="js/controller/mainPage.js"></script>
 
 <script type="text/javascript" src="js/directive/template.js"></script>
 
