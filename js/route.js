@@ -24,6 +24,9 @@ angular.module('ecRoute', ['ui.router'])
             url: '/test3',
             templateUrl: 'templates/test3.html'
         });
+
+        // url 传递参数怎么接受处理路由
+        // controller里如何接受url传的参数
     })
     .run(function ($rootScope) {
         $rootScope.name = 'run...';
