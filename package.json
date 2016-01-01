@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/hxghxg527/eCommerce/issues"
   },
-  "homepage": "https://github.com/hxghxg527/eCommerce#readme"
+  "homepage": "https://github.com/hxghxg527/eCommerce#readme",
+  "dependencies": {
+    "bower": "^1.7.2",
+    "gulp": "^3.9.0"
+  }
 }
