@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,MAAO;EACL,UAAU,EAAE,IAAI;;AAGlB,CAAE;EACA,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,IAAI;;ACNvB,CAAE;EACA,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,gBAAgB",
+"mappings": "AAAA,MAAO;EACL,UAAU,EAAE,IAAI;;AAGlB,CAAE;EACA,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,IAAI;;ACNvB,CAAE;EACA,aAAa,EAAE,cAAc",
 "sources": ["../scss/_global.scss","../scss/_index.scss"],
 "names": [],
 "file": "eCommerce.css"

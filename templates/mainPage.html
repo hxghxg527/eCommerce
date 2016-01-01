@@ -1,7 +1,9 @@
 <div class="ec-main-page">
     <ec-top-bar></ec-top-bar>
-    <div ui-view =''></div>
-    <div><i class="fa fa-home"></i>首页{{email}}</div>
-
-    {{email}}
+    <a ui-sref=".test1">子页面1</a>
+    <a ui-sref=".test2">子页面2</a>
+    <a href="#/test3">页面1</a>
+    <a href="#/mainPage">主页</a>
+    <ui-view></ui-view>
+    <div><i class="fa fa-home"></i>首页 {{email}}</div>
 </div>
