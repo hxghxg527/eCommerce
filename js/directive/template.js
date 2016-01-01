@@ -4,9 +4,21 @@
 
 'use strict';
 
-angular.module('ecTemplate', []).directive(function () {
-    return {
-        templateUrl: 'templates/main.html',
-        controller: ''
-    };
-});
+angular.module('ecTemplate', [])
+    .directive('ecMainPage', function () {
+        return {
+            restrict: 'AE',
+            replace: true,
+            transclude: true,
+            templateUrl: 'templates/mainPage.html',
+            controller: ''
+        };
+    }).directive('ecTopBar', function () {
+        return {
+            restrict: 'AE',
+            replace: true,
+            transclude: true,
+            templateUrl: 'templates/topBar.html',
+            controller: ''
+        };
+    });

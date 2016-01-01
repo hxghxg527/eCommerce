@@ -5,5 +5,5 @@
 'use strict';
 
 angular.module('ecMainController', []).controller('ecMainController', ['$rootScope', '$scope', function ($rootScope, $scope) {
-    $rootScope.name = 'change name.';
+    //$rootScope.name = 'change name.';
 }]);

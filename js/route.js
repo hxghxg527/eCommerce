@@ -4,6 +4,6 @@
 
 'use strict';
 
-angular.module('ecRoute', []).run(['$rootScope', function ($rootScope) {
+angular.module('ecRoute', []).run(function ($rootScope) {
     $rootScope.name = 'hello world';
-}]);
+});
