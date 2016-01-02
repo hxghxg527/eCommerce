@@ -1,8 +1,10 @@
-ul, li {
+html, body, div, a, img, ul, li, ol, p, span, i, strong, form, input, textarea, button, canvas, dl, dd, dt, h1, h2, h3, h4, h5, h6, hr, label {
+  margin: 0;
+  padding: 0;
   list-style: none;
+  text-decoration: none;
 }
 
 a {
   color: #000;
-  text-decoration: none;
 }
