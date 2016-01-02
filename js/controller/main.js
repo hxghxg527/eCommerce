@@ -6,5 +6,7 @@
 
 angular.module('ecMainController', [])
     .controller('ecMainController', function ($rootScope, $scope) {
-        //$scope.name = 'change name';
+        $scope.$on('initCurrentUserInfo', function (evt, currentUserInfo) {
+            $rootScope.currentUserInfo = currentUserInfo;
+        });
     });

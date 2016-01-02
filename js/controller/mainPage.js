@@ -6,5 +6,5 @@
 
 angular.module('ecMainPageController', [])
     .controller('ecMainPageController', function ($scope) {
-        $scope.email = '123@163.com';
+
     });

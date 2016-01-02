@@ -4,8 +4,9 @@
 
 'use strict';
 
-angular.module('ecRoute', ['ui.router'])
+angular.module('ecRoute', [])
     .config(function ($stateProvider, $urlRouterProvider) {
+
         $urlRouterProvider
             .when('', '/mainPage')
             .otherwise('/mainPage');
@@ -29,5 +30,5 @@ angular.module('ecRoute', ['ui.router'])
         // controller里如何接受url传的参数
     })
     .run(function ($rootScope) {
-        $rootScope.name = 'run...';
+        console.log('run angular...');
     });

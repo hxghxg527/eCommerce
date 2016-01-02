@@ -4,13 +4,14 @@
 
 'use strict';
 
+//restrict: EACM
 angular.module('ecTemplate', [])
     .directive('ecTopBar', function () {
         return {
-            restrict: 'AE',
+            restrict: 'EA',
             replace: true,
             transclude: true,
             templateUrl: 'templates/topBar.html',
-            controller: ''
+            controller: 'ecTopBarController'
         };
     });

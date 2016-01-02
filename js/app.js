@@ -5,6 +5,7 @@
 'use strict';
 
 angular.module('eCommerceApp', [
+    'ui.router',
     'ecRoute',
     'ecController',
     'ecDirective',

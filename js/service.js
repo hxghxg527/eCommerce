@@ -4,4 +4,6 @@
 
 'use strict';
 
-angular.module('ecService', []);
+angular.module('ecService', [
+    'ecInteraction'
+]);
