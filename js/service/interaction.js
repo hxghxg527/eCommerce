@@ -12,7 +12,8 @@ angular.module('ecInteraction', [])
                 'POST': 'POST'
             },
             AJAX_URL = {
-                'USER_INFO': 'data/userInfo.json'
+                'USER_INFO': 'data/userInfo.json',
+                'USER_LIST': 'data/userList.json'
             };
 
         interaction.getCurrentUserInfo = function (callBack) {
@@ -23,6 +24,18 @@ angular.module('ecInteraction', [])
                 callBack(data);
             }).error(function (data, status, headers, config, statusText) {
                 console.log('Get userInfo.json failed.');
+            });
+        };
+
+        interaction.getUserList = function (callBack) {
+            $http({
+                'method': AJAX_METHOD.GET,
+                'url': AJAX_URL.USER_LIST
+            }).success(function (data, status, headers, config, statusText) {
+                callBack(data);
+            }).error(function (data, status, headers, config, statusText) {
+                console.log('Get userList.json failed.');
+                callBack();
             });
         };
 
