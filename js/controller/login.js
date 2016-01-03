@@ -6,12 +6,12 @@
 
 angular.module('ecLoginController', [])
     .controller('ecLoginController', function ($scope, ecInteraction, $location) {
-        $scope.username = '';
+        $scope.userName = '';
         $scope.password = '';
         var isClickLogin = false;
 
         $scope.loginAccount = function () {
-            if ($scope.username.trim() == '') return;
+            if ($scope.userName.trim() == '') return;
             if ($scope.password.trim() == '') return;
             if (isClickLogin) return;
             isClickLogin = true;
@@ -23,9 +23,12 @@ angular.module('ecLoginController', [])
             if (list) {
                 var userList = list.userList;
                 angular.forEach(userList, function (item, index) {
-                    //console.log(item);
+                    if (item.userName == $scope.userName.trim() && item.password == $scope.password.trim()) {
+                        $location.path('mainPage');
+                        return;
+                    }
                 });
-                $location.path('mainPage');
+
             } else isClickLogin = false;
         }
     });
