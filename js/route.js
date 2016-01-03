@@ -24,11 +24,12 @@ angular.module('ecRoute', [])
         }).state('test3', {
             url: '/test3',
             templateUrl: 'templates/test3.html'
+        }).state('login', {
+            url: '/login',
+            templateUrl: 'templates/login.html',
+            controller: ''
         });
 
         // url 传递参数怎么接受处理路由
         // controller里如何接受url传的参数
-    })
-    .run(function ($rootScope) {
-        console.log('run angular...');
     });

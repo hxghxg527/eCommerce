@@ -2,7 +2,7 @@
 <html lang="en" ng-app="eCommerceApp">
 <head>
     <meta charset="UTF-8">
-    <title>优乐购网上商城</title>
+    <title ng-bind="appName"></title>
     <link type="text/css" rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="css/eCommerce.css">
     <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
@@ -10,7 +10,7 @@
     <script type="text/javascript" src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
 </head>
 <body>
-<div class="container" ng-controller="ecMainController">
+<div class="ec-container" ng-controller="ecMainController">
     <ui-view></ui-view>
 </div>
 </body>

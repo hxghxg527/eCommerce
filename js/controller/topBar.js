@@ -13,7 +13,7 @@ angular.module('ecTopBarController', [])
         function initCurrentUserInfo(currentUserInfo) {
             if (currentUserInfo) {
                 $scope.$emit('initCurrentUserInfo', currentUserInfo);
-                $scope.currentUserInfo = currentUserInfo;
+                $scope.currentUserInfo = $rootScope.currentUserInfo;
             }
         }
     });

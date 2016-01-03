@@ -1,5 +1,27 @@
 <div class="ec-top-bar">
-    <div class="header-container">
-        {{currentUserInfo.userName}}
+    <div class="bar-container clearfix">
+        <ul class="left-bar-container clearfix">
+            <li class="left-bar-container-li">
+                <span>Hi,</span>
+                <a>{{currentUserInfo.userName}}</a>
+            </li>
+            <li class="left-bar-container-li">
+                <a class="grade" title="T{{currentUserInfo.grade}} 会员">
+                    <span ng-bind="'T' + currentUserInfo.grade"></span>
+                </a>
+            </li>
+            <li class="left-bar-container-li">
+                <a>积分 <b>{{currentUserInfo.points}}</b></a>
+            </li>
+            <li class="left-bar-container-li">
+                <a>消息 <b>{{currentUserInfo.messageNum}}</b></a>
+            </li>
+            <li class="left-bar-container-li" ui-sref="login">
+                <a>退出</a>
+            </li>
+        </ul>
+        <ul class="right-bar-container">
+            <li class="right-bar-container-li"></li>
+        </ul>
     </div>
 </div>
