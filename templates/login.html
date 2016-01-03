@@ -13,19 +13,19 @@
                         <label>
                             <i class="fa fa-user fa-lg fa-fw"></i>
                         </label>
-                        <input type="text" placeholder="手机号/会员号/邮箱">
+                        <input ng-model="username" type="text" placeholder="手机号/会员号/邮箱">
                     </div>
                     <div class="password-container clearfix">
                         <label>
                             <i class="fa fa-lock fa-lg fa-fw"></i>
                         </label>
-                        <input type="password">
+                        <input ng-model="password" type="password">
                     </div>
                     <div class="tool-container clearfix">
                         <a>忘记登录密码?</a>
                         <a>免费注册</a>
                     </div>
-                    <div class="login-button">登录</div>
+                    <div class="login-button" ng-click="loginAccount();">登录</div>
                 </div>
             </div>
         </div>

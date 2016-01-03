@@ -27,7 +27,7 @@ angular.module('ecRoute', [])
         }).state('login', {
             url: '/login',
             templateUrl: 'templates/login.html',
-            controller: ''
+            controller: 'ecLoginController'
         });
 
         // url 传递参数怎么接受处理路由

@@ -7,5 +7,6 @@
 angular.module('ecController', [
     'ecMainController',
     'ecMainPageController',
-    'ecTopBarController'
+    'ecTopBarController',
+    'ecLoginController'
 ]);
