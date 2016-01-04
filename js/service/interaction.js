@@ -4,8 +4,8 @@
 
 'use strict';
 
-angular.module('ecInteraction', [])
-    .factory('ecInteraction', function ($rootScope, $http) {
+angular.module('ec.service.interaction', [])
+    .factory('ecInteractionService', function ($rootScope, $http) {
         var interaction = {},
             AJAX_METHOD = {
                 'GET': 'GET',

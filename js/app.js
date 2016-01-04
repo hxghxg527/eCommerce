@@ -6,8 +6,8 @@
 
 angular.module('eCommerceApp', [
     'ui.router',
-    'ecRoute',
-    'ecController',
-    'ecDirective',
-    'ecService'
+    'ec.route',
+    'ec.controller',
+    'ec.directive',
+    'ec.service'
 ]);

@@ -4,8 +4,8 @@
 
 'use strict';
 
-angular.module('ecLoginController', [])
-    .controller('ecLoginController', function ($scope, ecInteraction, $location) {
+angular.module('ec.controller.login', [])
+    .controller('ecLoginController', function ($scope, ecInteractionService, $location) {
         $scope.userName = '';
         $scope.password = '';
         var isClickLogin = false;
@@ -16,7 +16,7 @@ angular.module('ecLoginController', [])
             if (isClickLogin) return;
             isClickLogin = true;
 
-            ecInteraction.getUserList(checkUser);
+            ecInteractionService.getUserList(checkUser);
         };
 
         function checkUser(list) {
@@ -26,6 +26,8 @@ angular.module('ecLoginController', [])
                     if (item.userName == $scope.userName.trim() && item.password == $scope.password.trim()) {
                         $location.path('mainPage');
                         return;
+                    } else {
+                        isClickLogin = false;
                     }
                 });
 

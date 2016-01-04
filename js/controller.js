@@ -4,9 +4,9 @@
 
 'use strict';
 
-angular.module('ecController', [
-    'ecMainController',
-    'ecMainPageController',
-    'ecTopBarController',
-    'ecLoginController'
+angular.module('ec.controller', [
+    'ec.controller.main',
+    'ec.controller.mainPage',
+    'ec.controller.topBar',
+    'ec.controller.login'
 ]);

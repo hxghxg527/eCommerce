@@ -4,6 +4,6 @@
 
 'use strict';
 
-angular.module('ecDirective', [
-    'ecTemplate'
+angular.module('ec.directive', [
+    'ec.directive.template'
 ]);

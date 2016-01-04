@@ -4,7 +4,7 @@
 
 'use strict';
 
-angular.module('ecRoute', [])
+angular.module('ec.route', [])
     .config(function ($stateProvider, $urlRouterProvider) {
 
         $urlRouterProvider

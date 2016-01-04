@@ -4,11 +4,11 @@
 
 'use strict';
 
-angular.module('ecTopBarController', [])
-    .controller('ecTopBarController', function ($scope, $rootScope, ecInteraction) {
+angular.module('ec.controller.topBar', [])
+    .controller('ecTopBarController', function ($scope, $rootScope, ecInteractionService) {
         $scope.currentUserInfo = {};
 
-        ecInteraction.getCurrentUserInfo(initCurrentUserInfo);
+        ecInteractionService.getCurrentUserInfo(initCurrentUserInfo);
 
         function initCurrentUserInfo(currentUserInfo) {
             if (currentUserInfo) {

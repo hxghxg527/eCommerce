@@ -4,7 +4,7 @@
 
 'use strict';
 
-angular.module('ecMainPageController', [])
+angular.module('ec.controller.mainPage', [])
     .controller('ecMainPageController', function ($scope) {
 
     });

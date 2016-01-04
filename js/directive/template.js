@@ -5,7 +5,7 @@
 'use strict';
 
 //restrict: EACM
-angular.module('ecTemplate', [])
+angular.module('ec.directive.template', [])
     .directive('ecTopBar', function () {
         return {
             restrict: 'EA',
