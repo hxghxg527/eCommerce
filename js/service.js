@@ -5,5 +5,7 @@
 'use strict';
 
 angular.module('ec.service', [
-    'ec.service.interaction'
+    'ec.service.interaction',
+    'ec.service.loginFilter',
+    'ec.service.location'
 ]);

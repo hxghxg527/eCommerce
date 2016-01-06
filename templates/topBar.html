@@ -1,6 +1,6 @@
 <div class="ec-top-bar">
     <div class="bar-container clearfix">
-        <ul class="left-bar-container clearfix">
+        <ul class="left-bar-container clearfix" ng-if="$root.isLogin">
             <li class="left-bar-container-li">
                 <span>Hi,</span>
                 <a>{{currentUserInfo.userName}}</a>
@@ -18,6 +18,17 @@
             </li>
             <li class="left-bar-container-li" ui-sref="login">
                 <a>退出</a>
+            </li>
+        </ul>
+        <ul class="left-bar-container clearfix" ng-if="!$root.isLogin">
+            <li class="left-bar-container-li not-login">
+                <span>Hi, 欢迎来到{{$root.logoName}}</span>
+            </li>
+            <li class="left-bar-container-li not-login">
+                <a ui-sref="login">请登录</a>
+            </li>
+            <li class="left-bar-container-li not-login">
+                <a>免费注册</a>
             </li>
         </ul>
         <ul class="right-bar-container">

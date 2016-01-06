@@ -5,9 +5,11 @@ $width: 990px;
   height: 100%;
   font-size: 12px;
   font-family: $fontFamily1;
-  background: #fff;
+  background-color: #fff;
 
   .header-container {
+    background-color: #fff;
+
     .header {
       width: $width;
       height: 80px;
@@ -58,7 +60,32 @@ $width: 990px;
         }
 
         .form-container {
-          padding: 30px 20px 10px 20px;
+          padding: 40px 20px 10px 20px;
+          position: relative;
+
+          .error-tips {
+            position: absolute;
+            border: 1px solid #e4393c;
+            background-color: #ffebeb;
+            width: 340px;
+            top: 6px;
+
+            span:first-child {
+              width: 40px;
+              float: left;
+              text-align: center;
+              height: 26px;
+              i {
+                color: $mainColor;
+                line-height: 26px;
+              }
+            }
+            span:last-child {
+              float: left;
+              height: 26px;
+              line-height: 26px;
+            }
+          }
 
           .username-container, .password-container {
             border: 1px solid #dddddd;
@@ -109,7 +136,6 @@ $width: 990px;
           .login-button {
             margin-top: 20px;
             text-align: center;
-            letter-spacing: 15px;
             background-color: rgba(196, 0, 0, .78);
             font-size: 16px;
             height: 40px;

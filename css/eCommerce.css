@@ -60,6 +60,10 @@ html, body {
         height: 34px;
         line-height: 34px;
         vertical-align: top; }
+      .ec-top-bar .left-bar-container .left-bar-container-li.not-login > span {
+        padding: 0 10px 0 0; }
+      .ec-top-bar .left-bar-container .left-bar-container-li.not-login a {
+        color: #6c6c6c; }
       .ec-top-bar .left-bar-container .left-bar-container-li a {
         cursor: pointer;
         display: inline-block;
@@ -93,19 +97,21 @@ html, body {
   height: 100%;
   font-size: 12px;
   font-family: tahoma, arial, "Hiragino Sans GB", 宋体, sans-serif;
-  background: #fff; }
-  .ec-login .header-container .header {
-    width: 990px;
-    height: 80px;
-    line-height: 80px;
-    margin: auto;
-    font-size: 24px; }
-    .ec-login .header-container .header a {
-      color: #c40000;
-      cursor: pointer;
-      transition: color 500ms ease-in-out; }
-    .ec-login .header-container .header a:hover {
-      color: red; }
+  background-color: #fff; }
+  .ec-login .header-container {
+    background-color: #fff; }
+    .ec-login .header-container .header {
+      width: 990px;
+      height: 80px;
+      line-height: 80px;
+      margin: auto;
+      font-size: 24px; }
+      .ec-login .header-container .header a {
+        color: #c40000;
+        cursor: pointer;
+        transition: color 500ms ease-in-out; }
+      .ec-login .header-container .header a:hover {
+        color: red; }
   .ec-login .middle-container {
     background: #c40000;
     height: 485px;
@@ -133,7 +139,26 @@ html, body {
           border-bottom: 1px solid #eeeeee;
           padding: 10px 20px; }
         .ec-login .middle-container .middle .login-container .form-container {
-          padding: 30px 20px 10px 20px; }
+          padding: 40px 20px 10px 20px;
+          position: relative; }
+          .ec-login .middle-container .middle .login-container .form-container .error-tips {
+            position: absolute;
+            border: 1px solid #e4393c;
+            background-color: #ffebeb;
+            width: 340px;
+            top: 6px; }
+            .ec-login .middle-container .middle .login-container .form-container .error-tips span:first-child {
+              width: 40px;
+              float: left;
+              text-align: center;
+              height: 26px; }
+              .ec-login .middle-container .middle .login-container .form-container .error-tips span:first-child i {
+                color: #c40000;
+                line-height: 26px; }
+            .ec-login .middle-container .middle .login-container .form-container .error-tips span:last-child {
+              float: left;
+              height: 26px;
+              line-height: 26px; }
           .ec-login .middle-container .middle .login-container .form-container .username-container, .ec-login .middle-container .middle .login-container .form-container .password-container {
             border: 1px solid #dddddd; }
             .ec-login .middle-container .middle .login-container .form-container .username-container label, .ec-login .middle-container .middle .login-container .form-container .password-container label {
@@ -165,7 +190,6 @@ html, body {
           .ec-login .middle-container .middle .login-container .form-container .login-button {
             margin-top: 20px;
             text-align: center;
-            letter-spacing: 15px;
             background-color: rgba(196, 0, 0, 0.78);
             font-size: 16px;
             height: 40px;

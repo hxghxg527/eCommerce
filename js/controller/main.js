@@ -5,21 +5,35 @@
 'use strict';
 
 angular.module('ec.controller.main', [])
-    .run(function ($rootScope) {
+    .run(function ($rootScope, ecLoginFilterService) {
         $rootScope.appName = '蓝鲸网上购物商城';
         $rootScope.logoName = "蓝鲸";
         $rootScope.appVersion = 'V1.0';
-        $rootScope.isLogin = true;
+
+        $rootScope.isLogin = false;
     })
     .controller('ecMainController', function ($rootScope, $scope) {
-        $scope.$on('initCurrentUserInfo', function (evt, currentUserInfo) {
-            $rootScope.currentUserInfo = {
-                userName: currentUserInfo.userName,
-                password: currentUserInfo.password,
-                balance: currentUserInfo.balance,
-                grade: currentUserInfo.grade,
-                points: currentUserInfo.points,
-                messageNum: currentUserInfo.messageNum
+
+        $scope.$on('initUserInfo', function (evt, userInfo) {
+            var currentUserInfo = {
+                userName: userInfo.userName,
+                email: userInfo.email,
+                telphone: userInfo.telphone,
+                balance: userInfo.balance,
+                grade: userInfo.grade,
+                points: userInfo.points,
+                messageNum: userInfo.messageNum,
+                sex: userInfo.sex,
+                isLogin: true
             };
+            sessionStorage.setItem('currentUserInfo', JSON.stringify(currentUserInfo));
+        });
+
+        $scope.$on('setSessionStorageOfCurrentUserInfo', function (evt, currentUserInfo) {
+            sessionStorage.setItem('currentUserInfo', JSON.stringify(currentUserInfo));
+        });
+
+        $scope.$on('removeSessionStorageOfCurrentUserInfo', function () {
+            sessionStorage.removeItem('currentUserInfo');
         });
     });

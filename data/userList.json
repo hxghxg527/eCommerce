@@ -2,15 +2,36 @@
   "userList": [
     {
       "userName": "hxghxg527",
+      "password": "123",
       "email": "hxghxg527@163.com",
-      "telphone": "18516063245",
-      "password": "123"
+      "telphone": "18516023245",
+      "balance": "5000",
+      "grade": "5",
+      "points": "150",
+      "messageNum": "3",
+      "sex": "1"
     },
     {
       "userName": "pony",
-      "email": "pony@qq.com",
+      "password": "123",
+      "email": "pony@163.com",
       "telphone": "18516023245",
-      "password": "123"
+      "balance": "300000",
+      "grade": "8",
+      "points": "121",
+      "messageNum": "4",
+      "sex": "1"
+    },
+    {
+      "userName": "lily",
+      "password": "123",
+      "email": "lily@126.com",
+      "telphone": "18516023245",
+      "balance": "200000",
+      "grade": "6",
+      "points": "170",
+      "messageNum": "2",
+      "sex": "0"
     }
   ]
 }

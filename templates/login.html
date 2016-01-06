@@ -1,7 +1,7 @@
 <div class="ec-login">
     <div class="header-container">
         <div class="header">
-            <a ui-sref="mainPage">{{logoName}}</a>
+            <a ui-sref="mainPage">{{$root.logoName}}</a>
         </div>
     </div>
     <div class="middle-container">
@@ -9,6 +9,12 @@
             <div class="login-container">
                 <div class="caption">账户登录</div>
                 <div class="form-container">
+                    <div class="error-tips clearfix" ng-if="errorTip && errorTip != ''">
+                        <span>
+                            <i class="fa fa-minus-circle fa-fw"></i>
+                        </span>
+                        <span>{{errorTip}}</span>
+                    </div>
                     <div class="username-container clearfix">
                         <label>
                             <i class="fa fa-user fa-lg fa-fw"></i>
@@ -25,7 +31,7 @@
                         <a>忘记登录密码?</a>
                         <a>免费注册</a>
                     </div>
-                    <div class="login-button" ng-click="loginAccount();">登录</div>
+                    <div class="login-button" ng-click="loginAccount();">{{buttonCaption}}</div>
                 </div>
             </div>
         </div>
