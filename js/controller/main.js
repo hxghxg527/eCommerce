@@ -23,9 +23,9 @@ angular.module('ec.controller.main', [])
                 grade: userInfo.grade,
                 points: userInfo.points,
                 messageNum: userInfo.messageNum,
-                sex: userInfo.sex,
-                isLogin: true
+                sex: userInfo.sex
             };
+            localStorage.setItem('userName', userInfo.userName);
             sessionStorage.setItem('currentUserInfo', JSON.stringify(currentUserInfo));
         });
 

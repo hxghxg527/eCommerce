@@ -38,16 +38,23 @@ $width: 990px;
       height: 100%;
       position: relative;
 
+      .login-image-link {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: url("../images/login_bg.jpg") no-repeat center;
+        background-size: cover;
+      }
+
       .login-container {
         width: 380px;
         height: 340px;
-        background: #fff;
+        background: rgba(255, 255, 255, 1);
         border-radius: 3px;
         position: absolute;
         top: 50%;
-        left: 50%;
+        right: 120px;
         margin-top: -170px;
-        margin-left: -190px;
         opacity: 1;
         animation: loginContainerMoveIn .8s ease-in-out 0s 1;
 

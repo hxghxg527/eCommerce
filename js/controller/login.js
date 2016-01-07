@@ -23,18 +23,11 @@ angular.module('ec.controller.login', [])
             password = '';
 
         (function () {
-            var tempInfo = sessionStorage.getItem('currentUserInfo'),
-                currentUserInfo = null;
+            var _userName = localStorage.getItem('userName');
 
-            if (tempInfo && tempInfo != 'undefined') {
-                currentUserInfo = JSON.parse(tempInfo);
-                $scope.$emit('setSessionStorageOfCurrentUserInfo', {
-                    userName: currentUserInfo.userName,
-                    isLogin: false
-                });
-            }
+            $scope.$emit('removeSessionStorageOfCurrentUserInfo');
 
-            $scope.userName = currentUserInfo ? currentUserInfo.userName : '';
+            $scope.userName = (_userName && _userName != 'undefined') ? _userName : '';
             $scope.password = '';
             $scope.errorTip = '';
             $scope.buttonCaption = BUTTON_CAPTION.LOGIN;

@@ -1,10 +1,10 @@
 @charset "UTF-8";
 @keyframes loginContainerMoveIn {
   from {
-    left: -25%;
+    right: -380px;
     opacity: .5; }
   to {
-    left: 50%;
+    right: 120px;
     opacity: 1; } }
 html, body, div, a, img, ul, li, ol, p, span, i, b, strong, form, input, textarea, button, canvas, dl, dd, dt, h1, h2, h3, h4, h5, h6, hr, label {
   margin: 0;
@@ -120,16 +120,21 @@ html, body {
       width: 100%;
       height: 100%;
       position: relative; }
+      .ec-login .middle-container .middle .login-image-link {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: url("../images/login_bg.jpg") no-repeat center;
+        background-size: cover; }
       .ec-login .middle-container .middle .login-container {
         width: 380px;
         height: 340px;
-        background: #fff;
+        background: white;
         border-radius: 3px;
         position: absolute;
         top: 50%;
-        left: 50%;
+        right: 120px;
         margin-top: -170px;
-        margin-left: -190px;
         opacity: 1;
         animation: loginContainerMoveIn .8s ease-in-out 0s 1; }
         .ec-login .middle-container .middle .login-container .caption {
