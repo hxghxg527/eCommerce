@@ -9,6 +9,7 @@ $barBgColor: #f5f5f5;
   border-bottom: 1px solid #eeeeee;
   position: fixed;
   width: 100%;
+  height: $barHeight;
 
   .bar-container {
     width: $maxWidth;
@@ -71,7 +72,77 @@ $barBgColor: #f5f5f5;
   .right-bar-container {
     float: right;
     .right-bar-container-li {
-      float: right;
+      float: left;
+      position: relative;
+      height: $barHeight;
+      border-left: 1px solid $barBgColor;
+      border-right: 1px solid $barBgColor;
+
+      &.has-second-level-menu:hover {
+        background: #fff;
+        border-left: 1px solid #eeeeee;
+        border-right: 1px solid #eeeeee;
+
+        .right-li-link .text {
+          color: $mainColor;
+        }
+
+        .right-li-link i {
+          transform: rotate(180deg);
+          transform-origin: 50% 50%;
+        }
+
+        .second-level-menu-ul {
+          display: block;
+        }
+      }
+
+      .right-li-link {
+        display: block;
+        line-height: $barHeight;
+        cursor: pointer;
+        padding: 0 8px;
+
+        &:hover {
+          .text {
+            text-decoration: underline;
+          }
+        }
+
+        .text {
+          height: $barHeight;
+          display: inline-block;
+          margin-right: 2px;
+        }
+
+        i {
+          transition: transform .25s ease-in-out;
+        }
+      }
+
+      .second-level-menu-ul {
+        position: absolute;
+        display: none;
+        width: 100px;
+        background: #fff;
+        border: 1px solid #eeeeee;
+        border-top: none;
+        left: -1px;
+        top: $barHeight;
+        padding: 8px 0;
+        text-align: center;
+
+        .second-level-menu-ul-li {
+          cursor: pointer;
+          height: 23px;
+          line-height: 23px;
+
+          &:hover {
+            color: $mainColor;
+            text-decoration: underline;
+          }
+        }
+      }
     }
   }
 }
