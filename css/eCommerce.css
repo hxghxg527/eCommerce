@@ -90,6 +90,12 @@ html, body {
           display: block; }
   .ec-top-bar .right-bar-container {
     float: right; }
+    .ec-top-bar .right-bar-container .vertical-split-line {
+      float: left;
+      width: 1px;
+      background-color: #ccc;
+      height: 16px;
+      margin: 9px 5px 0; }
     .ec-top-bar .right-bar-container .right-bar-container-li {
       float: left;
       position: relative;
@@ -111,26 +117,37 @@ html, body {
         display: block;
         line-height: 34px;
         cursor: pointer;
-        padding: 0 8px; }
+        padding: 0 10px; }
         .ec-top-bar .right-bar-container .right-bar-container-li .right-li-link:hover .text {
           text-decoration: underline; }
+        .ec-top-bar .right-bar-container .right-bar-container-li .right-li-link:hover .text.no-second-level-menu-text {
+          color: #c40000;
+          text-decoration: none; }
+        .ec-top-bar .right-bar-container .right-bar-container-li .right-li-link:hover .text.no-need-has-hover-effect {
+          text-decoration: none; }
         .ec-top-bar .right-bar-container .right-bar-container-li .right-li-link .text {
           height: 34px;
           display: inline-block;
-          margin-right: 2px; }
+          margin-right: 1px; }
+        .ec-top-bar .right-bar-container .right-bar-container-li .right-li-link .text.no-second-level-menu-text {
+          margin-left: 1px;
+          margin-right: 0; }
         .ec-top-bar .right-bar-container .right-bar-container-li .right-li-link i {
           transition: transform .25s ease-in-out; }
+        .ec-top-bar .right-bar-container .right-bar-container-li .right-li-link i.no-second-level-menu-i {
+          color: #c40000; }
+        .ec-top-bar .right-bar-container .right-bar-container-li .right-li-link i.has-scale {
+          transform: scale(0.83, 0.83); }
       .ec-top-bar .right-bar-container .right-bar-container-li .second-level-menu-ul {
         position: absolute;
         display: none;
-        width: 100px;
+        width: 90px;
         background: #fff;
         border: 1px solid #eeeeee;
         border-top: none;
         left: -1px;
         top: 34px;
-        padding: 8px 0;
-        text-align: center; }
+        padding: 8px 10px; }
         .ec-top-bar .right-bar-container .right-bar-container-li .second-level-menu-ul .second-level-menu-ul-li {
           cursor: pointer;
           height: 23px;

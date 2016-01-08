@@ -71,6 +71,14 @@ $barBgColor: #f5f5f5;
   }
   .right-bar-container {
     float: right;
+
+    .vertical-split-line {
+      float: left;
+      width: 1px;
+      background-color: #ccc;
+      height: 16px;
+      margin: 9px 5px 0;
+    }
     .right-bar-container-li {
       float: left;
       position: relative;
@@ -101,36 +109,52 @@ $barBgColor: #f5f5f5;
         display: block;
         line-height: $barHeight;
         cursor: pointer;
-        padding: 0 8px;
+        padding: 0 10px;
 
         &:hover {
           .text {
             text-decoration: underline;
+          }
+          .text.no-second-level-menu-text {
+            color: $mainColor;
+            text-decoration: none;
+          }
+          .text.no-need-has-hover-effect {
+            text-decoration: none;
           }
         }
 
         .text {
           height: $barHeight;
           display: inline-block;
-          margin-right: 2px;
+          margin-right: 1px;
+        }
+        .text.no-second-level-menu-text {
+          margin-left: 1px;
+          margin-right: 0;
         }
 
         i {
           transition: transform .25s ease-in-out;
+        }
+        i.no-second-level-menu-i {
+          color: $mainColor;
+        }
+        i.has-scale {
+          transform: scale(.83, .83);
         }
       }
 
       .second-level-menu-ul {
         position: absolute;
         display: none;
-        width: 100px;
+        width: 90px;
         background: #fff;
         border: 1px solid #eeeeee;
         border-top: none;
         left: -1px;
         top: $barHeight;
-        padding: 8px 0;
-        text-align: center;
+        padding: 8px 10px;
 
         .second-level-menu-ul-li {
           cursor: pointer;
