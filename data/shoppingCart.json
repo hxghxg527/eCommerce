@@ -1,0 +1,50 @@
+{
+  "cartGoods": [
+    {
+      "goodId": "a201601083423",
+      "goodName": "鞋子",
+      "goodDetail": "这是一双漂亮的鞋子",
+      "goodPrice": "99.9",
+      "goodPromotionPrice": "39.9",
+      "goodColor": [
+        "红色",
+        "白色",
+        "黑色",
+        "粉红色"
+      ],
+      "goodResidualQuantity": "2000",
+      "goodMonthSalesVolume": "2614",
+      "goodEvaluate": "3231",
+      "servicePromise": [
+        "正品保证",
+        "按时发货",
+        "极速退款",
+        "赠运费险",
+        "七天无理由退换货",
+        "支付方式"
+      ]
+    },
+    {
+      "goodId": "a201601083424",
+      "goodName": "皮夹克",
+      "goodDetail": "这是一款帅气的皮夹克",
+      "goodPrice": "199.9",
+      "goodPromotionPrice": "89.9",
+      "goodColor": [
+        "棕色",
+        "黑色"
+      ],
+      "goodResidualQuantity": "350",
+      "goodMonthSalesVolume": "3242",
+      "goodEvaluate": "5674",
+      "servicePromise": [
+        "正品保证",
+        "按时发货",
+        "极速退款",
+        "赠运费险",
+        "七天无理由退换货",
+        "支付方式"
+      ]
+    }
+  ]
+}
