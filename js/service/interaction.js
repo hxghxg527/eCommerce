@@ -15,7 +15,9 @@ angular.module('ec.service.interaction', [])
                 'USER_INFO': 'data/userInfo.json',
                 'USER_LIST': 'data/userList.json',
                 'SHOPPING_CART': 'data/shoppingCart.json',
-                'WEB_SITE_NAVIGATION': 'data/webSiteNavigation.json'
+                'WEB_SITE_NAVIGATION': 'data/webSiteNavigation.json',
+                'HOT_QUERY_WORDS': 'data/hotQueryWords.json',
+                'SEARCH_PLACEHOLDER': 'data/searchPlaceHolder.json'
             };
 
         interaction.getCurrentUserInfo = function (callBack) {
@@ -60,6 +62,30 @@ angular.module('ec.service.interaction', [])
                 callBack(ecConstant.SUCCESS, data);
             }).error(function (data, status, headers, config, statusText) {
                 console.log('Get webSiteNavigation.json failed.');
+                callBack(ecConstant.ERROR);
+            });
+        };
+
+        interaction.getHotQueryWords = function (callBack) {
+            $http({
+                'method': AJAX_METHOD.GET,
+                'url': AJAX_URL.HOT_QUERY_WORDS
+            }).success(function (data, status, headers, config, statusText) {
+                callBack(ecConstant.SUCCESS, data);
+            }).error(function (data, status, headers, config, statusText) {
+                console.log('Get hotQueryWords.json failed.');
+                callBack(ecConstant.ERROR);
+            });
+        };
+
+        interaction.getSearchPlaceHolder = function (callBack) {
+            $http({
+                'method': AJAX_METHOD.GET,
+                'url': AJAX_URL.SEARCH_PLACEHOLDER
+            }).success(function (data, status, headers, config, statusText) {
+                callBack(ecConstant.SUCCESS, data);
+            }).error(function (data, status, headers, config, statusText) {
+                console.log('Get searchPlaceHolder.json failed.');
                 callBack(ecConstant.ERROR);
             });
         };

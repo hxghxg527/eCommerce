@@ -53,8 +53,8 @@ angular.module('ec.controller.login', [])
             }
         };
 
-        function checkUser(type, list) {
-            if (type == ecConstant.SUCCESS) {
+        function checkUser(status, list) {
+            if (status == ecConstant.SUCCESS) {
                 if (list && list !== 'undefined') {
                     var userList = list.userList,
                         isAllCorrect = false,
@@ -78,7 +78,7 @@ angular.module('ec.controller.login', [])
                     $scope.errorTip = ERROR_TIPS.LOGIN_FAILED;
                     $scope.buttonCaption = BUTTON_CAPTION.LOGIN;
                 }
-            } else if (type == ecConstant.ERROR) {
+            } else if (status == ecConstant.ERROR) {
                 $scope.errorTip = ERROR_TIPS.NETWORK_ERROR;
                 $scope.buttonCaption = BUTTON_CAPTION.LOGIN;
             }

@@ -9,8 +9,8 @@ angular.module('ec.controller.topBar', [])
         $scope.currentUserInfo = $rootScope.currentUserInfo;
 
         if ($rootScope.isLogin) {
-            ecInteractionService.getShoppingCart(function (type, shoppingCart) {
-                if (type == ecConstant.SUCCESS) {
+            ecInteractionService.getShoppingCart(function (status, shoppingCart) {
+                if (status == ecConstant.SUCCESS) {
                     if (shoppingCart && shoppingCart != 'undefined') {
                         $scope.shoppingCartGoods = shoppingCart.shoppingCartGoods;
                     } else $scope.shoppingCartGoods = [];
@@ -23,14 +23,14 @@ angular.module('ec.controller.topBar', [])
             if (hasGoToGetWebSiteNavigation) return;
             hasGoToGetWebSiteNavigation = true;
             $scope.showLoadingImg = true;
-            ecInteractionService.getWebSiteNavigation(function (type, webSiteNavigation) {
+            ecInteractionService.getWebSiteNavigation(function (status, webSiteNavigation) {
                 $timeout(function () {
                     $scope.showLoadingImg = false;
-                    if (type == ecConstant.SUCCESS) {
+                    if (status == ecConstant.SUCCESS) {
                         if (webSiteNavigation && webSiteNavigation != 'undefined') {
                             $scope.webSites = webSiteNavigation.webSites;
                         } else $scope.webSites = [];
-                    } else if (type == ecConstant.ERROR) {
+                    } else if (status == ecConstant.ERROR) {
                         hasGoToGetWebSiteNavigation = false;
                     }
                 }, 500);
