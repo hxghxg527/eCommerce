@@ -1,7 +1,9 @@
 {
   "webSites": [
     {
-      "hotSpotRecommendation": [
+      "type": "hotSpotRecommendation",
+      "caption": "热点推荐 Hot",
+      "sites": [
         {
           "siteName": "蓝鲸超市",
           "url": "mainPage",
@@ -67,7 +69,9 @@
       ]
     },
     {
-      "market": [
+      "type": "market",
+      "caption": "行业市场 Market",
+      "sites": [
         {
           "siteName": "美妆",
           "url": "mainPage"
@@ -134,7 +138,9 @@
       ]
     },
     {
-      "brand": [
+      "type": "brand",
+      "caption": "品牌风尚 Brand",
+      "sites": [
         {
           "siteName": "尚蓝鲸",
           "url": "mainPage"
@@ -158,7 +164,9 @@
       ]
     },
     {
-      "help": [
+      "type": "help",
+      "caption": "服务指南 Help",
+      "sites": [
         {
           "siteName": "帮助中心",
           "url": "mainPage"

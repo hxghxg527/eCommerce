@@ -14,7 +14,8 @@ angular.module('ec.service.interaction', [])
             AJAX_URL = {
                 'USER_INFO': 'data/userInfo.json',
                 'USER_LIST': 'data/userList.json',
-                'SHOPPING_CART': 'data/shoppingCart.json'
+                'SHOPPING_CART': 'data/shoppingCart.json',
+                'WEB_SITE_NAVIGATION': 'data/webSiteNavigation.json'
             };
 
         interaction.getCurrentUserInfo = function (callBack) {
@@ -48,6 +49,17 @@ angular.module('ec.service.interaction', [])
                 callBack(data);
             }).error(function (data, status, headers, config, statusText) {
                 console.log('Get shoppingCart.json failed.');
+            });
+        };
+
+        interaction.getWebSiteNavigation = function (callBack) {
+            $http({
+                'method': AJAX_METHOD.GET,
+                'url': AJAX_URL.WEB_SITE_NAVIGATION
+            }).success(function (data, status, headers, config, statusText) {
+                callBack(data);
+            }).error(function (data, status, headers, config, statusText) {
+                console.log('Get webSiteNavigation.json failed.');
             });
         };
 
