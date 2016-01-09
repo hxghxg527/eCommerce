@@ -22,9 +22,10 @@ angular.module('ec.controller.topBar', [])
         $scope.getWebSiteNavigation = function () {
             if (hasGoToGetWebSiteNavigation) return;
             hasGoToGetWebSiteNavigation = true;
-            console.log('nihao');
+            $scope.showLoadingImg = true;
             ecInteractionService.getWebSiteNavigation(function (type, webSiteNavigation) {
                 $timeout(function () {
+                    $scope.showLoadingImg = false;
                     if (type == ecConstant.SUCCESS) {
                         if (webSiteNavigation && webSiteNavigation != 'undefined') {
                             $scope.webSites = webSiteNavigation.webSites;
@@ -32,7 +33,7 @@ angular.module('ec.controller.topBar', [])
                     } else if (type == ecConstant.ERROR) {
                         hasGoToGetWebSiteNavigation = false;
                     }
-                }, 1000);
+                }, 500);
             });
         };
     });

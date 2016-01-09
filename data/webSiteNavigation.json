@@ -6,7 +6,7 @@
       "sites": [
         {
           "siteName": "蓝鲸超市",
-          "url": "login",
+          "url": "mainPage",
           "tag": [
             "new"
           ]

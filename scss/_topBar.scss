@@ -178,6 +178,17 @@ $barBgColor: #f5f5f5;
         padding: 30px 0;
         width: $maxWidth;
 
+        .loading-img {
+          background: url("../images/loading.gif") no-repeat left top;
+          width: 44px;
+          height: 12px;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          margin-left: -22px;
+          margin-top: -6px;
+        }
+
         .second-level-menu-ul-li {
           float: left;
           height: 200px;
