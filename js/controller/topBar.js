@@ -17,13 +17,15 @@ angular.module('ec.controller.topBar', [])
                 }, 1000);
             });
         } else $scope.shoppingCartGoods = [];
-
-        ecInteractionService.getWebSiteNavigation(function (webSiteNavigation) {
-            $timeout(function () {
-                if (webSiteNavigation && webSiteNavigation != 'undefined') {
-                    $scope.webSites = webSiteNavigation.webSites;
-                    console.log($scope.webSites);
-                } else $scope.webSites = [];
-            }, 1000);
-        });
+        
+        $scope.getWebSiteNavigation = function () {
+            console.log('nihao');
+            ecInteractionService.getWebSiteNavigation(function (webSiteNavigation) {
+                $timeout(function () {
+                    if (webSiteNavigation && webSiteNavigation != 'undefined') {
+                        $scope.webSites = webSiteNavigation.webSites;
+                    } else $scope.webSites = [];
+                }, 1000);
+            });
+        };
     });

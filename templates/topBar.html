@@ -87,64 +87,19 @@
                 </ul>
             </li>
             <li class="right-bar-container-li has-second-level-menu">
-                <a class="right-li-link">
+                <a class="right-li-link" ng-mouseover="getWebSiteNavigation();">
                     <i class="fa fa-list-ul has-scale no-need-has-hover-effect-i"></i>
                     <span class="text no-need-has-hover-effect-text">网站导航</span>
                     <i class="fa fa-angle-down"></i>
                 </a>
                 <ul class="second-level-web-site-navigation clearfix">
-                    <li class="second-level-menu-ul-li hot-spot-recommendation">
-                        <h2>热点推荐 Hot</h2>
+                    <li class="second-level-menu-ul-li" ng-repeat="webSite in webSites track by $index"
+                        ng-class="{'hotSpotRecommendation' : 'hot-spot-recommendation','market' : 'market','brand' : 'brand','help' : 'help'}[webSite.type]">
+                        <h2>{{webSite.caption}}</h2>
                         <ul class="clearfix">
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                        </ul>
-                    </li>
-                    <li class="second-level-menu-ul-li market">
-                        <h2>行业市场 Market</h2>
-                        <ul class="clearfix">
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                        </ul>
-                    </li>
-                    <li class="second-level-menu-ul-li brand">
-                        <h2>品牌风尚 Brand</h2>
-                        <ul class="clearfix">
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                        </ul>
-                    </li>
-                    <li class="second-level-menu-ul-li help">
-                        <h2>服务指南 Help</h2>
-                        <ul class="clearfix">
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
-                            <li><a>蓝鲸超市</a></li>
+                            <li ng-repeat="site in webSite.sites track by $index">
+                                <a ui-sref="{{site.url}}">{{site.siteName}}</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>

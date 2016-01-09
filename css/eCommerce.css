@@ -178,6 +178,7 @@ html, body {
               float: left;
               line-height: 28px; }
               .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .second-level-menu-ul-li ul li a {
+                color: #6c6c6c;
                 cursor: pointer; }
                 .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .second-level-menu-ul-li ul li a:hover {
                   text-decoration: underline; }
