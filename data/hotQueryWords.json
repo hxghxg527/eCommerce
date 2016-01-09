@@ -1,0 +1,64 @@
+{
+  "hotQueryWords": [
+    {
+      "name": "皮衣",
+      "category": "clothing",
+      "url": "mainPage",
+      "highLight": true
+    },
+    {
+      "name": "护手霜",
+      "category": "beauty",
+      "url": "mainPage",
+      "highLight": false
+    },
+    {
+      "name": "羽绒服",
+      "category": "clothing",
+      "url": "mainPage",
+      "highLight": false
+    },
+    {
+      "name": "雪地靴",
+      "category": "shoes",
+      "url": "mainPage",
+      "highLight": true
+    },
+    {
+      "name": "四件套",
+      "category": "homeFurnishing",
+      "url": "mainPage",
+      "highLight": false
+    },
+    {
+      "name": "4k电视",
+      "category": "electronicProduct",
+      "url": "mainPage",
+      "highLight": true
+    },
+    {
+      "name": "口罩",
+      "category": "dailyNecessities",
+      "url": "mainPage",
+      "highLight": false
+    },
+    {
+      "name": "酒",
+      "category": "wine",
+      "url": "mainPage",
+      "highLight": true
+    },
+    {
+      "name": "男斜挎包",
+      "category": "clothing",
+      "url": "mainPage",
+      "highLight": false
+    },
+    {
+      "name": "新年必买",
+      "category": "other",
+      "url": "mainPage",
+      "highLight": false
+    }
+  ]
+}

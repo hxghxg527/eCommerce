@@ -5,7 +5,7 @@
       "caption": "热点推荐 Hot",
       "sites": [
         {
-          "siteName": "蓝鲸超市",
+          "siteName": "鲸鲨超市",
           "url": "mainPage",
           "tag": [
             "new"
@@ -63,7 +63,7 @@
           "url": "mainPage"
         },
         {
-          "siteName": "蓝鲸国际",
+          "siteName": "鲸鲨国际",
           "url": "mainPage"
         }
       ]
@@ -142,7 +142,7 @@
       "caption": "品牌风尚 Brand",
       "sites": [
         {
-          "siteName": "尚蓝鲸",
+          "siteName": "尚鲸鲨",
           "url": "mainPage"
         },
         {
@@ -154,7 +154,7 @@
           "url": "mainPage"
         },
         {
-          "siteName": "蓝鲸原创",
+          "siteName": "鲸鲨原创",
           "url": "mainPage"
         },
         {
