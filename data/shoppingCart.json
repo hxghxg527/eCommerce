@@ -47,6 +47,29 @@
         "七天无理由退换货",
         "支付方式"
       ]
+    },
+    {
+      "goodId": "a201601083425",
+      "goodName": "皮夹克",
+      "brandId": "brand201601083425",
+      "goodDetail": "这是一款帅气的皮夹克",
+      "goodPrice": "299.9",
+      "goodPromotionPrice": "189.9",
+      "goodColor": [
+        "棕色",
+        "黑色"
+      ],
+      "goodResidualQuantity": "350",
+      "goodMonthSalesVolume": "3242",
+      "goodEvaluate": "5674",
+      "servicePromise": [
+        "正品保证",
+        "按时发货",
+        "极速退款",
+        "赠运费险",
+        "七天无理由退换货",
+        "支付方式"
+      ]
     }
   ]
 }

@@ -53,7 +53,7 @@
             <li class="right-bar-container-li">
                 <a class="right-li-link">
                     <i class="fa fa-shopping-cart no-second-level-menu-i"></i>
-                    <span class="text no-second-level-menu-text">购物车&nbsp;<b>2</b>&nbsp;件</span>
+                    <span class="text no-second-level-menu-text">购物车&nbsp;<span ng-if="shoppingCartGoods"><b>{{shoppingCartGoods.length}}</b>&nbsp;件</span></span>
                 </a>
             </li>
             <li class="right-bar-container-li has-second-level-menu">
