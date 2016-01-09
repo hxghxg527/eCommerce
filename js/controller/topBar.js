@@ -5,6 +5,6 @@
 'use strict';
 
 angular.module('ec.controller.topBar', [])
-    .controller('ecTopBarController', function ($scope, $rootScope, ecInteractionService) {
+    .controller('ecTopBarController', function ($scope, $rootScope) {
         $scope.currentUserInfo = $rootScope.currentUserInfo;
     });

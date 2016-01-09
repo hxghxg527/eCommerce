@@ -1,7 +1,8 @@
 {
-  "cartGoods": [
+  "shoppingCartGoods": [
     {
       "goodId": "a201601083423",
+      "brandId": "brand201601083423",
       "goodName": "鞋子",
       "goodDetail": "这是一双漂亮的鞋子",
       "goodPrice": "99.9",
@@ -27,6 +28,7 @@
     {
       "goodId": "a201601083424",
       "goodName": "皮夹克",
+      "brandId": "brand201601083424",
       "goodDetail": "这是一款帅气的皮夹克",
       "goodPrice": "199.9",
       "goodPromotionPrice": "89.9",

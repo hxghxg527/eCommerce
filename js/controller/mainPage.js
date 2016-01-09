@@ -5,7 +5,7 @@
 'use strict';
 
 angular.module('ec.controller.mainPage', [])
-    .controller('ecMainPageController', function ($scope, $rootScope) {
+    .controller('ecMainPageController', function ($rootScope) {
 
         var tempInfo = sessionStorage.getItem('currentUserInfo');
 

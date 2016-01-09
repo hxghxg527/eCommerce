@@ -5,16 +5,16 @@
 'use strict';
 
 angular.module('ec.controller.main', [])
-    .run(function ($rootScope, ecLoginFilterService) {
+    .run(function ($rootScope) {
         $rootScope.appName = '蓝鲸网上购物商城';
         $rootScope.logoName = "蓝鲸";
         $rootScope.appVersion = 'V1.0';
 
         $rootScope.isLogin = false;
     })
-    .controller('ecMainController', function ($rootScope, $scope) {
+    .controller('ecMainController', function ($scope, ecLocationService) {
 
-        $scope.$on('initUserInfo', function (evt, userInfo) {
+        $scope.$on('loginSuccess', function (evt, userInfo) {
             var currentUserInfo = {
                 userName: userInfo.userName,
                 email: userInfo.email,
@@ -27,6 +27,7 @@ angular.module('ec.controller.main', [])
             };
             localStorage.setItem('userName', userInfo.userName);
             sessionStorage.setItem('currentUserInfo', JSON.stringify(currentUserInfo));
+            ecLocationService.pathToMainPage();
         });
 
         $scope.$on('setSessionStorageOfCurrentUserInfo', function (evt, currentUserInfo) {

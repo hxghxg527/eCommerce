@@ -5,7 +5,7 @@
 'use strict';
 
 angular.module('ec.service.interaction', [])
-    .factory('ecInteractionService', function ($rootScope, $http) {
+    .factory('ecInteractionService', function ($http) {
         var interaction = {},
             AJAX_METHOD = {
                 'GET': 'GET',
@@ -13,7 +13,8 @@ angular.module('ec.service.interaction', [])
             },
             AJAX_URL = {
                 'USER_INFO': 'data/userInfo.json',
-                'USER_LIST': 'data/userList.json'
+                'USER_LIST': 'data/userList.json',
+                'SHOPPING_CART': 'data/shoppingCart.json'
             };
 
         interaction.getCurrentUserInfo = function (callBack) {
@@ -36,6 +37,17 @@ angular.module('ec.service.interaction', [])
             }).error(function (data, status, headers, config, statusText) {
                 console.log('Get userList.json failed.');
                 callBack();
+            });
+        };
+
+        interaction.getShoppingCart = function (callBack) {
+            $http({
+                'method': AJAX_METHOD.GET,
+                'url': AJAX_URL.SHOPPING_CART
+            }).success(function (data, status, headers, config, statusText) {
+                callBack(data);
+            }).error(function (data, status, headers, config, statusText) {
+                console.log('Get shoppingCart.json failed.');
             });
         };
 
