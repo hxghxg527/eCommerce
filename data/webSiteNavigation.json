@@ -1,0 +1,181 @@
+{
+  "webSites": [
+    {
+      "hotSpotRecommendation": [
+        {
+          "siteName": "蓝鲸超市",
+          "url": "mainPage",
+          "tag": [
+            "new"
+          ]
+        },
+        {
+          "siteName": "鲸鲜生",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "科技新品",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "女装新品",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "酷玩街",
+          "url": "mainPage",
+          "tag": [
+            "hot"
+          ]
+        },
+        {
+          "siteName": "内衣新品",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "试美妆",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "运动新品",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "时尚先生",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "精明妈咪",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "吃乐会",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "企业采购",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "会员积分",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "蓝鲸国际",
+          "url": "mainPage"
+        }
+      ]
+    },
+    {
+      "market": [
+        {
+          "siteName": "美妆",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "电器",
+          "url": "mainPage",
+          "tag": [
+            "hot"
+          ]
+        },
+        {
+          "siteName": "女装",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "男装",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "女鞋",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "男鞋",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "内衣",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "箱包",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "运动",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "母婴",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "家装",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "医药",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "食品",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "配饰",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "汽车",
+          "url": "mainPage"
+        }
+      ]
+    },
+    {
+      "brand": [
+        {
+          "siteName": "尚蓝鲸",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "大牌街",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "潮牌街",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "蓝鲸原创",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "什么牌子好",
+          "url": "mainPage"
+        }
+      ]
+    },
+    {
+      "help": [
+        {
+          "siteName": "帮助中心",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "品质保障",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "特色服务",
+          "url": "mainPage"
+        },
+        {
+          "siteName": "7天退换货",
+          "url": "mainPage"
+        }
+      ]
+    }
+  ]
+}

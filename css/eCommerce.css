@@ -155,7 +155,7 @@ html, body {
           .ec-top-bar .right-bar-container .right-bar-container-li .second-level-menu-ul .second-level-menu-ul-li:hover {
             color: #c40000;
             text-decoration: underline; }
-      .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate {
+      .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation {
         position: absolute;
         display: none;
         background: #fff;
@@ -165,47 +165,47 @@ html, body {
         right: -1px;
         padding: 30px 0;
         width: 1200px; }
-        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .second-level-menu-ul-li {
+        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .second-level-menu-ul-li {
           float: left;
           height: 200px;
           border-right: 1px solid #f5f5f5;
           padding-left: 30px; }
-          .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .second-level-menu-ul-li ul {
+          .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .second-level-menu-ul-li ul {
             margin-top: 10px; }
-            .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .second-level-menu-ul-li ul li {
+            .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .second-level-menu-ul-li ul li {
               width: 90px;
               height: 28px;
               float: left;
               line-height: 28px; }
-              .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .second-level-menu-ul-li ul li a {
+              .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .second-level-menu-ul-li ul li a {
                 cursor: pointer; }
-                .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .second-level-menu-ul-li ul li a:hover {
+                .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .second-level-menu-ul-li ul li a:hover {
                   text-decoration: underline; }
-        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .second-level-menu-ul-li:last-child {
+        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .second-level-menu-ul-li:last-child {
           border-right: none; }
-        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .hot-spot-recommendation h2 {
+        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .hot-spot-recommendation h2 {
           color: #f56a00; }
-        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .hot-spot-recommendation ul {
+        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .hot-spot-recommendation ul {
           width: 270px; }
-          .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .hot-spot-recommendation ul li a:hover {
+          .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .hot-spot-recommendation ul li a:hover {
             color: #f56a00; }
-        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .market h2 {
+        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .market h2 {
           color: #2263d4; }
-        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .market ul {
+        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .market ul {
           width: 360px; }
-          .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .market ul li a:hover {
+          .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .market ul li a:hover {
             color: #2263d4; }
-        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .brand h2 {
+        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .brand h2 {
           color: #000; }
-        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .brand ul {
+        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .brand ul {
           width: 270px; }
-          .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .brand ul li a:hover {
+          .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .brand ul li a:hover {
             color: #000; }
-        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .help h2 {
+        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .help h2 {
           color: #888; }
-        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .help ul {
+        .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .help ul {
           width: 90px; }
-          .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigate .help ul li a:hover {
+          .ec-top-bar .right-bar-container .right-bar-container-li .second-level-web-site-navigation .help ul li a:hover {
             color: #888; }
 
 .ec-login {
