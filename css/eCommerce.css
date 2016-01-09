@@ -358,7 +358,8 @@ html, body {
     background-size: contain;
     padding-left: 110px;
     font-size: 24px;
-    color: #e01a3b; }
+    color: #e01a3b;
+    cursor: pointer; }
   .ec-search-bar .search-container {
     height: 70px;
     width: 647px;
