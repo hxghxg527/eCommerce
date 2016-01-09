@@ -10,4 +10,7 @@ angular.module('eCommerceApp', [
     'ec.controller',
     'ec.directive',
     'ec.service'
-]);
+]).constant('ecConstant', {
+    'SUCCESS': 'success',
+    'ERROR': 'error'
+});

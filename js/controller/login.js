@@ -5,7 +5,7 @@
 'use strict';
 
 angular.module('ec.controller.login', [])
-    .controller('ecLoginController', function ($scope, ecInteractionService) {
+    .controller('ecLoginController', function ($scope, ecInteractionService, ecConstant) {
 
         var ERROR_TIPS = {
                 ALL_EMPTY: "请输入账户名和密码",
@@ -53,27 +53,32 @@ angular.module('ec.controller.login', [])
             }
         };
 
-        function checkUser(list) {
-            if (list) {
-                var userList = list.userList,
-                    isAllCorrect = false,
-                    userInfo = {};
+        function checkUser(type, list) {
+            if (type == ecConstant.SUCCESS) {
+                if (list && list !== 'undefined') {
+                    var userList = list.userList,
+                        isAllCorrect = false,
+                        userInfo = {};
 
-                angular.forEach(userList, function (item, index) {
-                    if (item.userName == userName && item.password == password) {
-                        isAllCorrect = true;
-                        userInfo = item;
-                        return;
+                    angular.forEach(userList, function (item, index) {
+                        if (item.userName == userName && item.password == password) {
+                            isAllCorrect = true;
+                            userInfo = item;
+                            return;
+                        }
+                    });
+
+                    if (isAllCorrect) {
+                        $scope.$emit('loginSuccess', userInfo);
+                    } else {
+                        $scope.errorTip = ERROR_TIPS.LOGIN_FAILED;
+                        $scope.buttonCaption = BUTTON_CAPTION.LOGIN;
                     }
-                });
-
-                if (isAllCorrect) {
-                    $scope.$emit('loginSuccess', userInfo);
                 } else {
                     $scope.errorTip = ERROR_TIPS.LOGIN_FAILED;
                     $scope.buttonCaption = BUTTON_CAPTION.LOGIN;
                 }
-            } else {
+            } else if (type == ecConstant.ERROR) {
                 $scope.errorTip = ERROR_TIPS.NETWORK_ERROR;
                 $scope.buttonCaption = BUTTON_CAPTION.LOGIN;
             }

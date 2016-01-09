@@ -5,7 +5,7 @@
 'use strict';
 
 angular.module('ec.service.interaction', [])
-    .factory('ecInteractionService', function ($http) {
+    .factory('ecInteractionService', function ($http, ecConstant) {
         var interaction = {},
             AJAX_METHOD = {
                 'GET': 'GET',
@@ -23,7 +23,7 @@ angular.module('ec.service.interaction', [])
                 'method': AJAX_METHOD.GET,
                 'url': AJAX_URL.USER_INFO
             }).success(function (data, status, headers, config, statusText) {
-                callBack(data);
+                callBack(ecConstant.SUCCESS, data);
             }).error(function (data, status, headers, config, statusText) {
                 console.log('Get userInfo.json failed.');
             });
@@ -34,10 +34,10 @@ angular.module('ec.service.interaction', [])
                 'method': AJAX_METHOD.GET,
                 'url': AJAX_URL.USER_LIST
             }).success(function (data, status, headers, config, statusText) {
-                callBack(data);
+                callBack(ecConstant.SUCCESS, data);
             }).error(function (data, status, headers, config, statusText) {
                 console.log('Get userList.json failed.');
-                callBack();
+                callBack(ecConstant.ERROR);
             });
         };
 
@@ -46,7 +46,7 @@ angular.module('ec.service.interaction', [])
                 'method': AJAX_METHOD.GET,
                 'url': AJAX_URL.SHOPPING_CART
             }).success(function (data, status, headers, config, statusText) {
-                callBack(data);
+                callBack(ecConstant.SUCCESS, data);
             }).error(function (data, status, headers, config, statusText) {
                 console.log('Get shoppingCart.json failed.');
             });
@@ -57,9 +57,10 @@ angular.module('ec.service.interaction', [])
                 'method': AJAX_METHOD.GET,
                 'url': AJAX_URL.WEB_SITE_NAVIGATION
             }).success(function (data, status, headers, config, statusText) {
-                callBack(data);
+                callBack(ecConstant.SUCCESS, data);
             }).error(function (data, status, headers, config, statusText) {
                 console.log('Get webSiteNavigation.json failed.');
+                callBack(ecConstant.ERROR);
             });
         };
 

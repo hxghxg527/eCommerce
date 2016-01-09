@@ -5,26 +5,33 @@
 'use strict';
 
 angular.module('ec.controller.topBar', [])
-    .controller('ecTopBarController', function ($scope, $rootScope, ecInteractionService, $timeout) {
+    .controller('ecTopBarController', function ($scope, $rootScope, ecInteractionService, ecConstant, $timeout) {
         $scope.currentUserInfo = $rootScope.currentUserInfo;
 
         if ($rootScope.isLogin) {
-            ecInteractionService.getShoppingCart(function (shoppingCart) {
-                $timeout(function () {
+            ecInteractionService.getShoppingCart(function (type, shoppingCart) {
+                if (type == ecConstant.SUCCESS) {
                     if (shoppingCart && shoppingCart != 'undefined') {
                         $scope.shoppingCartGoods = shoppingCart.shoppingCartGoods;
                     } else $scope.shoppingCartGoods = [];
-                }, 1000);
+                }
             });
         } else $scope.shoppingCartGoods = [];
-        
+
+        var hasGoToGetWebSiteNavigation = false;
         $scope.getWebSiteNavigation = function () {
+            if (hasGoToGetWebSiteNavigation) return;
+            hasGoToGetWebSiteNavigation = true;
             console.log('nihao');
-            ecInteractionService.getWebSiteNavigation(function (webSiteNavigation) {
+            ecInteractionService.getWebSiteNavigation(function (type, webSiteNavigation) {
                 $timeout(function () {
-                    if (webSiteNavigation && webSiteNavigation != 'undefined') {
-                        $scope.webSites = webSiteNavigation.webSites;
-                    } else $scope.webSites = [];
+                    if (type == ecConstant.SUCCESS) {
+                        if (webSiteNavigation && webSiteNavigation != 'undefined') {
+                            $scope.webSites = webSiteNavigation.webSites;
+                        } else $scope.webSites = [];
+                    } else if (type == ecConstant.ERROR) {
+                        hasGoToGetWebSiteNavigation = false;
+                    }
                 }, 1000);
             });
         };
