@@ -14,4 +14,12 @@ angular.module('ec.directive.template', [])
             templateUrl: 'templates/topBar.html',
             controller: 'ecTopBarController'
         };
+    })
+    .directive('ecSearchBar', function () {
+        return {
+            restrict: 'EA',
+            replace: true,
+            transclude: true,
+            templateUrl: 'templates/searchBar.html'
+        };
     });
