@@ -8,5 +8,6 @@ angular.module('ec.controller', [
     'ec.controller.main',
     'ec.controller.mainPage',
     'ec.controller.topBar',
-    'ec.controller.login'
+    'ec.controller.login',
+    'ec.controller.searchBar'
 ]);

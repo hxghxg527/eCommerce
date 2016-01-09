@@ -6,8 +6,8 @@
 
 angular.module('ec.controller.main', [])
     .run(function ($rootScope) {
-        $rootScope.appName = '蓝鲸网上购物商城';
-        $rootScope.logoName = "蓝鲸";
+        $rootScope.appName = '鲸鲨网上购物商城';
+        $rootScope.logoName = "鲸鲨";
         $rootScope.appVersion = 'V1.0';
 
         $rootScope.isLogin = false;

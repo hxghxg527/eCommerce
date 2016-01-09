@@ -1,4 +1,84 @@
 .ec-search-bar {
   font-size: 12px;
   font-family: $fontFamily1;
+  color: #6c6c6c;
+  padding: 20px 0;
+  width: $maxWidth;
+  margin: auto;
+  position: relative;
+  height: 110px;
+
+  .logo-container {
+    position: absolute;
+    height: 63px;
+    line-height: 63px;
+    left: 0;
+    top: 20px;
+    background: url("../images/logo_red.png") no-repeat left center;
+    background-size: contain;
+    padding-left: 110px;
+    font-size: 24px;
+    color: $logoColor;
+  }
+
+  .search-container {
+    height: 70px;
+    width: 647px;
+    margin: auto;
+    overflow: hidden;
+
+    .input-container {
+      border: 2px solid $mainColor;
+
+      .input-text {
+        width: 543px;
+        height: 40px;
+        line-height: 40px;
+        float: left;
+        border: none;
+        padding-left: 8px;
+        font-size: 14px;
+        color: rgba(153, 153, 153, 1);
+      }
+      .search-btn {
+        width: 100px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background-color: $mainColor;
+        float: left;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+
+    .hot-query-container {
+      height: 26px;
+      margin-left: -13px;
+
+      li {
+        float: left;
+        height: 18px;
+        line-height: 18px;
+        margin-top: 8px;
+        padding: 0 12px;
+        border-left: 1px solid #ccc;
+
+        &.hot-query-highlight {
+          color: $mainColor;
+        }
+
+        a {
+          cursor: pointer;
+          font-size: 13px;
+
+          &:hover {
+            color: $mainColor;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
 }

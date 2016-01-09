@@ -20,6 +20,7 @@ angular.module('ec.directive.template', [])
             restrict: 'EA',
             replace: true,
             transclude: true,
-            templateUrl: 'templates/searchBar.html'
+            templateUrl: 'templates/searchBar.html',
+            controller: 'ecSearchBarController'
         };
     });
