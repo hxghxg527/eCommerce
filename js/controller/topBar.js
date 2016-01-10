@@ -10,11 +10,8 @@ angular.module('ec.controller.topBar', [])
 
         if ($rootScope.isLogin) {
             ecInteractionService.getShoppingCart(function (status, shoppingCart) {
-                if (status == ecConstant.SUCCESS) {
-                    if (shoppingCart && shoppingCart != 'undefined') {
-                        $scope.shoppingCartGoods = shoppingCart.shoppingCartGoods;
-                    } else $scope.shoppingCartGoods = [];
-                }
+                $scope.shoppingCartGoods = [];
+                if (status == ecConstant.SUCCESS && shoppingCart) $scope.shoppingCartGoods = shoppingCart.shoppingCartGoods || [];
             });
         } else $scope.shoppingCartGoods = [];
 
@@ -27,13 +24,13 @@ angular.module('ec.controller.topBar', [])
                 $timeout(function () {
                     $scope.showLoadingImg = false;
                     if (status == ecConstant.SUCCESS) {
-                        if (webSiteNavigation && webSiteNavigation != 'undefined') {
-                            $scope.webSites = webSiteNavigation.webSites;
+                        if (webSiteNavigation) {
+                            $scope.webSites = webSiteNavigation.webSites || [];
                         } else $scope.webSites = [];
                     } else if (status == ecConstant.ERROR) {
                         hasGoToGetWebSiteNavigation = false;
                     }
-                }, 500);
+                }, 300);
             });
         };
     });

@@ -25,7 +25,7 @@ angular.module('ec.controller.main', [])
                 messageNum: userInfo.messageNum,
                 sex: userInfo.sex
             };
-            localStorage.setItem('userName', userInfo.userName);
+            localStorage.setItem('userName', JSON.stringify(userInfo.userName));
             sessionStorage.setItem('currentUserInfo', JSON.stringify(currentUserInfo));
             ecLocationService.pathToMainPage();
         });

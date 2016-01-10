@@ -7,12 +7,11 @@
 angular.module('ec.controller.mainPage', [])
     .controller('ecMainPageController', function ($rootScope) {
 
-        var tempInfo = sessionStorage.getItem('currentUserInfo');
-
-        if (tempInfo && tempInfo != 'undefined') {
-            $rootScope.currentUserInfo = JSON.parse(tempInfo);
-            $rootScope.isLogin = true;
-        } else {
+        try {
+            $rootScope.currentUserInfo = JSON.parse(sessionStorage.getItem('currentUserInfo'));
+            if ($rootScope.currentUserInfo) $rootScope.isLogin = true;
+            else $rootScope.isLogin = false;
+        } catch (e) {
             $rootScope.currentUserInfo = null;
             $rootScope.isLogin = false;
         }

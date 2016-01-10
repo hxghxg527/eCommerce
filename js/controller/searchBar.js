@@ -13,15 +13,18 @@ angular.module('ec.controller.searchBar', [])
                 if (hotQueryWords && hotQueryWords != 'undefined') {
                     $scope.hotQuery = hotQueryWords.hotQuery;
                 } else $scope.hotQuery = [];
+                sessionStorage.setItem('hotQuery', JSON.stringify($scope.hotQuery));
             }
         });
 
         ecInteractionService.getSearchPlaceHolder(function (status, searchPlaceHolder) {
+            console.log('nihao');
             if (status == ecConstant.SUCCESS) {
                 var placeHolders = [];
                 if (searchPlaceHolder && searchPlaceHolder != 'undefined') {
                     placeHolders = searchPlaceHolder.placeHolders;
                 }
+                sessionStorage.setItem('placeHolders', JSON.stringify(placeHolders));
                 setRandomPlaceHolder(placeHolders);
             }
         });

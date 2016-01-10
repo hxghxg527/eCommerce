@@ -23,11 +23,16 @@ angular.module('ec.controller.login', [])
             password = '';
 
         (function () {
-            var _userName = localStorage.getItem('userName');
+            var _userName = '';
+            try {
+                _userName = JSON.parse(localStorage.getItem('userName'));
+            } catch (e) {
+
+            }
 
             $scope.$emit('removeSessionStorageOfCurrentUserInfo');
 
-            $scope.userName = (_userName && _userName != 'undefined') ? _userName : '';
+            $scope.userName = _userName;
             $scope.password = '';
             $scope.errorTip = '';
             $scope.buttonCaption = BUTTON_CAPTION.LOGIN;
@@ -55,8 +60,8 @@ angular.module('ec.controller.login', [])
 
         function checkUser(status, list) {
             if (status == ecConstant.SUCCESS) {
-                if (list && list !== 'undefined') {
-                    var userList = list.userList,
+                if (list) {
+                    var userList = list.userList || [],
                         isAllCorrect = false,
                         userInfo = {};
 
