@@ -23,4 +23,28 @@ angular.module('ec.directive.template', [])
             templateUrl: 'templates/searchBar.html',
             controller: 'ecSearchBarController'
         };
+    })
+    .directive('ecMenu', function () {
+        return {
+            restrict: 'EA',
+            replace: true,
+            transclude: true,
+            templateUrl: 'templates/menu/menu.html'
+        };
+    })
+    .directive('ecMainMenu', function () {
+        return {
+            restrict: 'EA',
+            replace: true,
+            transclude: true,
+            templateUrl: 'templates/menu/mainMenu.html'
+        };
+    })
+    .directive('ecSubMenu', function () {
+        return {
+            restrict: 'EA',
+            replace: true,
+            transclude: true,
+            templateUrl: 'templates/menu/subMenu.html'
+        };
     });

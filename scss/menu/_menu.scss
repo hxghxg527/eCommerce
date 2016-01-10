@@ -1,0 +1,10 @@
+.ec-menu {
+  border-bottom: 2px solid $mainColor;
+
+  .menu-container {
+    width: $maxWidth;
+    height: 40px;
+    margin: auto;
+    position: relative;
+  }
+}

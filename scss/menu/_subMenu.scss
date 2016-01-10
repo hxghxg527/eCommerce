@@ -1,0 +1,22 @@
+.ec-sub-menu {
+  font-size: 16px;
+  padding-left: 200px;
+
+  ul {
+    li, i {
+      float: left;
+      height: 40px;
+      line-height: 40px;
+    }
+    li {
+      padding: 0 20px;
+      cursor: pointer;
+      &:hover {
+        color: $mainColor;
+      }
+    }
+    i {
+      color: #ccc;
+    }
+  }
+}

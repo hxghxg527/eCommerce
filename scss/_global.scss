@@ -5,6 +5,8 @@ html, body, div, a, img, ul, li, ol, p, span, i, b, strong, form, input, textare
   text-decoration: none;
   outline: none;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-family: $fontFamily1;
 }
 
 html, body {
