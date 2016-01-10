@@ -37,4 +37,12 @@ angular.module('ec.controller.main', [])
         $scope.$on('removeSessionStorageOfCurrentUserInfo', function () {
             sessionStorage.removeItem('currentUserInfo');
         });
+
+        $scope.$on('setSessionStorageOfPlaceHolders', function (evt, placeHolders) {
+            sessionStorage.setItem('placeHolders', JSON.stringify(placeHolders));
+        });
+
+        $scope.$on('setSessionStorageOfHotQuery', function (evt, hotQuery) {
+            sessionStorage.setItem('hotQuery', JSON.stringify(hotQuery));
+        });
     });
