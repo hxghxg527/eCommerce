@@ -6,9 +6,11 @@
 
 angular.module('ec.controller.subMenu', [])
     .controller('ecSubMenuController', function ($scope, ecInteractionService, ecConstant) {
+        var self = this;
+        
         ecInteractionService.getSubMenu(function (status, subMenu) {
             if (status == ecConstant.SUCCESS && subMenu) {
-                this.subMenuList = subMenu.subMenuList || [];
+                self.subMenuList = subMenu.subMenuList || [];
             }
         });
     });

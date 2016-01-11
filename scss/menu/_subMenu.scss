@@ -3,20 +3,26 @@
   padding-left: 200px;
 
   ul {
-    li, i {
+    li {
       float: left;
+      cursor: pointer;
       height: 40px;
       line-height: 40px;
-    }
-    li {
-      padding: 0 20px;
-      cursor: pointer;
-      &:hover {
-        color: $mainColor;
+
+      a {
+        display: inline-block;
+        padding: 0 20px;
+        color: #000;
       }
-    }
-    i {
-      color: #ccc;
+      i {
+        color: #ccc;
+      }
+
+      &:hover {
+        a {
+          color: $mainColor;
+        }
+      }
     }
   }
 }

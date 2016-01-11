@@ -484,16 +484,18 @@ html, body {
 .ec-sub-menu {
   font-size: 16px;
   padding-left: 200px; }
-  .ec-sub-menu ul li, .ec-sub-menu ul i {
+  .ec-sub-menu ul li {
     float: left;
+    cursor: pointer;
     height: 40px;
     line-height: 40px; }
-  .ec-sub-menu ul li {
-    padding: 0 20px;
-    cursor: pointer; }
-    .ec-sub-menu ul li:hover {
+    .ec-sub-menu ul li a {
+      display: inline-block;
+      padding: 0 20px;
+      color: #000; }
+    .ec-sub-menu ul li i {
+      color: #ccc; }
+    .ec-sub-menu ul li:hover a {
       color: #c40000; }
-  .ec-sub-menu ul i {
-    color: #ccc; }
 
 /*# sourceMappingURL=eCommerce.css.map */
