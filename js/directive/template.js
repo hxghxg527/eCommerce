@@ -37,7 +37,9 @@ angular.module('ec.directive.template', [])
             restrict: 'EA',
             replace: true,
             transclude: true,
-            templateUrl: 'templates/menu/mainMenu.html'
+            templateUrl: 'templates/menu/mainMenu.html',
+            controller: 'ecMainMenuController',
+            controllerAs: 'ecMainMenu'
         };
     })
     .directive('ecSubMenu', function () {
@@ -45,6 +47,8 @@ angular.module('ec.directive.template', [])
             restrict: 'EA',
             replace: true,
             transclude: true,
-            templateUrl: 'templates/menu/subMenu.html'
+            templateUrl: 'templates/menu/subMenu.html',
+            controller: 'ecSubMenuController',
+            controllerAs: 'ecSubMenu'
         };
     });

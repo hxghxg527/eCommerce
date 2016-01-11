@@ -9,5 +9,7 @@ angular.module('ec.controller', [
     'ec.controller.mainPage',
     'ec.controller.topBar',
     'ec.controller.login',
-    'ec.controller.searchBar'
+    'ec.controller.searchBar',
+    'ec.controller.mainMenu',
+    'ec.controller.subMenu'
 ]);

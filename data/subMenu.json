@@ -1,0 +1,36 @@
+{
+  "subMenuList": [
+    {
+      "name": "服装城",
+      "url": "mainPage"
+    },
+    {
+      "name": "美妆馆",
+      "url": "mainPage"
+    },
+    {
+      "name": "超市",
+      "url": "mainPage"
+    },
+    {
+      "name": "全球购",
+      "url": "mainPage"
+    },
+    {
+      "name": "闪购",
+      "url": "mainPage"
+    },
+    {
+      "name": "团购",
+      "url": "mainPage"
+    },
+    {
+      "name": "拍卖",
+      "url": "mainPage"
+    },
+    {
+      "name": "金融",
+      "url": "mainPage"
+    }
+  ]
+}

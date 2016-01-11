@@ -17,7 +17,9 @@ angular.module('ec.service.interaction', [])
                 'SHOPPING_CART': 'data/shoppingCart.json',
                 'WEB_SITE_NAVIGATION': 'data/webSiteNavigation.json',
                 'HOT_QUERY_WORDS': 'data/hotQueryWords.json',
-                'SEARCH_PLACEHOLDER': 'data/searchPlaceHolder.json'
+                'SEARCH_PLACEHOLDER': 'data/searchPlaceHolder.json',
+                'MAIN_MENU': 'data/mainMenu.json',
+                'SUB_MENU': 'data/subMenu.json'
             };
 
         interaction.getCurrentUserInfo = function (callBack) {
@@ -87,6 +89,28 @@ angular.module('ec.service.interaction', [])
             }).error(function (data, status, headers, config, statusText) {
                 console.log('Get searchPlaceHolder.json failed.');
                 callBack(ecConstant.ERROR);
+            });
+        };
+
+        interaction.getMainMenu = function (callBack) {
+            $http({
+                'method': AJAX_METHOD.GET,
+                'url': AJAX_URL.MAIN_MENU
+            }).success(function (data, status, headers, config, statusText) {
+                callBack(ecConstant.SUCCESS, data);
+            }).error(function (data, status, headers, config, statusText) {
+                console.log('Get mainMenu.json failed.');
+            });
+        };
+
+        interaction.getSubMenu = function (callBack) {
+            $http({
+                'method': AJAX_METHOD.GET,
+                'url': AJAX_URL.SUB_MENU
+            }).success(function (data, status, headers, config, statusText) {
+                callBack(ecConstant.SUCCESS, data);
+            }).error(function (data, status, headers, config, statusText) {
+                console.log('Get subMenu.json failed.');
             });
         };
 

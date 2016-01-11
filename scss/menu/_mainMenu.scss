@@ -8,7 +8,7 @@
     width: 200px;
 
     &:hover {
-      .second-level-menu-ul {
+      .first-level-menu-ul {
         display: block;
       }
       .btn-container {
@@ -38,7 +38,7 @@
       }
     }
 
-    .second-level-menu-ul {
+    .first-level-menu-ul {
       position: absolute;
       width: 200px;
       height: 500px;
@@ -48,11 +48,11 @@
       background-color: rgba(0, 0, 0, .8);
       display: block;
 
-      .second-level-menu-li {
+      .first-level-menu-li {
         font-size: 14px;
 
         &:hover {
-          .second-level-menu-li-content {
+          .first-level-menu-li-content {
             background-color: #000;
             i:first-child {
               opacity: 1;
@@ -63,7 +63,7 @@
           }
         }
 
-        .second-level-menu-li-content {
+        .first-level-menu-li-content {
           height: 31px;
           line-height: 31px;
           padding: 0 12px;

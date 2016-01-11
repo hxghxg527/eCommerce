@@ -422,7 +422,7 @@ html, body {
   font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "宋体", 宋体, sans-serif; }
   .ec-main-menu .menu-container {
     width: 200px; }
-    .ec-main-menu .menu-container:hover .second-level-menu-ul {
+    .ec-main-menu .menu-container:hover .first-level-menu-ul {
       display: block; }
     .ec-main-menu .menu-container:hover .btn-container i {
       transform: rotate(180deg); }
@@ -441,7 +441,7 @@ html, body {
         line-height: 40px;
         transition: transform .25s ease-in-out;
         display: none; }
-    .ec-main-menu .menu-container .second-level-menu-ul {
+    .ec-main-menu .menu-container .first-level-menu-ul {
       position: absolute;
       width: 200px;
       height: 500px;
@@ -450,28 +450,28 @@ html, body {
       color: #fff;
       background-color: rgba(0, 0, 0, 0.8);
       display: block; }
-      .ec-main-menu .menu-container .second-level-menu-ul .second-level-menu-li {
+      .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li {
         font-size: 14px; }
-        .ec-main-menu .menu-container .second-level-menu-ul .second-level-menu-li:hover .second-level-menu-li-content {
+        .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li:hover .first-level-menu-li-content {
           background-color: #000; }
-          .ec-main-menu .menu-container .second-level-menu-ul .second-level-menu-li:hover .second-level-menu-li-content i:first-child {
+          .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li:hover .first-level-menu-li-content i:first-child {
             opacity: 1; }
-          .ec-main-menu .menu-container .second-level-menu-ul .second-level-menu-li:hover .second-level-menu-li-content .arrow {
+          .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li:hover .first-level-menu-li-content .arrow {
             display: block; }
-        .ec-main-menu .menu-container .second-level-menu-ul .second-level-menu-li .second-level-menu-li-content {
+        .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .first-level-menu-li-content {
           height: 31px;
           line-height: 31px;
           padding: 0 12px;
           position: relative; }
-          .ec-main-menu .menu-container .second-level-menu-ul .second-level-menu-li .second-level-menu-li-content i:first-child {
+          .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .first-level-menu-li-content i:first-child {
             font-size: 13px;
             margin-right: 1px;
             opacity: .6; }
-          .ec-main-menu .menu-container .second-level-menu-ul .second-level-menu-li .second-level-menu-li-content a {
+          .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .first-level-menu-li-content a {
             cursor: pointer; }
-            .ec-main-menu .menu-container .second-level-menu-ul .second-level-menu-li .second-level-menu-li-content a:hover {
+            .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .first-level-menu-li-content a:hover {
               text-decoration: underline; }
-          .ec-main-menu .menu-container .second-level-menu-ul .second-level-menu-li .second-level-menu-li-content .arrow {
+          .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .first-level-menu-li-content .arrow {
             position: absolute;
             height: 0;
             border-style: solid;
