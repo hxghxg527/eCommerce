@@ -345,7 +345,6 @@ html, body {
   font-size: 12px;
   font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "宋体", 宋体, sans-serif;
   color: #6c6c6c;
-  padding: 20px 0;
   width: 1200px;
   margin: auto;
   position: relative;
@@ -363,7 +362,8 @@ html, body {
     color: #e01a3b;
     cursor: pointer; }
   .ec-search-bar .search-container {
-    height: 70px;
+    padding-top: 20px;
+    height: 90px;
     width: 647px;
     margin: auto;
     overflow: hidden; }

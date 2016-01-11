@@ -2,7 +2,6 @@
   font-size: 12px;
   font-family: $fontFamily1;
   color: #6c6c6c;
-  padding: 20px 0;
   width: $maxWidth;
   margin: auto;
   position: relative;
@@ -23,7 +22,8 @@
   }
 
   .search-container {
-    height: 70px;
+    padding-top: 20px;
+    height: 90px;
     width: 647px;
     margin: auto;
     overflow: hidden;
