@@ -37,6 +37,18 @@ html, body {
   *zoom: 1;
   /*IE/7/6*/ }
 
+@font-face {
+  font-family: 'tbFont1';
+  src: url("../font/font_1401963178_8135476.woff") format("woff");
+  font-weight: normal; }
+@font-face {
+  font-family: 'tbFontIcon';
+  src: url("../font/font_1446090600_5303762.woff") format("woff");
+  font-weight: normal; }
+@font-face {
+  font-family: 'tbFont3';
+  src: url("../font/font_1450338907_654269.woff") format("woff");
+  font-weight: normal; }
 .ec-container {
   height: 100%; }
 
@@ -454,7 +466,7 @@ html, body {
         font-size: 14px; }
         .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li:hover .first-level-menu-li-content {
           background-color: #000; }
-          .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li:hover .first-level-menu-li-content i:first-child {
+          .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li:hover .first-level-menu-li-content .first-level-icon {
             opacity: 1; }
           .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li:hover .first-level-menu-li-content .arrow {
             display: block; }
@@ -463,12 +475,17 @@ html, body {
           line-height: 31px;
           padding: 0 12px;
           position: relative; }
-          .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .first-level-menu-li-content i:first-child {
-            font-size: 13px;
-            margin-right: 1px;
-            opacity: .6; }
+          .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .first-level-menu-li-content .first-level-icon {
+            margin-right: 3px;
+            opacity: .6;
+            height: 31px;
+            line-height: 31px;
+            display: inline-block;
+            vertical-align: 1px;
+            font-family: 'tbFontIcon'; }
           .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .first-level-menu-li-content a {
-            cursor: pointer; }
+            cursor: pointer;
+            color: #fff; }
             .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .first-level-menu-li-content a:hover {
               text-decoration: underline; }
           .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .first-level-menu-li-content .arrow {

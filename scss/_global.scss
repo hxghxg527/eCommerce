@@ -34,3 +34,21 @@ html, body {
 .clearfix {
   *zoom: 1; /*IE/7/6*/
 }
+
+@font-face {
+  font-family: 'tbFont1';
+  src: url('../font/font_1401963178_8135476.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'tbFontIcon';
+  src: url('../font/font_1446090600_5303762.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'tbFont3';
+  src: url('../font/font_1450338907_654269.woff') format('woff');
+  font-weight: normal;
+}

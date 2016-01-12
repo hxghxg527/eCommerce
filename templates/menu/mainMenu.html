@@ -8,10 +8,11 @@
         <ul class="first-level-menu-ul">
             <li class="first-level-menu-li" ng-repeat="menu in ecMainMenu.mainMenuList track by $index">
                 <div class="first-level-menu-li-content">
-                    <i class="fa fa-fw">&#xf182;</i>
-                    <a>女装</a>
-                    <span>/</span>
-                    <a>内衣</a>
+                    <span class="first-level-icon">{{menu.firstLevelMenu.iconText}}</span>
+                    <span ng-repeat="firstLevelMenuTags in menu.firstLevelMenu.tags track by $index">
+                        <a ui-sref="{{firstLevelMenuTags.url}}">{{firstLevelMenuTags.name}}</a>
+                        <span ng-if="!$last">/</span>
+                    </span>
                     <b class="arrow"></b>
                 </div>
 

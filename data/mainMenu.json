@@ -2,7 +2,7 @@
   "mainMenuList": [
     {
       "firstLevelMenu": {
-        "iconText": "&#xf182;",
+        "iconText": "",
         "tags": [
           {
             "name": "女装",
@@ -18,7 +18,7 @@
     },
     {
       "firstLevelMenu": {
-        "iconText": "&#xf182;",
+        "iconText": "",
         "tags": [
           {
             "name": "男装",
@@ -34,7 +34,7 @@
     },
     {
       "firstLevelMenu": {
-        "iconText": "&#xf182;",
+        "iconText": "",
         "tags": [
           {
             "name": "女鞋",
@@ -54,7 +54,7 @@
     },
     {
       "firstLevelMenu": {
-        "iconText": "&#xf182;",
+        "iconText": "",
         "tags": [
           {
             "name": "化妆品",
@@ -70,7 +70,7 @@
     },
     {
       "firstLevelMenu": {
-        "iconText": "&#xf182;",
+        "iconText": "",
         "tags": [
           {
             "name": "腕表",
@@ -90,7 +90,7 @@
     },
     {
       "firstLevelMenu": {
-        "iconText": "&#xf182;",
+        "iconText": "",
         "tags": [
           {
             "name": "手机",
@@ -110,7 +110,7 @@
     },
     {
       "firstLevelMenu": {
-        "iconText": "&#xf182;",
+        "iconText": "",
         "tags": [
           {
             "name": "母婴玩具",
@@ -122,7 +122,7 @@
     },
     {
       "firstLevelMenu": {
-        "iconText": "&#xf182;",
+        "iconText": "",
         "tags": [
           {
             "name": "零食",
@@ -142,7 +142,7 @@
     },
     {
       "firstLevelMenu": {
-        "iconText": "&#xf182;",
+        "iconText": "",
         "tags": [
           {
             "name": "大家电",
@@ -158,7 +158,7 @@
     },
     {
       "firstLevelMenu": {
-        "iconText": "&#xf182;",
+        "iconText": "",
         "tags": [
           {
             "name": "家具电材",
@@ -170,7 +170,7 @@
     },
     {
       "firstLevelMenu": {
-        "iconText": "&#xf182;",
+        "iconText": "",
         "tags": [
           {
             "name": "汽车",
@@ -190,7 +190,7 @@
     },
     {
       "firstLevelMenu": {
-        "iconText": "&#xf182;",
+        "iconText": "",
         "tags": [
           {
             "name": "家纺",
@@ -210,7 +210,7 @@
     },
     {
       "firstLevelMenu": {
-        "iconText": "&#xf182;",
+        "iconText": "",
         "tags": [
           {
             "name": "医药保健",
@@ -222,7 +222,7 @@
     },
     {
       "firstLevelMenu": {
-        "iconText": "&#xf182;",
+        "iconText": "",
         "tags": [
           {
             "name": "厨具",
@@ -242,7 +242,7 @@
     },
     {
       "firstLevelMenu": {
-        "iconText": "&#xf182;",
+        "iconText": "",
         "tags": [
           {
             "name": "图书音像",
@@ -254,7 +254,7 @@
     },
     {
       "firstLevelMenu": {
-        "iconText": "&#xf182;",
+        "iconText": "",
         "tags": [
           {
             "name": "天猫超市",

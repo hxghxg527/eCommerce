@@ -54,7 +54,7 @@
         &:hover {
           .first-level-menu-li-content {
             background-color: #000;
-            i:first-child {
+            .first-level-icon {
               opacity: 1;
             }
             .arrow {
@@ -69,14 +69,19 @@
           padding: 0 12px;
           position: relative;
 
-          i:first-child {
-            font-size: 13px;
-            margin-right: 1px;
+          .first-level-icon {
+            margin-right: 3px;
             opacity: .6;
+            height: 31px;
+            line-height: 31px;
+            display: inline-block;
+            vertical-align: 1px;
+            font-family: 'tbFontIcon';
           }
 
           a {
             cursor: pointer;
+            color: #fff;
             &:hover {
               text-decoration: underline;
             }
