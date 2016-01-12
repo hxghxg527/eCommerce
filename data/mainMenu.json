@@ -21,11 +21,11 @@
         "iconText": "&#xf182;",
         "tags": [
           {
-            "name": "女装",
+            "name": "男装",
             "url": "mainPage"
           },
           {
-            "name": "内衣",
+            "name": "运动户外",
             "url": "mainPage"
           }
         ]
@@ -37,11 +37,15 @@
         "iconText": "&#xf182;",
         "tags": [
           {
-            "name": "女装",
+            "name": "女鞋",
             "url": "mainPage"
           },
           {
-            "name": "内衣",
+            "name": "男鞋",
+            "url": "mainPage"
+          },
+          {
+            "name": "箱包",
             "url": "mainPage"
           }
         ]
@@ -53,11 +57,11 @@
         "iconText": "&#xf182;",
         "tags": [
           {
-            "name": "女装",
+            "name": "化妆品",
             "url": "mainPage"
           },
           {
-            "name": "内衣",
+            "name": "个人护理",
             "url": "mainPage"
           }
         ]
@@ -69,11 +73,15 @@
         "iconText": "&#xf182;",
         "tags": [
           {
-            "name": "女装",
+            "name": "腕表",
             "url": "mainPage"
           },
           {
-            "name": "内衣",
+            "name": "珠宝饰品",
+            "url": "mainPage"
+          },
+          {
+            "name": "眼镜",
             "url": "mainPage"
           }
         ]
@@ -85,11 +93,15 @@
         "iconText": "&#xf182;",
         "tags": [
           {
-            "name": "女装",
+            "name": "手机",
             "url": "mainPage"
           },
           {
-            "name": "内衣",
+            "name": "数码",
+            "url": "mainPage"
+          },
+          {
+            "name": "电脑办公",
             "url": "mainPage"
           }
         ]
@@ -101,11 +113,7 @@
         "iconText": "&#xf182;",
         "tags": [
           {
-            "name": "女装",
-            "url": "mainPage"
-          },
-          {
-            "name": "内衣",
+            "name": "母婴玩具",
             "url": "mainPage"
           }
         ]
@@ -117,11 +125,15 @@
         "iconText": "&#xf182;",
         "tags": [
           {
-            "name": "女装",
+            "name": "零食",
             "url": "mainPage"
           },
           {
-            "name": "内衣",
+            "name": "进口食品",
+            "url": "mainPage"
+          },
+          {
+            "name": "茶酒",
             "url": "mainPage"
           }
         ]
@@ -133,11 +145,11 @@
         "iconText": "&#xf182;",
         "tags": [
           {
-            "name": "女装",
+            "name": "大家电",
             "url": "mainPage"
           },
           {
-            "name": "内衣",
+            "name": "生活电器",
             "url": "mainPage"
           }
         ]
@@ -149,11 +161,7 @@
         "iconText": "&#xf182;",
         "tags": [
           {
-            "name": "女装",
-            "url": "mainPage"
-          },
-          {
-            "name": "内衣",
+            "name": "家具电材",
             "url": "mainPage"
           }
         ]
@@ -165,11 +173,15 @@
         "iconText": "&#xf182;",
         "tags": [
           {
-            "name": "女装",
+            "name": "汽车",
             "url": "mainPage"
           },
           {
-            "name": "内衣",
+            "name": "配件",
+            "url": "mainPage"
+          },
+          {
+            "name": "用品",
             "url": "mainPage"
           }
         ]
@@ -181,11 +193,15 @@
         "iconText": "&#xf182;",
         "tags": [
           {
-            "name": "女装",
+            "name": "家纺",
             "url": "mainPage"
           },
           {
-            "name": "内衣",
+            "name": "布艺",
+            "url": "mainPage"
+          },
+          {
+            "name": "鲜花",
             "url": "mainPage"
           }
         ]
@@ -197,11 +213,7 @@
         "iconText": "&#xf182;",
         "tags": [
           {
-            "name": "女装",
-            "url": "mainPage"
-          },
-          {
-            "name": "内衣",
+            "name": "医药保健",
             "url": "mainPage"
           }
         ]
@@ -213,11 +225,15 @@
         "iconText": "&#xf182;",
         "tags": [
           {
-            "name": "女装",
+            "name": "厨具",
             "url": "mainPage"
           },
           {
-            "name": "内衣",
+            "name": "收纳",
+            "url": "mainPage"
+          },
+          {
+            "name": "宠物",
             "url": "mainPage"
           }
         ]
@@ -229,11 +245,7 @@
         "iconText": "&#xf182;",
         "tags": [
           {
-            "name": "女装",
-            "url": "mainPage"
-          },
-          {
-            "name": "内衣",
+            "name": "图书音像",
             "url": "mainPage"
           }
         ]
@@ -245,11 +257,7 @@
         "iconText": "&#xf182;",
         "tags": [
           {
-            "name": "女装",
-            "url": "mainPage"
-          },
-          {
-            "name": "内衣",
+            "name": "天猫超市",
             "url": "mainPage"
           }
         ]
