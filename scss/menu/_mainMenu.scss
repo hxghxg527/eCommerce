@@ -120,6 +120,8 @@
             width: 480px;
 
             .second-level-menu-ul-left-li {
+              overflow: hidden;
+
               .ec-title {
                 font-size: 14px;
                 border-bottom: 1px solid #000;
@@ -135,6 +137,30 @@
                 a.ec_more {
                   margin-top: 19px;
                   cursor: pointer;
+                }
+              }
+
+              .ec-third-level-menu-ul {
+                padding-top: 2px;
+                padding-bottom: 15px;
+                margin-left: -1px;
+                border-bottom: 1px dotted #000;
+
+                &:last-child {
+                  border-bottom: none;
+                }
+
+                .ec-third-level-menu-li {
+                  padding: 0 8px;
+                  margin-top: 12px;
+                  color: #666;
+                  font-size: 13px;
+                  line-height: 13px;
+                  cursor: pointer;
+                  border-left: 1px solid #ccc;
+                  &:hover {
+                    text-decoration: underline;
+                  }
                 }
               }
             }
