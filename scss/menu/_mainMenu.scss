@@ -56,6 +56,7 @@
             background-color: #000;
             .first-level-icon {
               opacity: 1;
+              transform: rotate(-30deg);
             }
             .arrow {
               display: block;
@@ -80,6 +81,7 @@
             display: inline-block;
             vertical-align: 1px;
             font-family: 'tbFontIcon';
+            transition: transform .5s, opacity .5s;
           }
 
           a {
@@ -109,7 +111,40 @@
           left: 200px;
           top: 0;
           background-color: rgba(253, 253, 253, .98);
-          display: none;
+          display: block;
+          color: #000;
+
+          .second-level-menu-ul-left {
+            float: left;
+            padding: 0 20px;
+            width: 480px;
+            background-color: #ffff00;
+
+            .second-level-menu-ul-left-li {
+              .ec-title {
+                a {
+                  cursor: pointer;
+                  span.ec-icon {
+                    background: url("../images/menu_icons.png") no-repeat -26px -24px;
+                    display: inline-block;
+                    width: 36px;
+                    height: 36px;
+                    background-color: red;
+                  }
+                  span.ec-text {
+
+                  }
+                }
+              }
+            }
+          }
+
+          .second-level-menu-ul-right {
+            float: left;
+            padding: 0 20px;
+            width: 300px;
+            background-color: orangered;
+          }
         }
 
       }

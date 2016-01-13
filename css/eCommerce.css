@@ -467,7 +467,8 @@ html, body {
         .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li:hover .first-level-menu-li-content {
           background-color: #000; }
           .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li:hover .first-level-menu-li-content .first-level-icon {
-            opacity: 1; }
+            opacity: 1;
+            transform: rotate(-30deg); }
           .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li:hover .first-level-menu-li-content .arrow {
             display: block; }
         .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li:hover .second-level-menu-container {
@@ -484,7 +485,8 @@ html, body {
             line-height: 31px;
             display: inline-block;
             vertical-align: 1px;
-            font-family: 'tbFontIcon'; }
+            font-family: 'tbFontIcon';
+            transition: transform .5s, opacity .5s; }
           .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .first-level-menu-li-content a {
             cursor: pointer;
             color: #fff; }
@@ -506,7 +508,26 @@ html, body {
           left: 200px;
           top: 0;
           background-color: rgba(253, 253, 253, 0.98);
-          display: none; }
+          display: block;
+          color: #000; }
+          .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container .second-level-menu-ul-left {
+            float: left;
+            padding: 0 20px;
+            width: 480px;
+            background-color: #ffff00; }
+            .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-title a {
+              cursor: pointer; }
+              .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-title a span.ec-icon {
+                background: url("../images/menu_icons.png") no-repeat -26px -24px;
+                display: inline-block;
+                width: 36px;
+                height: 36px;
+                background-color: red; }
+          .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container .second-level-menu-ul-right {
+            float: left;
+            padding: 0 20px;
+            width: 300px;
+            background-color: orangered; }
 
 .ec-sub-menu {
   font-size: 16px;
