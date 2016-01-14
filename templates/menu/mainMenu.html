@@ -16,7 +16,7 @@
                     <b class="arrow"></b>
                 </div>
 
-                <div class="second-level-menu-container clearfix" ng-if="$first">
+                <div class="second-level-menu-container clearfix {{menu.secondLevelMenu.fontColor}}" ng-if="$first">
                     <ul class="second-level-menu-ul-left">
                         <li class="second-level-menu-ul-left-li">
                             <h3 class="ec-title clearfix">
@@ -82,24 +82,22 @@
                     <ul class="second-level-menu-ul-right">
                         <li class="second-level-menu-ul-right-li">
                             <h3 class="ec-title clearfix">
-                                <a class="ec_detail ec_f_l" style="background-position: -22px -68px;">特色品牌</a>
+                                <a class="ec_detail ec_f_l"
+                                   ui-sref="{{menu.secondLevelMenu.rightList.characteristicBrand.url}}">{{menu.secondLevelMenu.rightList.characteristicBrand.name}}</a>
                             </h3>
                             <ul class="ec-third-level-menu-ul clearfix">
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
+                                <li class="ec-third-level-menu-li ec_f_l"
+                                    ng-class="{true:'ec-highlight'}[item.isHighLight]"
+                                    ng-repeat="item in menu.secondLevelMenu.rightList.characteristicBrand.itemList track by $index">
+                                    <a ui-sref="{{item.url}}">{{item.name}}</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="second-level-menu-ul-right-li-for-img">
-                            <img class="ec-li-img" src="images/TB1o1sULXXXXXciXXXX_xrNLFXX-256-160.jpg">
-                        </li>
-                        <li class="second-level-menu-ul-right-li-for-img">
-                            <img class="ec-li-img" src="images/TB1IsPoKVXXXXbnXVXXXXXXXXXX-256-160.jpg">
+                        <li class="second-level-menu-ul-right-li-for-img"
+                            ng-repeat="brandImageUrl in menu.secondLevelMenu.rightList.brandImageUrls track by $index">
+                            <a ui-sref="{{brandImageUrl.url}}">
+                                <img class="ec-li-img" ng-src="{{brandImageUrl.imageUrl}}">
+                            </a>
                         </li>
                     </ul>
                 </div>

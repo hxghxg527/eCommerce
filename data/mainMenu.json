@@ -15,7 +15,7 @@
         ]
       },
       "secondLevelMenu": {
-        "color": "color_1",
+        "fontColor": "color_1",
         "leftList": [
           {
             "name": "女装",
@@ -456,7 +456,7 @@
               {
                 "name": "马莎",
                 "url": "mainPage",
-                "isHighLight": false
+                "isHighLight": true
               },
               {
                 "name": "播",
@@ -520,7 +520,7 @@
               }
             ]
           },
-          "brandImageUrl": [
+          "brandImageUrls": [
             {
               "imageUrl": "images/TB1o1sULXXXXXciXXXX_xrNLFXX-256-160.jpg",
               "url": "mainPage"

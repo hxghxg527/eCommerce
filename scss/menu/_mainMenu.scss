@@ -151,13 +151,16 @@
                 }
 
                 .ec-third-level-menu-li {
-                  padding: 0 8px;
+                  padding: 0 7px;
                   margin-top: 12px;
                   color: #666;
                   font-size: 13px;
                   line-height: 13px;
                   cursor: pointer;
                   border-left: 1px solid #ccc;
+                  a {
+                    color: #666;
+                  }
                   &:hover {
                     text-decoration: underline;
                   }
@@ -184,6 +187,7 @@
                   width: auto;
                   padding: 19px 0 0 0px;
                   height: 40px;
+                  color: #000;
                 }
               }
               .ec-third-level-menu-ul {
@@ -197,7 +201,7 @@
                 }
 
                 .ec-third-level-menu-li {
-                  padding: 0 8px;
+                  padding: 0 7px;
                   margin-top: 12px;
                   color: #666;
                   font-size: 13px;
@@ -215,14 +219,40 @@
               margin-top: 3px;
               margin-bottom: 15px;
 
-              .ec-li-img {
-                width: 260px;
+              a {
+                width: 100%;
+                height: 100%;
                 display: block;
-                cursor: pointer;
+                .ec-li-img {
+                  width: 260px;
+                  display: block;
+                  cursor: pointer;
+                }
               }
             }
 
           }
+        }
+
+        .second-level-menu-container {
+          &.color_1 {
+            .ec-third-level-menu-li {
+              a {
+                color: #666;
+              }
+              &.ec-highlight {
+                a {
+                  color: #d01f47;
+                }
+              }
+              &:hover {
+                a {
+                  color: #d01f47;
+                }
+              }
+            }
+          }
+
         }
 
       }
