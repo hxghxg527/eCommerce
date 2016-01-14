@@ -553,8 +553,6 @@ html, body {
                   line-height: 13px;
                   cursor: pointer;
                   border-left: 1px solid #ccc; }
-                  .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-third-level-menu-ul .ec-third-level-menu-li a {
-                    color: #666; }
                   .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-third-level-menu-ul .ec-third-level-menu-li:hover {
                     text-decoration: underline; }
           .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container .second-level-menu-ul-right {
