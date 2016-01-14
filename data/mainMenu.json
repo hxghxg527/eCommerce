@@ -220,11 +220,6 @@
                   "isHighLight": false
                 },
                 {
-                  "name": "半身裙",
-                  "url": "mainPage",
-                  "isHighLight": true
-                },
-                {
                   "name": "个性卫衣",
                   "url": "mainPage",
                   "isHighLight": false
@@ -456,7 +451,7 @@
               {
                 "name": "马莎",
                 "url": "mainPage",
-                "isHighLight": true
+                "isHighLight": false
               },
               {
                 "name": "播",
@@ -466,7 +461,7 @@
               {
                 "name": "哥弟",
                 "url": "mainPage",
-                "isHighLight": false
+                "isHighLight": true
               },
               {
                 "name": "诗凡黎",

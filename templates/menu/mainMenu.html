@@ -16,66 +16,24 @@
                     <b class="arrow"></b>
                 </div>
 
-                <div class="second-level-menu-container clearfix {{menu.secondLevelMenu.fontColor}}" ng-if="$first">
+                <div class="second-level-menu-container clearfix {{menu.secondLevelMenu.fontColor}}"
+                     ng-if="$index == 0">
                     <ul class="second-level-menu-ul-left">
-                        <li class="second-level-menu-ul-left-li">
+                        <li class="second-level-menu-ul-left-li"
+                            ng-repeat="leftList in menu.secondLevelMenu.leftList track by $index">
                             <h3 class="ec-title clearfix">
-                                <a class="ec_detail ec_f_l" style="background-position: -26px -21px;">女装</a>
-                                <a class="ec_more ec_f_r">更多</a>
+                                <a class="ec_detail ec_f_l"
+                                   style="background-position-x: {{leftList.iconPosition.x + 'px'}}; background-position-y: {{leftList.iconPosition.y + 'px'}};"
+                                   ui-sref="{{leftList.url}}">{{leftList.name}}</a>
+                                <a class="ec_more ec_f_r" ng-if="leftList.isHasMore" ui-sref="{{leftList.url}}">更多</a>
                             </h3>
-                            <ul class="ec-third-level-menu-ul clearfix">
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                            </ul>
-                            <ul class="ec-third-level-menu-ul clearfix">
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                            </ul>
-                            <ul class="ec-third-level-menu-ul clearfix">
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                            </ul>
-                        </li>
-                        <li class="second-level-menu-ul-left-li">
-                            <h3 class="ec-title clearfix">
-                                <a class="ec_detail ec_f_l" style="background-position: -23px -68px;">精品内衣</a>
-                                <a class="ec_more ec_f_r">更多</a>
-                            </h3>
-                            <ul class="ec-third-level-menu-ul clearfix">
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
-                                <li class="ec-third-level-menu-li ec_f_l">毛呢清仓</li>
+                            <ul class="ec-third-level-menu-ul clearfix"
+                                ng-repeat="itemListArr in leftList.itemList track by $index">
+                                <li class="ec-third-level-menu-li ec_f_l"
+                                    ng-class="{true: 'ec-highlight'}[item.isHighLight]"
+                                    ng-repeat="item in itemListArr track by $index">
+                                    <a ui-sref="{{item.url}}">{{item.name}}</a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
