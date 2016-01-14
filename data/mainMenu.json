@@ -14,7 +14,524 @@
           }
         ]
       },
-      "secondLevelMenu": []
+      "secondLevelMenu": {
+        "color": "color_1",
+        "leftList": [
+          {
+            "name": "女装",
+            "url": "mainPage",
+            "isHasMore": true,
+            "iconPosition": {
+              "x": "-26",
+              "y": "-21"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "年货节女装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "保暖会场",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "品牌女装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "商场同款",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "服饰特卖",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "羽绒服",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "毛呢外套",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "毛衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "连衣裙",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "棉服",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "毛针织",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "百搭衬衫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "短外套",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卫衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "风衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "休闲裤",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牛仔裤",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "皮衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "皮草",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "羊绒衫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "半身裙",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "T恤",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ],
+              [
+                {
+                  "name": "tunetune大牌日",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "中长款羽绒",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "短款羽绒",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "轻薄羽绒",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "毛呢大衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "双面呢大衣",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "冬季连衣裙",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "长袖连衣裙",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "蕾丝连衣裙",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "休闲棉服",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "拼接棉服",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "套头毛衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "开衫毛衣",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "针织开衫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "秋冬打底",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "时尚外套",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "半身裙",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "个性卫衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "真皮羽绒服",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "秋冬女裤",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "气质风衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "长袖衬衫",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "针织两件套",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ],
+              [
+                {
+                  "name": "中老年女装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "大码女装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "水貂皮草",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "皮裙半身裙",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "羊羔毛外套",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "羊绒大衣",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "运动套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "时尚套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "高领毛衣",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "套裙两件套",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "加绒卫衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "打底裤外穿",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "皮毛一体",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "蕾丝打底衫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "皮裤",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "羽绒裤",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "潮流设计",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "精品内衣",
+            "url": "mainPage",
+            "isHasMore": true,
+            "iconPosition": {
+              "x": "-23",
+              "y": "-68"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "品牌内衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "商场同款",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "文胸",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "聚拢文胸",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "性感蕾丝文胸",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "无钢圈文胸",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "少女文胸",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "保暖套装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "保暖背心",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "秋衣秋裤",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "美体",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "发热丝",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "睡衣套装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "女士睡衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "少女家居服",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "情侣家居服",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "女士内裤",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "男士内裤",
+                  "url": "mainPage",
+                  "isHighLight": true
+                }
+              ]
+            ]
+          }
+        ],
+        "rightList": {
+          "characteristicBrand": {
+            "name": "特色品牌",
+            "url": "mainPage",
+            "itemList": [
+              {
+                "name": "马莎",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "播",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "哥弟",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "诗凡黎",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "lily",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "ein",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "歌力思",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "cachecache",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "roem",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "massimodutti",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "歌瑞尔",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "曼妮芬",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "北极绒",
+                "url": "mainPage",
+                "isHighLight": false
+              }
+            ]
+          },
+          "brandImageUrl": [
+            {
+              "imageUrl": "images/TB1o1sULXXXXXciXXXX_xrNLFXX-256-160.jpg",
+              "url": "mainPage"
+            },
+            {
+              "imageUrl": "images/TB1IsPoKVXXXXbnXVXXXXXXXXXX-256-160.jpg",
+              "url": "mainPage"
+            }
+          ]
+        }
+      }
     },
     {
       "firstLevelMenu": {
