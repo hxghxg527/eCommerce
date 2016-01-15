@@ -607,6 +607,12 @@ html, body {
           color: #d01f47; }
         .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_1 .ec-third-level-menu-li:hover a {
           color: #d01f47; }
+        .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_2 .ec-third-level-menu-li a {
+          color: #666; }
+        .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_2 .ec-third-level-menu-li.ec-highlight a {
+          color: #1291cf; }
+        .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_2 .ec-third-level-menu-li:hover a {
+          color: #1291cf; }
 
 .ec-sub-menu {
   font-size: 16px;

@@ -251,6 +251,23 @@
               }
             }
           }
+          &.color_2 {
+            .ec-third-level-menu-li {
+              a {
+                color: #666;
+              }
+              &.ec-highlight {
+                a {
+                  color: #1291cf;
+                }
+              }
+              &:hover {
+                a {
+                  color: #1291cf;
+                }
+              }
+            }
+          }
 
         }
 

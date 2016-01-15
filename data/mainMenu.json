@@ -542,7 +542,513 @@
           }
         ]
       },
-      "secondLevelMenu": []
+      "secondLevelMenu": {
+        "fontColor": "color_2",
+        "leftList": [
+          {
+            "name": "精品男装",
+            "url": "mainPage",
+            "isHasMore": true,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-115"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "年货节疯抢",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "商场同款",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "品牌男装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "顶尖风格",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "短款羽绒服",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "加厚羽绒服",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "轻薄羽绒",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "棉服",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "毛呢大衣",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "中长款大衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "立领大衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "皮衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "真皮皮衣",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "毛衣",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "羊绒衫",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "针织衫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "套头毛衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "夹克",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "风衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "西服",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "T恤",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卫衣",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "衬衫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "加绒衬衫",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "格子衬衫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "休闲裤",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牛仔裤",
+                  "url": "mainPage",
+                  "isHighLight": true
+                }
+              ]
+            ]
+          },
+          {
+            "name": "运动/户外鞋服",
+            "url": "mainPage",
+            "isHasMore": true,
+            "iconPosition": {
+              "x": "-24",
+              "y": "-162"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "年货节运动鞋服会场",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "冬季新品",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "跑步鞋",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "冲锋衣",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "篮球鞋",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "越野跑鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "板鞋",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "运动外套",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "运动卫衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "运动棉服",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "休闲服",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "运动服",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "运动裤",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "运动套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "健身服",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "防风衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "夹克",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "羽绒服",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "马甲",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "风衣",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "登山鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "抓绒衣",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "冲锋裤",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "帆布鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "徒步鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "运动/户外用品",
+            "url": "mainPage",
+            "isHasMore": true,
+            "iconPosition": {
+              "x": "-23",
+              "y": "-209"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "年货节户外会场",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "健身器材",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "篮球",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "跑步机",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "鱼竿",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "帐篷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "军刀",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "舒华",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "永久",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "英尔健",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "自行车",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "健身车",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "轮滑",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "双肩包",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "羽毛球",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "瑜伽",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "跳舞毯",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "乒乓球",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "游泳",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "麻将",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "电动车",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "户外用品",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "手电筒",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "望远镜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          }
+        ],
+        "rightList": {
+          "characteristicBrand": {
+            "name": "特色品牌",
+            "url": "mainPage",
+            "itemList": [
+              {
+                "name": "JackJones",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "太平鸟",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "优衣库",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "马克华菲",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "GXG",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "森马",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "Selected",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "罗蒙",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "柒牌",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "Nike",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "New Balance",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "Adidas",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "李宁",
+                "url": "mainPage",
+                "isHighLight": false
+              }
+            ]
+          },
+          "brandImageUrls": [
+            {
+              "imageUrl": "images/TB1OE5HLpXXXXbgXXXX_xrNLFXX-256-160.jpg",
+              "url": "mainPage"
+            },
+            {
+              "imageUrl": "images/TB1t4xZLpXXXXakXVXX_xrNLFXX-256-160.jpg",
+              "url": "mainPage"
+            }
+          ]
+        }
+      }
     },
     {
       "firstLevelMenu": {
