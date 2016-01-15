@@ -622,9 +622,15 @@ html, body {
         .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_4 .ec-third-level-menu-li a {
           color: #666; }
         .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_4 .ec-third-level-menu-li.ec-highlight a {
-          color: #8b478b; }
+          color: #d8468d; }
         .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_4 .ec-third-level-menu-li:hover a {
-          color: #8b478b; }
+          color: #d8468d; }
+        .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_5 .ec-third-level-menu-li a {
+          color: #666; }
+        .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_5 .ec-third-level-menu-li.ec-highlight a {
+          color: #d8468d; }
+        .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_5 .ec-third-level-menu-li:hover a {
+          color: #d8468d; }
 
 .ec-sub-menu {
   font-size: 16px;
