@@ -1068,7 +1068,513 @@
           }
         ]
       },
-      "secondLevelMenu": []
+      "secondLevelMenu": {
+        "fontColor": "color_3",
+        "leftList": [
+          {
+            "name": "女鞋",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-303"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "年货节女鞋会场",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "冬季新品",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "商场同款",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "短靴",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "马丁靴",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "长靴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "中筒靴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "雪地靴",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "流苏靴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "圆头靴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "尖头靴",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "平跟靴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "高跟靴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "高帮鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "帆布鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "平底鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "高跟鞋",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "坡跟单鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "豆豆鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "乐福鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "牛津鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "妈妈鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "甜美风",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "通勤风",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "运动风",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "内增高",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "男鞋",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-256"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "年货节男鞋会场",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "新品男鞋",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "商场同款",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "休闲系",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "正装皮鞋",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "男靴",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "马丁靴",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "雪地靴",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "高帮鞋",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "工装鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "休闲皮鞋",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "板鞋",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "帆布鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "运动休闲",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "乐福鞋",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "豆豆鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "布洛克",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "户外休闲",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "伐木鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "布鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "内增高",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "软轻风",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "爸爸鞋",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "帆船鞋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "箱包",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-23",
+              "y": "-350"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "年货节",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "箱包馆",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "新品推荐",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "商场同款",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "国际名品",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "单肩女包",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "手提女包",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "斜跨女包",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "女士双肩",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "女士钱包",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "真皮男包",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "帆布男包",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "商务男包",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "男士双肩",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "男士钱包",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "旅行箱",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "硬质旅行箱",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "软质旅行箱",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "金属箱",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "旅行包",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "Coach",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "Longchamp",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "Gucci",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "Michael Kors",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          }
+        ],
+        "rightList": {
+          "characteristicBrand": {
+            "name": "特色品牌",
+            "url": "mainPage",
+            "itemList": [
+              {
+                "name": "意尔康",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "奥康",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "百丽",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "红蜻蜓",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "卓诗尼",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "艾斯臣",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "大东",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "热风",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "如熙",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "达芙妮",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "Tata",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "骆驼",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "新秀丽",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "佐斯登",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "Aza",
+                "url": "mainPage",
+                "isHighLight": false
+              }
+            ]
+          },
+          "brandImageUrls": [
+            {
+              "imageUrl": "images/TB1OE5HLpXXXXbgXXXX_xrNLFXX-256-160.jpg",
+              "url": "mainPage"
+            },
+            {
+              "imageUrl": "images/TB1t4xZLpXXXXakXVXX_xrNLFXX-256-160.jpg",
+              "url": "mainPage"
+            }
+          ]
+        }
+      }
     },
     {
       "firstLevelMenu": {
