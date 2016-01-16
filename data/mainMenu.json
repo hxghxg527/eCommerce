@@ -2052,7 +2052,7 @@
           },
           "brandImageUrls": [
             {
-              "imageUrl": "images/TB1OE5HLpXXXXbgXXXX_xrNLFXX-256-160.jpg",
+              "imageUrl": "images/TB2C7fxfVXXXXagXXXXXXXXXXXX_!!519286239.jpg",
               "url": "mainPage"
             }
           ]
@@ -2077,7 +2077,474 @@
           }
         ]
       },
-      "secondLevelMenu": []
+      "secondLevelMenu": {
+        "fontColor": "color_5",
+        "leftList": [
+          {
+            "name": "化妆品",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-397"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "美妆焕新会场",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "官方直售",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "面膜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护肤套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "乳液面霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精华液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护手霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "爽肤水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洁面",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体乳",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卸妆",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "男士护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精油芳疗",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "丰胸",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "面部喷雾",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "T区护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "去角质",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "补水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "芦荟胶",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "祛痘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "敏感修护",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "免费试用",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "线上专柜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                }
+              ]
+            ]
+          },
+          {
+            "name": "彩妆",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-444"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "时尚彩妆",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "BB霜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "美容工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口红",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "隔离",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉底",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉饼",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "气垫bb",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "指甲油",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "美甲工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眉笔",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "睫毛膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "眼线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "唇彩",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "蜜粉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆盘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "遮瑕",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "腮红",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假睫毛",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "双眼皮贴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "高光阴影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆棉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "个人护理",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-491"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "洗发水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护发素",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗护套装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "头发造型",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "染发烫发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卫生巾",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护垫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "牙膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "漱口水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口腔美白",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "沐浴露",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香皂",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "泡澡浴盐",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护足",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗手液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "剃须刀",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "私处洗液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          }
+        ],
+        "rightList": {
+          "characteristicBrand": {
+            "name": "特色品牌",
+            "url": "mainPage",
+            "itemList": [
+              {
+                "name": "兰芝",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "innisfree",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "梦妆",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "HR赫莲娜",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "lancome兰蔻",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "biotherm碧欧泉",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "eskin",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "欧莱雅",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "美宝莲旗舰店",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "美即",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "羽西",
+                "url": "mainPage",
+                "isHighLight": false
+              }
+            ]
+          },
+          "brandImageUrls": [
+            {
+              "imageUrl": "images/TB2C7fxfVXXXXagXXXXXXXXXXXX_!!519286239.jpg",
+              "url": "mainPage"
+            }
+          ]
+        }
+      }
     },
     {
       "firstLevelMenu": {
@@ -2097,7 +2564,474 @@
           }
         ]
       },
-      "secondLevelMenu": []
+      "secondLevelMenu": {
+        "fontColor": "color_4",
+        "leftList": [
+          {
+            "name": "化妆品",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-397"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "美妆焕新会场",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "官方直售",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "面膜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护肤套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "乳液面霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精华液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护手霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "爽肤水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洁面",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体乳",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卸妆",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "男士护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精油芳疗",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "丰胸",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "面部喷雾",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "T区护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "去角质",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "补水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "芦荟胶",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "祛痘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "敏感修护",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "免费试用",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "线上专柜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                }
+              ]
+            ]
+          },
+          {
+            "name": "彩妆",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-444"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "时尚彩妆",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "BB霜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "美容工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口红",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "隔离",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉底",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉饼",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "气垫bb",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "指甲油",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "美甲工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眉笔",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "睫毛膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "眼线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "唇彩",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "蜜粉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆盘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "遮瑕",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "腮红",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假睫毛",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "双眼皮贴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "高光阴影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆棉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "个人护理",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-491"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "洗发水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护发素",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗护套装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "头发造型",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "染发烫发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卫生巾",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护垫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "牙膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "漱口水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口腔美白",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "沐浴露",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香皂",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "泡澡浴盐",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护足",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗手液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "剃须刀",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "私处洗液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          }
+        ],
+        "rightList": {
+          "characteristicBrand": {
+            "name": "特色品牌",
+            "url": "mainPage",
+            "itemList": [
+              {
+                "name": "兰芝",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "innisfree",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "梦妆",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "HR赫莲娜",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "lancome兰蔻",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "biotherm碧欧泉",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "eskin",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "欧莱雅",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "美宝莲旗舰店",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "美即",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "羽西",
+                "url": "mainPage",
+                "isHighLight": false
+              }
+            ]
+          },
+          "brandImageUrls": [
+            {
+              "imageUrl": "images/TB2C7fxfVXXXXagXXXXXXXXXXXX_!!519286239.jpg",
+              "url": "mainPage"
+            }
+          ]
+        }
+      }
     },
     {
       "firstLevelMenu": {
@@ -2109,7 +3043,474 @@
           }
         ]
       },
-      "secondLevelMenu": []
+      "secondLevelMenu": {
+        "fontColor": "color_4",
+        "leftList": [
+          {
+            "name": "化妆品",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-397"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "美妆焕新会场",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "官方直售",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "面膜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护肤套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "乳液面霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精华液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护手霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "爽肤水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洁面",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体乳",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卸妆",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "男士护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精油芳疗",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "丰胸",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "面部喷雾",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "T区护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "去角质",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "补水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "芦荟胶",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "祛痘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "敏感修护",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "免费试用",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "线上专柜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                }
+              ]
+            ]
+          },
+          {
+            "name": "彩妆",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-444"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "时尚彩妆",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "BB霜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "美容工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口红",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "隔离",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉底",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉饼",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "气垫bb",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "指甲油",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "美甲工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眉笔",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "睫毛膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "眼线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "唇彩",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "蜜粉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆盘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "遮瑕",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "腮红",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假睫毛",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "双眼皮贴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "高光阴影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆棉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "个人护理",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-491"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "洗发水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护发素",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗护套装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "头发造型",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "染发烫发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卫生巾",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护垫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "牙膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "漱口水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口腔美白",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "沐浴露",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香皂",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "泡澡浴盐",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护足",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗手液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "剃须刀",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "私处洗液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          }
+        ],
+        "rightList": {
+          "characteristicBrand": {
+            "name": "特色品牌",
+            "url": "mainPage",
+            "itemList": [
+              {
+                "name": "兰芝",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "innisfree",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "梦妆",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "HR赫莲娜",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "lancome兰蔻",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "biotherm碧欧泉",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "eskin",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "欧莱雅",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "美宝莲旗舰店",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "美即",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "羽西",
+                "url": "mainPage",
+                "isHighLight": false
+              }
+            ]
+          },
+          "brandImageUrls": [
+            {
+              "imageUrl": "images/TB2C7fxfVXXXXagXXXXXXXXXXXX_!!519286239.jpg",
+              "url": "mainPage"
+            }
+          ]
+        }
+      }
     },
     {
       "firstLevelMenu": {
@@ -2129,7 +3530,474 @@
           }
         ]
       },
-      "secondLevelMenu": []
+      "secondLevelMenu": {
+        "fontColor": "color_4",
+        "leftList": [
+          {
+            "name": "化妆品",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-397"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "美妆焕新会场",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "官方直售",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "面膜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护肤套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "乳液面霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精华液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护手霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "爽肤水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洁面",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体乳",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卸妆",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "男士护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精油芳疗",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "丰胸",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "面部喷雾",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "T区护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "去角质",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "补水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "芦荟胶",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "祛痘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "敏感修护",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "免费试用",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "线上专柜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                }
+              ]
+            ]
+          },
+          {
+            "name": "彩妆",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-444"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "时尚彩妆",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "BB霜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "美容工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口红",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "隔离",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉底",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉饼",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "气垫bb",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "指甲油",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "美甲工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眉笔",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "睫毛膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "眼线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "唇彩",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "蜜粉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆盘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "遮瑕",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "腮红",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假睫毛",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "双眼皮贴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "高光阴影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆棉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "个人护理",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-491"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "洗发水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护发素",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗护套装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "头发造型",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "染发烫发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卫生巾",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护垫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "牙膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "漱口水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口腔美白",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "沐浴露",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香皂",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "泡澡浴盐",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护足",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗手液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "剃须刀",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "私处洗液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          }
+        ],
+        "rightList": {
+          "characteristicBrand": {
+            "name": "特色品牌",
+            "url": "mainPage",
+            "itemList": [
+              {
+                "name": "兰芝",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "innisfree",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "梦妆",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "HR赫莲娜",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "lancome兰蔻",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "biotherm碧欧泉",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "eskin",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "欧莱雅",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "美宝莲旗舰店",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "美即",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "羽西",
+                "url": "mainPage",
+                "isHighLight": false
+              }
+            ]
+          },
+          "brandImageUrls": [
+            {
+              "imageUrl": "images/TB2C7fxfVXXXXagXXXXXXXXXXXX_!!519286239.jpg",
+              "url": "mainPage"
+            }
+          ]
+        }
+      }
     },
     {
       "firstLevelMenu": {
@@ -2145,7 +4013,474 @@
           }
         ]
       },
-      "secondLevelMenu": []
+      "secondLevelMenu": {
+        "fontColor": "color_4",
+        "leftList": [
+          {
+            "name": "化妆品",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-397"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "美妆焕新会场",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "官方直售",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "面膜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护肤套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "乳液面霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精华液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护手霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "爽肤水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洁面",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体乳",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卸妆",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "男士护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精油芳疗",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "丰胸",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "面部喷雾",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "T区护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "去角质",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "补水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "芦荟胶",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "祛痘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "敏感修护",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "免费试用",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "线上专柜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                }
+              ]
+            ]
+          },
+          {
+            "name": "彩妆",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-444"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "时尚彩妆",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "BB霜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "美容工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口红",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "隔离",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉底",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉饼",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "气垫bb",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "指甲油",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "美甲工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眉笔",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "睫毛膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "眼线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "唇彩",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "蜜粉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆盘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "遮瑕",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "腮红",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假睫毛",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "双眼皮贴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "高光阴影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆棉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "个人护理",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-491"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "洗发水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护发素",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗护套装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "头发造型",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "染发烫发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卫生巾",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护垫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "牙膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "漱口水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口腔美白",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "沐浴露",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香皂",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "泡澡浴盐",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护足",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗手液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "剃须刀",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "私处洗液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          }
+        ],
+        "rightList": {
+          "characteristicBrand": {
+            "name": "特色品牌",
+            "url": "mainPage",
+            "itemList": [
+              {
+                "name": "兰芝",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "innisfree",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "梦妆",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "HR赫莲娜",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "lancome兰蔻",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "biotherm碧欧泉",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "eskin",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "欧莱雅",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "美宝莲旗舰店",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "美即",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "羽西",
+                "url": "mainPage",
+                "isHighLight": false
+              }
+            ]
+          },
+          "brandImageUrls": [
+            {
+              "imageUrl": "images/TB2C7fxfVXXXXagXXXXXXXXXXXX_!!519286239.jpg",
+              "url": "mainPage"
+            }
+          ]
+        }
+      }
     },
     {
       "firstLevelMenu": {
@@ -2157,7 +4492,474 @@
           }
         ]
       },
-      "secondLevelMenu": []
+      "secondLevelMenu": {
+        "fontColor": "color_4",
+        "leftList": [
+          {
+            "name": "化妆品",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-397"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "美妆焕新会场",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "官方直售",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "面膜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护肤套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "乳液面霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精华液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护手霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "爽肤水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洁面",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体乳",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卸妆",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "男士护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精油芳疗",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "丰胸",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "面部喷雾",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "T区护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "去角质",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "补水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "芦荟胶",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "祛痘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "敏感修护",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "免费试用",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "线上专柜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                }
+              ]
+            ]
+          },
+          {
+            "name": "彩妆",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-444"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "时尚彩妆",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "BB霜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "美容工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口红",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "隔离",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉底",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉饼",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "气垫bb",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "指甲油",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "美甲工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眉笔",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "睫毛膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "眼线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "唇彩",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "蜜粉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆盘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "遮瑕",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "腮红",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假睫毛",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "双眼皮贴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "高光阴影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆棉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "个人护理",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-491"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "洗发水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护发素",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗护套装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "头发造型",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "染发烫发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卫生巾",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护垫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "牙膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "漱口水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口腔美白",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "沐浴露",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香皂",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "泡澡浴盐",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护足",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗手液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "剃须刀",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "私处洗液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          }
+        ],
+        "rightList": {
+          "characteristicBrand": {
+            "name": "特色品牌",
+            "url": "mainPage",
+            "itemList": [
+              {
+                "name": "兰芝",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "innisfree",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "梦妆",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "HR赫莲娜",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "lancome兰蔻",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "biotherm碧欧泉",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "eskin",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "欧莱雅",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "美宝莲旗舰店",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "美即",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "羽西",
+                "url": "mainPage",
+                "isHighLight": false
+              }
+            ]
+          },
+          "brandImageUrls": [
+            {
+              "imageUrl": "images/TB2C7fxfVXXXXagXXXXXXXXXXXX_!!519286239.jpg",
+              "url": "mainPage"
+            }
+          ]
+        }
+      }
     },
     {
       "firstLevelMenu": {
@@ -2177,7 +4979,474 @@
           }
         ]
       },
-      "secondLevelMenu": []
+      "secondLevelMenu": {
+        "fontColor": "color_4",
+        "leftList": [
+          {
+            "name": "化妆品",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-397"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "美妆焕新会场",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "官方直售",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "面膜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护肤套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "乳液面霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精华液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护手霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "爽肤水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洁面",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体乳",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卸妆",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "男士护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精油芳疗",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "丰胸",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "面部喷雾",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "T区护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "去角质",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "补水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "芦荟胶",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "祛痘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "敏感修护",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "免费试用",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "线上专柜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                }
+              ]
+            ]
+          },
+          {
+            "name": "彩妆",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-444"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "时尚彩妆",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "BB霜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "美容工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口红",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "隔离",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉底",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉饼",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "气垫bb",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "指甲油",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "美甲工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眉笔",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "睫毛膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "眼线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "唇彩",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "蜜粉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆盘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "遮瑕",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "腮红",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假睫毛",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "双眼皮贴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "高光阴影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆棉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "个人护理",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-491"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "洗发水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护发素",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗护套装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "头发造型",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "染发烫发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卫生巾",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护垫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "牙膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "漱口水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口腔美白",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "沐浴露",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香皂",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "泡澡浴盐",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护足",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗手液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "剃须刀",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "私处洗液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          }
+        ],
+        "rightList": {
+          "characteristicBrand": {
+            "name": "特色品牌",
+            "url": "mainPage",
+            "itemList": [
+              {
+                "name": "兰芝",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "innisfree",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "梦妆",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "HR赫莲娜",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "lancome兰蔻",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "biotherm碧欧泉",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "eskin",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "欧莱雅",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "美宝莲旗舰店",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "美即",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "羽西",
+                "url": "mainPage",
+                "isHighLight": false
+              }
+            ]
+          },
+          "brandImageUrls": [
+            {
+              "imageUrl": "images/TB2C7fxfVXXXXagXXXXXXXXXXXX_!!519286239.jpg",
+              "url": "mainPage"
+            }
+          ]
+        }
+      }
     },
     {
       "firstLevelMenu": {
@@ -2197,7 +5466,474 @@
           }
         ]
       },
-      "secondLevelMenu": []
+      "secondLevelMenu": {
+        "fontColor": "color_4",
+        "leftList": [
+          {
+            "name": "化妆品",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-397"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "美妆焕新会场",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "官方直售",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "面膜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护肤套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "乳液面霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精华液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护手霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "爽肤水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洁面",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体乳",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卸妆",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "男士护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精油芳疗",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "丰胸",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "面部喷雾",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "T区护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "去角质",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "补水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "芦荟胶",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "祛痘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "敏感修护",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "免费试用",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "线上专柜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                }
+              ]
+            ]
+          },
+          {
+            "name": "彩妆",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-444"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "时尚彩妆",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "BB霜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "美容工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口红",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "隔离",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉底",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉饼",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "气垫bb",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "指甲油",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "美甲工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眉笔",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "睫毛膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "眼线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "唇彩",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "蜜粉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆盘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "遮瑕",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "腮红",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假睫毛",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "双眼皮贴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "高光阴影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆棉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "个人护理",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-491"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "洗发水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护发素",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗护套装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "头发造型",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "染发烫发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卫生巾",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护垫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "牙膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "漱口水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口腔美白",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "沐浴露",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香皂",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "泡澡浴盐",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护足",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗手液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "剃须刀",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "私处洗液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          }
+        ],
+        "rightList": {
+          "characteristicBrand": {
+            "name": "特色品牌",
+            "url": "mainPage",
+            "itemList": [
+              {
+                "name": "兰芝",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "innisfree",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "梦妆",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "HR赫莲娜",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "lancome兰蔻",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "biotherm碧欧泉",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "eskin",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "欧莱雅",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "美宝莲旗舰店",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "美即",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "羽西",
+                "url": "mainPage",
+                "isHighLight": false
+              }
+            ]
+          },
+          "brandImageUrls": [
+            {
+              "imageUrl": "images/TB2C7fxfVXXXXagXXXXXXXXXXXX_!!519286239.jpg",
+              "url": "mainPage"
+            }
+          ]
+        }
+      }
     },
     {
       "firstLevelMenu": {
@@ -2209,7 +5945,474 @@
           }
         ]
       },
-      "secondLevelMenu": []
+      "secondLevelMenu": {
+        "fontColor": "color_4",
+        "leftList": [
+          {
+            "name": "化妆品",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-397"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "美妆焕新会场",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "官方直售",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "面膜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护肤套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "乳液面霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精华液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护手霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "爽肤水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洁面",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体乳",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卸妆",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "男士护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精油芳疗",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "丰胸",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "面部喷雾",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "T区护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "去角质",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "补水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "芦荟胶",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "祛痘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "敏感修护",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "免费试用",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "线上专柜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                }
+              ]
+            ]
+          },
+          {
+            "name": "彩妆",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-444"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "时尚彩妆",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "BB霜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "美容工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口红",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "隔离",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉底",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉饼",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "气垫bb",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "指甲油",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "美甲工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眉笔",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "睫毛膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "眼线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "唇彩",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "蜜粉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆盘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "遮瑕",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "腮红",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假睫毛",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "双眼皮贴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "高光阴影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆棉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "个人护理",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-491"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "洗发水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护发素",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗护套装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "头发造型",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "染发烫发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卫生巾",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护垫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "牙膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "漱口水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口腔美白",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "沐浴露",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香皂",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "泡澡浴盐",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护足",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗手液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "剃须刀",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "私处洗液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          }
+        ],
+        "rightList": {
+          "characteristicBrand": {
+            "name": "特色品牌",
+            "url": "mainPage",
+            "itemList": [
+              {
+                "name": "兰芝",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "innisfree",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "梦妆",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "HR赫莲娜",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "lancome兰蔻",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "biotherm碧欧泉",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "eskin",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "欧莱雅",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "美宝莲旗舰店",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "美即",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "羽西",
+                "url": "mainPage",
+                "isHighLight": false
+              }
+            ]
+          },
+          "brandImageUrls": [
+            {
+              "imageUrl": "images/TB2C7fxfVXXXXagXXXXXXXXXXXX_!!519286239.jpg",
+              "url": "mainPage"
+            }
+          ]
+        }
+      }
     },
     {
       "firstLevelMenu": {
@@ -2229,7 +6432,474 @@
           }
         ]
       },
-      "secondLevelMenu": []
+      "secondLevelMenu": {
+        "fontColor": "color_4",
+        "leftList": [
+          {
+            "name": "化妆品",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-397"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "美妆焕新会场",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "官方直售",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "面膜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护肤套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "乳液面霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精华液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护手霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "爽肤水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洁面",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体乳",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卸妆",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "男士护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精油芳疗",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "丰胸",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "面部喷雾",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "T区护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "去角质",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "补水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "芦荟胶",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "祛痘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "敏感修护",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "免费试用",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "线上专柜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                }
+              ]
+            ]
+          },
+          {
+            "name": "彩妆",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-444"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "时尚彩妆",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "BB霜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "美容工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口红",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "隔离",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉底",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉饼",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "气垫bb",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "指甲油",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "美甲工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眉笔",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "睫毛膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "眼线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "唇彩",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "蜜粉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆盘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "遮瑕",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "腮红",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假睫毛",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "双眼皮贴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "高光阴影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆棉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "个人护理",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-491"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "洗发水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护发素",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗护套装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "头发造型",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "染发烫发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卫生巾",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护垫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "牙膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "漱口水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口腔美白",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "沐浴露",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香皂",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "泡澡浴盐",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护足",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗手液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "剃须刀",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "私处洗液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          }
+        ],
+        "rightList": {
+          "characteristicBrand": {
+            "name": "特色品牌",
+            "url": "mainPage",
+            "itemList": [
+              {
+                "name": "兰芝",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "innisfree",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "梦妆",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "HR赫莲娜",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "lancome兰蔻",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "biotherm碧欧泉",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "eskin",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "欧莱雅",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "美宝莲旗舰店",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "美即",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "羽西",
+                "url": "mainPage",
+                "isHighLight": false
+              }
+            ]
+          },
+          "brandImageUrls": [
+            {
+              "imageUrl": "images/TB2C7fxfVXXXXagXXXXXXXXXXXX_!!519286239.jpg",
+              "url": "mainPage"
+            }
+          ]
+        }
+      }
     },
     {
       "firstLevelMenu": {
@@ -2241,7 +6911,474 @@
           }
         ]
       },
-      "secondLevelMenu": []
+      "secondLevelMenu": {
+        "fontColor": "color_4",
+        "leftList": [
+          {
+            "name": "化妆品",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-397"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "美妆焕新会场",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "官方直售",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "面膜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护肤套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "乳液面霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精华液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护手霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "爽肤水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洁面",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体乳",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卸妆",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "男士护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精油芳疗",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "丰胸",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "面部喷雾",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "T区护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "去角质",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "补水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "芦荟胶",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "祛痘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "敏感修护",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "免费试用",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "线上专柜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                }
+              ]
+            ]
+          },
+          {
+            "name": "彩妆",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-444"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "时尚彩妆",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "BB霜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "美容工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口红",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "隔离",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉底",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉饼",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "气垫bb",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "指甲油",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "美甲工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眉笔",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "睫毛膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "眼线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "唇彩",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "蜜粉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆盘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "遮瑕",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "腮红",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假睫毛",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "双眼皮贴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "高光阴影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆棉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "个人护理",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-491"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "洗发水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护发素",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗护套装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "头发造型",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "染发烫发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卫生巾",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护垫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "牙膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "漱口水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口腔美白",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "沐浴露",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香皂",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "泡澡浴盐",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护足",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗手液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "剃须刀",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "私处洗液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          }
+        ],
+        "rightList": {
+          "characteristicBrand": {
+            "name": "特色品牌",
+            "url": "mainPage",
+            "itemList": [
+              {
+                "name": "兰芝",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "innisfree",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "梦妆",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "HR赫莲娜",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "lancome兰蔻",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "biotherm碧欧泉",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "eskin",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "欧莱雅",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "美宝莲旗舰店",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "美即",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "羽西",
+                "url": "mainPage",
+                "isHighLight": false
+              }
+            ]
+          },
+          "brandImageUrls": [
+            {
+              "imageUrl": "images/TB2C7fxfVXXXXagXXXXXXXXXXXX_!!519286239.jpg",
+              "url": "mainPage"
+            }
+          ]
+        }
+      }
     },
     {
       "firstLevelMenu": {
@@ -2253,7 +7390,474 @@
           }
         ]
       },
-      "secondLevelMenu": []
+      "secondLevelMenu": {
+        "fontColor": "color_4",
+        "leftList": [
+          {
+            "name": "化妆品",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-397"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "美妆焕新会场",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "官方直售",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "面膜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护肤套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "乳液面霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精华液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护手霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "爽肤水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洁面",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼霜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体乳",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卸妆",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "身体护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "男士护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "精油芳疗",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "丰胸",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "面部喷雾",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "T区护理",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "去角质",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "补水",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "芦荟胶",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "祛痘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "敏感修护",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "免费试用",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "线上专柜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                }
+              ]
+            ]
+          },
+          {
+            "name": "彩妆",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-444"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "时尚彩妆",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "BB霜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "美容工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口红",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "隔离",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉底",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "粉饼",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "气垫bb",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "指甲油",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "美甲工具",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眉笔",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "睫毛膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "眼线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "唇彩",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "眼影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "蜜粉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩妆盘",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "遮瑕",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "腮红",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假睫毛",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "双眼皮贴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "高光阴影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "化妆棉",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "个人护理",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-491"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "洗发水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护发素",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗护套装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "头发造型",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "染发烫发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "假发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "卫生巾",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "护垫",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "牙膏",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙刷",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "漱口水",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "牙线",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口腔美白",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "沐浴露",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "香皂",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "泡澡浴盐",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "护足",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "洗手液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "剃须刀",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "私处洗液",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          }
+        ],
+        "rightList": {
+          "characteristicBrand": {
+            "name": "特色品牌",
+            "url": "mainPage",
+            "itemList": [
+              {
+                "name": "兰芝",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "innisfree",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "梦妆",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "HR赫莲娜",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "lancome兰蔻",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "biotherm碧欧泉",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "eskin",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "欧莱雅",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "美宝莲旗舰店",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "美即",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "羽西",
+                "url": "mainPage",
+                "isHighLight": false
+              }
+            ]
+          },
+          "brandImageUrls": [
+            {
+              "imageUrl": "images/TB2C7fxfVXXXXagXXXXXXXXXXXX_!!519286239.jpg",
+              "url": "mainPage"
+            }
+          ]
+        }
+      }
     }
   ]
 }
