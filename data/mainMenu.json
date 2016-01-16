@@ -2081,7 +2081,7 @@
         "fontColor": "color_5",
         "leftList": [
           {
-            "name": "化妆品",
+            "name": "珠宝饰品",
             "url": "mainPage",
             "isHasMore": false,
             "iconPosition": {
@@ -2091,135 +2091,182 @@
             "itemList": [
               [
                 {
-                  "name": "美妆焕新会场",
+                  "name": "珠宝",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "转运珠",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "官方直售",
+                  "name": "黄金",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "投资黄金",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "面膜",
+                  "name": "钻石",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "珍珠",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "翡翠",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "彩宝",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "护肤套装",
+                  "name": "铂金",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "乳液面霜",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "精华液",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "护手霜",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "爽肤水",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "洁面",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "眼霜",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "身体乳",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "卸妆",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "身体护理",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "男士护理",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "精油芳疗",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "丰胸",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "面部喷雾",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "T区护理",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "去角质",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "补水",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "芦荟胶",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "祛痘",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "敏感修护",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "免费试用",
+                  "name": "黄金项链",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "线上专柜",
+                  "name": "黄金戒指",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "铂金项链",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "钻石吊坠",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "结婚钻戒",
                   "url": "mainPage",
                   "isHighLight": true
+                },
+                {
+                  "name": "玉镯",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "珍珠项链",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "翡翠吊坠",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "坦桑石",
+                  "url": "mainPage",
+                  "isHighLight": true
+                }
+              ],
+              [
+                {
+                  "name": "饰品年末大清仓!",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "年货节第二趴",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "年货节第一趴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "消失的爱人1.15全国上映",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "传统银饰",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "毛衣链",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "木手串",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "银手镯",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "石榴石手链",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "开口戒指",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "胸针",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "宝宝银饰",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "手链",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "项链",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "发饰",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "手镯",
+                  "url": "mainPage",
+                  "isHighLight": false
                 }
               ]
             ]
           },
           {
-            "name": "彩妆",
+            "name": "腕表眼镜",
             "url": "mainPage",
             "isHasMore": false,
             "iconPosition": {
@@ -2229,245 +2276,199 @@
             "itemList": [
               [
                 {
-                  "name": "时尚彩妆",
+                  "name": "大牌手表",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "香水",
+                  "name": "国货精品",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "BB霜",
+                  "name": "瑞士名表",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "美容工具",
+                  "name": "欧美手表",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "口红",
+                  "name": "经典国表",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "日韩港表",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "男表",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "隔离",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "粉底",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "粉饼",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "气垫bb",
+                  "name": "女表",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "指甲油",
+                  "name": "情侣表",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "美甲工具",
+                  "name": "儿童手表",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "眉笔",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "睫毛膏",
+                  "name": "机械表",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "眼线",
+                  "name": "石英表",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "唇彩",
+                  "name": "光能表",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "眼影",
+                  "name": "防水表",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "蜜粉",
+                  "name": "运动表",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "彩妆套装",
+                  "name": "学生表",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "彩妆盘",
+                  "name": "军表",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "遮瑕",
+                  "name": "陶瓷表",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "腮红",
+                  "name": "绿茶婊",
                   "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "假睫毛",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "化妆刷",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "双眼皮贴",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "高光阴影",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "化妆棉",
-                  "url": "mainPage",
-                  "isHighLight": false
+                  "isHighLight": true
                 }
-              ]
-            ]
-          },
-          {
-            "name": "个人护理",
-            "url": "mainPage",
-            "isHasMore": false,
-            "iconPosition": {
-              "x": "-25",
-              "y": "-491"
-            },
-            "itemList": [
+              ],
               [
                 {
-                  "name": "洗发水",
+                  "name": "眼镜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "滑雪镜",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "护发素",
+                  "name": "太阳镜",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "洗护套装",
+                  "name": "眼镜框",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "配镜",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "头发造型",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "染发烫发",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "假发",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "卫生巾",
+                  "name": "防辐射眼镜",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "护垫",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "牙膏",
+                  "name": "驾驶镜",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "牙刷",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "漱口水",
+                  "name": "运动眼镜",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "牙线",
+                  "name": "老花镜",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "口腔美白",
+                  "name": "3D眼镜",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "沐浴露",
+                  "name": "派对眼镜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "电子烟",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "香皂",
+                  "name": "替烟",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "泡澡浴盐",
+                  "name": "烟嘴",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "护足",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "洗手液",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "剃须刀",
+                  "name": "打火机",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "私处洗液",
+                  "name": "瑞士军刀",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "雷朋",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "宝岛眼镜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "oakley",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "zippo",
                   "url": "mainPage",
                   "isHighLight": false
                 }
@@ -2481,65 +2482,75 @@
             "url": "mainPage",
             "itemList": [
               {
-                "name": "兰芝",
+                "name": "周大福",
                 "url": "mainPage",
                 "isHighLight": true
               },
               {
-                "name": "innisfree",
+                "name": "珂兰",
                 "url": "mainPage",
                 "isHighLight": true
               },
               {
-                "name": "梦妆",
-                "url": "mainPage",
-                "isHighLight": true
-              },
-              {
-                "name": "HR赫莲娜",
-                "url": "mainPage",
-                "isHighLight": true
-              },
-              {
-                "name": "lancome兰蔻",
+                "name": "钻石谷",
                 "url": "mainPage",
                 "isHighLight": false
               },
               {
-                "name": "biotherm碧欧泉",
-                "url": "mainPage",
-                "isHighLight": false
-              },
-              {
-                "name": "eskin",
+                "name": "周生生",
                 "url": "mainPage",
                 "isHighLight": true
               },
               {
-                "name": "欧莱雅",
-                "url": "mainPage",
-                "isHighLight": false
-              },
-              {
-                "name": "美宝莲旗舰店",
+                "name": "潮宏基",
                 "url": "mainPage",
                 "isHighLight": true
               },
               {
-                "name": "美即",
+                "name": "米莱",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "翠佛堂",
                 "url": "mainPage",
                 "isHighLight": false
               },
               {
-                "name": "羽西",
+                "name": "果敢",
                 "url": "mainPage",
                 "isHighLight": false
+              },
+              {
+                "name": "DW",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "Casio",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "Tissot",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "天王",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "罗西尼",
+                "url": "mainPage",
+                "isHighLight": true
               }
             ]
           },
           "brandImageUrls": [
             {
-              "imageUrl": "images/TB2C7fxfVXXXXagXXXXXXXXXXXX_!!519286239.jpg",
+              "imageUrl": "images/TB1JypOLpXXXXcrXpXXXXXXXXXX-256-336.jpg",
               "url": "mainPage"
             }
           ]
