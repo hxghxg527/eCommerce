@@ -655,6 +655,12 @@ html, body {
           color: #cb3a0a; }
         .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_9 .ec-third-level-menu-li:hover a {
           color: #cb3a0a; }
+        .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_10 .ec-third-level-menu-li a {
+          color: #666; }
+        .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_10 .ec-third-level-menu-li.ec-highlight a {
+          color: #B38E63; }
+        .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_10 .ec-third-level-menu-li:hover a {
+          color: #B38E63; }
 
 .ec-sub-menu {
   font-size: 16px;

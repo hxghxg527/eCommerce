@@ -387,6 +387,23 @@
               }
             }
           }
+          &.color_10 {
+            .ec-third-level-menu-li {
+              a {
+                color: #666;
+              }
+              &.ec-highlight {
+                a {
+                  color: #B38E63;
+                }
+              }
+              &:hover {
+                a {
+                  color: #B38E63;
+                }
+              }
+            }
+          }
 
         }
 

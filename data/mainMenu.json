@@ -4594,283 +4594,130 @@
         ]
       },
       "secondLevelMenu": {
-        "fontColor": "color_4",
+        "fontColor": "color_10",
         "leftList": [
           {
-            "name": "化妆品",
+            "name": "住宅家具",
             "url": "mainPage",
             "isHasMore": false,
             "iconPosition": {
               "x": "-25",
-              "y": "-397"
+              "y": "-1907"
             },
             "itemList": [
               [
                 {
-                  "name": "美妆焕新会场",
+                  "name": "沙发",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "官方直售",
+                  "name": "沙发床",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "真皮沙发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "布艺沙发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "实木沙发",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "懒人沙发",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "面膜",
+                  "name": "欧式床",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "实木床",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "皮床",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "折叠床",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "护肤套装",
+                  "name": "双人床",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "乳液面霜",
+                  "name": "单人床",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "精华液",
+                  "name": "榻榻米床",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "护手霜",
+                  "name": "公主床",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "爽肤水",
+                  "name": "衣柜",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "洁面",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "眼霜",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "身体乳",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "卸妆",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "身体护理",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "男士护理",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "精油芳疗",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "丰胸",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "面部喷雾",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "T区护理",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "去角质",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "补水",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "芦荟胶",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "祛痘",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "敏感修护",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "免费试用",
+                  "name": "成套家具",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "线上专柜",
-                  "url": "mainPage",
-                  "isHighLight": true
-                }
-              ]
-            ]
-          },
-          {
-            "name": "彩妆",
-            "url": "mainPage",
-            "isHasMore": false,
-            "iconPosition": {
-              "x": "-25",
-              "y": "-444"
-            },
-            "itemList": [
-              [
-                {
-                  "name": "时尚彩妆",
-                  "url": "mainPage",
-                  "isHighLight": true
-                },
-                {
-                  "name": "香水",
-                  "url": "mainPage",
-                  "isHighLight": true
-                },
-                {
-                  "name": "BB霜",
-                  "url": "mainPage",
-                  "isHighLight": true
-                },
-                {
-                  "name": "美容工具",
+                  "name": "床垫",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "口红",
-                  "url": "mainPage",
-                  "isHighLight": true
-                },
-                {
-                  "name": "隔离",
+                  "name": "乳胶床垫",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "粉底",
+                  "name": "电视柜",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "粉饼",
+                  "name": "床头柜",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "气垫bb",
-                  "url": "mainPage",
-                  "isHighLight": true
-                },
-                {
-                  "name": "指甲油",
+                  "name": "简易衣柜",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "美甲工具",
+                  "name": "鞋柜",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "眉笔",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "睫毛膏",
-                  "url": "mainPage",
-                  "isHighLight": true
-                },
-                {
-                  "name": "眼线",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "唇彩",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "眼影",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "蜜粉",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "彩妆套装",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "彩妆盘",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "遮瑕",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "腮红",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "假睫毛",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "化妆刷",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "双眼皮贴",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "高光阴影",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "化妆棉",
+                  "name": "椅子",
                   "url": "mainPage",
                   "isHighLight": false
                 }
@@ -4878,112 +4725,263 @@
             ]
           },
           {
-            "name": "个人护理",
+            "name": "建材灯饰",
             "url": "mainPage",
             "isHasMore": false,
             "iconPosition": {
               "x": "-25",
-              "y": "-491"
+              "y": "-1954"
             },
             "itemList": [
               [
                 {
-                  "name": "洗发水",
+                  "name": "吸顶灯",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "护发素",
+                  "name": "吊灯",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "洗护套装",
+                  "name": "水晶吊灯",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "筒灯",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "射灯",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "头发造型",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "染发烫发",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "假发",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "卫生巾",
+                  "name": "灯带",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "护垫",
+                  "name": "LED灯泡",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "牙膏",
+                  "name": "壁灯",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "强化复合地板",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "牙刷",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "漱口水",
+                  "name": "瓷砖",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "牙线",
+                  "name": "浴霸",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "口腔美白",
+                  "name": "集成吊顶",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "沐浴露",
+                  "name": "壁纸",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "涂料",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "香皂",
+                  "name": "瓷砖背景墙",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "泡澡浴盐",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "护足",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "洗手液",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "剃须刀",
+                  "name": "马桶",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "私处洗液",
+                  "name": "淋浴花洒套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "浴室柜组合",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "水槽套餐",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "智能马桶盖板",
+                  "url": "mainPage",
+                  "isHighLight": true
+                }
+              ]
+            ]
+          },
+          {
+            "name": "电工五金",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-2001"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "开关插座",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "接线板",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "USB插座",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "断路器",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "电线",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "监控摄像头",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "无线摄像头",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "监控设备套装",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "安防器材",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "门锁",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "指纹锁",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "拉手",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "电钻",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "定制装修",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-25",
+              "y": "-2048"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "装修",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "定制橱柜",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "整体衣柜",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "门",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "木门",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "暖气片",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "榻榻米",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "全包装修",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "拎包入住",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "家装",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "室内设计",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "装修施工",
                   "url": "mainPage",
                   "isHighLight": false
                 }
@@ -4997,57 +4995,47 @@
             "url": "mainPage",
             "itemList": [
               {
-                "name": "兰芝",
-                "url": "mainPage",
-                "isHighLight": true
-              },
-              {
-                "name": "innisfree",
-                "url": "mainPage",
-                "isHighLight": true
-              },
-              {
-                "name": "梦妆",
-                "url": "mainPage",
-                "isHighLight": true
-              },
-              {
-                "name": "HR赫莲娜",
-                "url": "mainPage",
-                "isHighLight": true
-              },
-              {
-                "name": "lancome兰蔻",
+                "name": "林氏木业",
                 "url": "mainPage",
                 "isHighLight": false
               },
               {
-                "name": "biotherm碧欧泉",
-                "url": "mainPage",
-                "isHighLight": false
-              },
-              {
-                "name": "eskin",
+                "name": "实创装饰",
                 "url": "mainPage",
                 "isHighLight": true
               },
               {
-                "name": "欧莱雅",
+                "name": "TATA木门",
                 "url": "mainPage",
                 "isHighLight": false
               },
               {
-                "name": "美宝莲旗舰店",
+                "name": "索菲亚衣柜",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "欧普照明",
+                "url": "mainPage",
+                "isHighLight": false
+              },
+              {
+                "name": "全友家居",
                 "url": "mainPage",
                 "isHighLight": true
               },
               {
-                "name": "美即",
+                "name": "顾家家居",
                 "url": "mainPage",
                 "isHighLight": false
               },
               {
-                "name": "羽西",
+                "name": "九牧卫浴",
+                "url": "mainPage",
+                "isHighLight": true
+              },
+              {
+                "name": "雅兰床垫",
                 "url": "mainPage",
                 "isHighLight": false
               }
