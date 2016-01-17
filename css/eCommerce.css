@@ -661,6 +661,18 @@ html, body {
           color: #B38E63; }
         .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_10 .ec-third-level-menu-li:hover a {
           color: #B38E63; }
+        .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_11 .ec-third-level-menu-li a {
+          color: #666; }
+        .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_11 .ec-third-level-menu-li.ec-highlight a {
+          color: #4459A3; }
+        .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_11 .ec-third-level-menu-li:hover a {
+          color: #4459A3; }
+        .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_12 .ec-third-level-menu-li a {
+          color: #666; }
+        .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_12 .ec-third-level-menu-li.ec-highlight a {
+          color: #4459A3; }
+        .ec-main-menu .menu-container .first-level-menu-ul .first-level-menu-li .second-level-menu-container.color_12 .ec-third-level-menu-li:hover a {
+          color: #4459A3; }
 
 .ec-sub-menu {
   font-size: 16px;
