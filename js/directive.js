@@ -5,5 +5,6 @@
 'use strict';
 
 angular.module('ec.directive', [
-    'ec.directive.template'
+    'ec.directive.template',
+    'ec.directive.mainMenu'
 ]);

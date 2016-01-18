@@ -6,9 +6,9 @@
         </div>
 
         <div class="first-level-menu-container">
-            <ul class="first-level-menu-ul" ng-mouseleave="leave();">
+            <ul class="first-level-menu-ul" ng-mouseleave="leaveMenu();">
                 <li class="first-level-menu-li" ng-repeat="menu in ecMainMenu.mainMenuList track by $index"
-                    ng-mouseenter="changeMenuModel($index);">
+                    ng-mouseenter="enterMenu($index);">
                     <div class="first-level-menu-li-content">
                         <span class="first-level-icon">{{menu.firstLevelMenu.iconText}}</span>
                     <span ng-repeat="firstLevelMenuTags in menu.firstLevelMenu.tags track by $index">
