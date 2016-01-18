@@ -8,7 +8,7 @@
     width: 200px;
 
     &:hover {
-      .first-level-menu-ul {
+      .first-level-menu-container {
         display: block;
       }
       .btn-container {
@@ -38,7 +38,7 @@
       }
     }
 
-    .first-level-menu-ul {
+    .first-level-menu-container {
       position: absolute;
       width: 200px;
       height: 500px;
