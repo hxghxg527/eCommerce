@@ -471,14 +471,16 @@ html, body {
       color: #fff;
       background-color: rgba(0, 0, 0, 0.8);
       display: block; }
+      .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-ul:hover .second-level-menu-container {
+        display: block; }
       .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li {
         font-size: 14px; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li:hover .first-level-menu-li-content {
+        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li.active .first-level-menu-li-content {
           background-color: #000; }
-          .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li:hover .first-level-menu-li-content .first-level-icon {
+          .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li.active .first-level-menu-li-content .first-level-icon {
             opacity: 1;
             transform: rotate(-30deg); }
-          .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li:hover .first-level-menu-li-content .arrow {
+          .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li.active .first-level-menu-li-content .arrow {
             display: block; }
         .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .first-level-menu-li-content {
           height: 31px;
@@ -508,193 +510,194 @@ html, body {
             right: 0;
             top: 9px;
             display: none; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container {
-          position: absolute;
-          width: 780px;
-          height: 500px;
-          left: 200px;
-          top: 0;
-          background-color: rgba(253, 253, 253, 0.98);
-          display: none;
-          color: #000; }
-          .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-left {
-            float: left;
-            padding: 5px 20px 0;
-            width: 480px; }
-            .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li {
-              overflow: hidden; }
-              .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-title {
-                font-size: 14px;
-                border-bottom: 1px solid #000;
-                padding: 0 8px 0 5px; }
-                .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-title a.ec_detail {
-                  cursor: pointer;
-                  width: auto;
-                  background: url("../images/menu_icons.png") no-repeat;
-                  padding: 19px 0 0 60px;
-                  height: 40px;
-                  color: #000; }
-                .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-title a.ec_more {
-                  margin-top: 19px;
-                  cursor: pointer;
-                  color: #000; }
-              .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-third-level-menu-ul {
-                padding-top: 2px;
-                padding-bottom: 12px;
-                margin-left: -1px;
-                border-bottom: 1px dotted #000; }
-                .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-third-level-menu-ul:last-child {
-                  border-bottom: none; }
-                .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-third-level-menu-ul .ec-third-level-menu-li {
-                  padding: 0 7px;
-                  margin-top: 12px;
-                  color: #666;
-                  font-size: 13px;
-                  line-height: 13px;
-                  cursor: pointer;
-                  border-left: 1px solid #ccc; }
-                  .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-third-level-menu-ul .ec-third-level-menu-li:hover {
-                    text-decoration: underline; }
-          .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-right {
-            float: left;
-            padding: 5px 20px 0;
-            width: 300px; }
-            .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li {
-              overflow: hidden; }
-              .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li .ec-title {
-                font-size: 14px;
-                border-bottom: 1px solid #000;
-                padding: 0 0 0 9px; }
-                .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li .ec-title a.ec_detail {
-                  cursor: pointer;
-                  width: auto;
-                  padding: 19px 0 0 0px;
-                  height: 40px;
-                  color: #000; }
-              .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li .ec-third-level-menu-ul {
-                padding-top: 2px;
-                padding-bottom: 12px;
-                margin-left: -1px;
-                border-bottom: 1px dotted #000; }
-                .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li .ec-third-level-menu-ul:last-child {
-                  border-bottom: none; }
-                .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li .ec-third-level-menu-ul .ec-third-level-menu-li {
-                  padding: 0 7px;
-                  margin-top: 12px;
-                  color: #666;
-                  font-size: 13px;
-                  line-height: 13px;
-                  cursor: pointer;
-                  border-left: 1px solid #ccc; }
-                  .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li .ec-third-level-menu-ul .ec-third-level-menu-li:hover {
-                    text-decoration: underline; }
-            .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li-for-img {
-              margin-top: 6px;
-              margin-bottom: 15px; }
-              .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li-for-img a {
-                width: 100%;
-                height: 100%;
-                display: block; }
-                .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li-for-img a .ec-li-img {
-                  width: 260px;
-                  display: block;
-                  cursor: pointer; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_1 .ec-third-level-menu-li a {
-          color: #666; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_1 .ec-third-level-menu-li.ec-highlight a {
-          color: #d01f47; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_1 .ec-third-level-menu-li:hover a {
-          color: #d01f47; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_2 .ec-third-level-menu-li a {
-          color: #666; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_2 .ec-third-level-menu-li.ec-highlight a {
-          color: #1291cf; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_2 .ec-third-level-menu-li:hover a {
-          color: #1291cf; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_3 .ec-third-level-menu-li a {
-          color: #666; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_3 .ec-third-level-menu-li.ec-highlight a {
-          color: #8b478b; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_3 .ec-third-level-menu-li:hover a {
-          color: #8b478b; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_4 .ec-third-level-menu-li a {
-          color: #666; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_4 .ec-third-level-menu-li.ec-highlight a {
-          color: #d8468d; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_4 .ec-third-level-menu-li:hover a {
-          color: #d8468d; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_5 .ec-third-level-menu-li a {
-          color: #666; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_5 .ec-third-level-menu-li.ec-highlight a {
-          color: #2062d3; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_5 .ec-third-level-menu-li:hover a {
-          color: #2062d3; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_6 .ec-third-level-menu-li a {
-          color: #666; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_6 .ec-third-level-menu-li.ec-highlight a {
-          color: #df3f4e; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_6 .ec-third-level-menu-li:hover a {
-          color: #df3f4e; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_7 .ec-third-level-menu-li a {
-          color: #666; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_7 .ec-third-level-menu-li.ec-highlight a {
-          color: #f56a00; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_7 .ec-third-level-menu-li:hover a {
-          color: #f56a00; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_8 .ec-third-level-menu-li a {
-          color: #666; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_8 .ec-third-level-menu-li.ec-highlight a {
-          color: #2262d3; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_8 .ec-third-level-menu-li:hover a {
-          color: #2262d3; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_9 .ec-third-level-menu-li a {
-          color: #666; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_9 .ec-third-level-menu-li.ec-highlight a {
-          color: #cb3a0a; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_9 .ec-third-level-menu-li:hover a {
-          color: #cb3a0a; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_10 .ec-third-level-menu-li a {
-          color: #666; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_10 .ec-third-level-menu-li.ec-highlight a {
-          color: #B38E63; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_10 .ec-third-level-menu-li:hover a {
-          color: #B38E63; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_11 .ec-third-level-menu-li a {
-          color: #666; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_11 .ec-third-level-menu-li.ec-highlight a {
-          color: #4459A3; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_11 .ec-third-level-menu-li:hover a {
-          color: #4459A3; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_12 .ec-third-level-menu-li a {
-          color: #666; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_12 .ec-third-level-menu-li.ec-highlight a {
-          color: #9fb000; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_12 .ec-third-level-menu-li:hover a {
-          color: #9fb000; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_13 .ec-third-level-menu-li a {
-          color: #666; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_13 .ec-third-level-menu-li.ec-highlight a {
-          color: #00b78b; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_13 .ec-third-level-menu-li:hover a {
-          color: #00b78b; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_14 .ec-third-level-menu-li a {
-          color: #666; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_14 .ec-third-level-menu-li.ec-highlight a {
-          color: #6ba536; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_14 .ec-third-level-menu-li:hover a {
-          color: #6ba536; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_15 .ec-third-level-menu-li a {
-          color: #666; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_15 .ec-third-level-menu-li.ec-highlight a {
-          color: #0190b2; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_15 .ec-third-level-menu-li:hover a {
-          color: #0190b2; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_16 .ec-third-level-menu-li a {
-          color: #666; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_16 .ec-third-level-menu-li.ec-highlight a {
-          color: #2262d3; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .second-level-menu-container.color_16 .ec-third-level-menu-li:hover a {
-          color: #2262d3; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container {
+        position: absolute;
+        width: 780px;
+        height: 500px;
+        left: 200px;
+        top: 0;
+        background-color: rgba(253, 253, 253, 0.98);
+        display: none;
+        color: #000;
+        overflow: hidden; }
+        .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-left {
+          float: left;
+          padding: 5px 20px 0;
+          width: 480px; }
+          .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li {
+            overflow: hidden; }
+            .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-title {
+              font-size: 14px;
+              border-bottom: 1px solid #000;
+              padding: 0 8px 0 5px; }
+              .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-title a.ec_detail {
+                cursor: pointer;
+                width: auto;
+                background: url("../images/menu_icons.png") no-repeat;
+                padding: 19px 0 0 60px;
+                height: 40px;
+                color: #000; }
+              .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-title a.ec_more {
+                margin-top: 19px;
+                cursor: pointer;
+                color: #000; }
+            .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-third-level-menu-ul {
+              padding-top: 2px;
+              padding-bottom: 12px;
+              margin-left: -1px;
+              border-bottom: 1px dotted #000; }
+              .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-third-level-menu-ul:last-child {
+                border-bottom: none; }
+              .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-third-level-menu-ul .ec-third-level-menu-li {
+                padding: 0 7px;
+                margin-top: 12px;
+                color: #666;
+                font-size: 13px;
+                line-height: 13px;
+                cursor: pointer;
+                border-left: 1px solid #ccc; }
+                .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-left .second-level-menu-ul-left-li .ec-third-level-menu-ul .ec-third-level-menu-li:hover {
+                  text-decoration: underline; }
+        .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-right {
+          float: left;
+          padding: 5px 20px 0;
+          width: 300px; }
+          .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li {
+            overflow: hidden; }
+            .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li .ec-title {
+              font-size: 14px;
+              border-bottom: 1px solid #000;
+              padding: 0 0 0 9px; }
+              .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li .ec-title a.ec_detail {
+                cursor: pointer;
+                width: auto;
+                padding: 19px 0 0 0px;
+                height: 40px;
+                color: #000; }
+            .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li .ec-third-level-menu-ul {
+              padding-top: 2px;
+              padding-bottom: 12px;
+              margin-left: -1px;
+              border-bottom: 1px dotted #000; }
+              .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li .ec-third-level-menu-ul:last-child {
+                border-bottom: none; }
+              .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li .ec-third-level-menu-ul .ec-third-level-menu-li {
+                padding: 0 7px;
+                margin-top: 12px;
+                color: #666;
+                font-size: 13px;
+                line-height: 13px;
+                cursor: pointer;
+                border-left: 1px solid #ccc; }
+                .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li .ec-third-level-menu-ul .ec-third-level-menu-li:hover {
+                  text-decoration: underline; }
+          .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li-for-img {
+            margin-top: 6px;
+            margin-bottom: 15px; }
+            .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li-for-img a {
+              width: 100%;
+              height: 100%;
+              display: block; }
+              .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container .second-level-menu-ul-right .second-level-menu-ul-right-li-for-img a .ec-li-img {
+                width: 260px;
+                display: block;
+                cursor: pointer; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_1 .ec-third-level-menu-li a {
+        color: #666; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_1 .ec-third-level-menu-li.ec-highlight a {
+        color: #d01f47; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_1 .ec-third-level-menu-li:hover a {
+        color: #d01f47; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_2 .ec-third-level-menu-li a {
+        color: #666; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_2 .ec-third-level-menu-li.ec-highlight a {
+        color: #1291cf; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_2 .ec-third-level-menu-li:hover a {
+        color: #1291cf; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_3 .ec-third-level-menu-li a {
+        color: #666; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_3 .ec-third-level-menu-li.ec-highlight a {
+        color: #8b478b; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_3 .ec-third-level-menu-li:hover a {
+        color: #8b478b; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_4 .ec-third-level-menu-li a {
+        color: #666; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_4 .ec-third-level-menu-li.ec-highlight a {
+        color: #d8468d; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_4 .ec-third-level-menu-li:hover a {
+        color: #d8468d; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_5 .ec-third-level-menu-li a {
+        color: #666; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_5 .ec-third-level-menu-li.ec-highlight a {
+        color: #2062d3; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_5 .ec-third-level-menu-li:hover a {
+        color: #2062d3; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_6 .ec-third-level-menu-li a {
+        color: #666; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_6 .ec-third-level-menu-li.ec-highlight a {
+        color: #df3f4e; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_6 .ec-third-level-menu-li:hover a {
+        color: #df3f4e; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_7 .ec-third-level-menu-li a {
+        color: #666; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_7 .ec-third-level-menu-li.ec-highlight a {
+        color: #f56a00; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_7 .ec-third-level-menu-li:hover a {
+        color: #f56a00; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_8 .ec-third-level-menu-li a {
+        color: #666; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_8 .ec-third-level-menu-li.ec-highlight a {
+        color: #2262d3; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_8 .ec-third-level-menu-li:hover a {
+        color: #2262d3; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_9 .ec-third-level-menu-li a {
+        color: #666; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_9 .ec-third-level-menu-li.ec-highlight a {
+        color: #cb3a0a; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_9 .ec-third-level-menu-li:hover a {
+        color: #cb3a0a; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_10 .ec-third-level-menu-li a {
+        color: #666; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_10 .ec-third-level-menu-li.ec-highlight a {
+        color: #B38E63; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_10 .ec-third-level-menu-li:hover a {
+        color: #B38E63; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_11 .ec-third-level-menu-li a {
+        color: #666; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_11 .ec-third-level-menu-li.ec-highlight a {
+        color: #4459A3; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_11 .ec-third-level-menu-li:hover a {
+        color: #4459A3; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_12 .ec-third-level-menu-li a {
+        color: #666; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_12 .ec-third-level-menu-li.ec-highlight a {
+        color: #9fb000; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_12 .ec-third-level-menu-li:hover a {
+        color: #9fb000; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_13 .ec-third-level-menu-li a {
+        color: #666; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_13 .ec-third-level-menu-li.ec-highlight a {
+        color: #00b78b; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_13 .ec-third-level-menu-li:hover a {
+        color: #00b78b; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_14 .ec-third-level-menu-li a {
+        color: #666; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_14 .ec-third-level-menu-li.ec-highlight a {
+        color: #6ba536; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_14 .ec-third-level-menu-li:hover a {
+        color: #6ba536; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_15 .ec-third-level-menu-li a {
+        color: #666; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_15 .ec-third-level-menu-li.ec-highlight a {
+        color: #0190b2; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_15 .ec-third-level-menu-li:hover a {
+        color: #0190b2; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_16 .ec-third-level-menu-li a {
+        color: #666; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_16 .ec-third-level-menu-li.ec-highlight a {
+        color: #2262d3; }
+      .ec-main-menu .menu-container .first-level-menu-container .second-level-menu-container.color_16 .ec-third-level-menu-li:hover a {
+        color: #2262d3; }
 
 .ec-sub-menu {
   font-size: 16px;
