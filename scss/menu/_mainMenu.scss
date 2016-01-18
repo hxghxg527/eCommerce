@@ -111,7 +111,7 @@
           left: 200px;
           top: 0;
           background-color: rgba(253, 253, 253, .98);
-          display: block;
+          display: none;
           color: #000;
 
           .second-level-menu-ul-left {
@@ -468,6 +468,40 @@
               &:hover {
                 a {
                   color: #6ba536;
+                }
+              }
+            }
+          }
+          &.color_15 {
+            .ec-third-level-menu-li {
+              a {
+                color: #666;
+              }
+              &.ec-highlight {
+                a {
+                  color: #0190b2;
+                }
+              }
+              &:hover {
+                a {
+                  color: #0190b2;
+                }
+              }
+            }
+          }
+          &.color_16 {
+            .ec-third-level-menu-li {
+              a {
+                color: #666;
+              }
+              &.ec-highlight {
+                a {
+                  color: #2262d3;
+                }
+              }
+              &:hover {
+                a {
+                  color: #2262d3;
                 }
               }
             }

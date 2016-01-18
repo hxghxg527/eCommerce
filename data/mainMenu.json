@@ -7069,140 +7069,140 @@
         ]
       },
       "secondLevelMenu": {
-        "fontColor": "color_4",
+        "fontColor": "color_15",
         "leftList": [
           {
-            "name": "化妆品",
+            "name": "文艺",
             "url": "mainPage",
             "isHasMore": false,
             "iconPosition": {
               "x": "-25",
-              "y": "-397"
+              "y": "-2518"
             },
             "itemList": [
               [
                 {
-                  "name": "美妆焕新会场",
+                  "name": "畅销书",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "官方直售",
+                  "name": "文学",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "面膜",
+                  "name": "小说",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "护肤套装",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "乳液面霜",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "精华液",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "护手霜",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "爽肤水",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "洁面",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "眼霜",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "身体乳",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "卸妆",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "身体护理",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "男士护理",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "精油芳疗",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "丰胸",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "面部喷雾",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "T区护理",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "去角质",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "补水",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "芦荟胶",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "祛痘",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "敏感修护",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "免费试用",
+                  "name": "历史",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "线上专柜",
+                  "name": "传记",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "军事",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "法律",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "涂色",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "字帖",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "诗歌",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "杂志",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "色铅笔",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "素描",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "音乐",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "现当代文学",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "散文随笔",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "收纳",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "菜谱",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "烘培",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "养花",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "旅游",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "摄影",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "旅游随笔",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "地图",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "诺贝尔",
                   "url": "mainPage",
                   "isHighLight": true
                 }
@@ -7210,142 +7210,112 @@
             ]
           },
           {
-            "name": "彩妆",
+            "name": "童书",
             "url": "mainPage",
             "isHasMore": false,
             "iconPosition": {
               "x": "-25",
-              "y": "-444"
+              "y": "-2566"
             },
             "itemList": [
               [
                 {
-                  "name": "时尚彩妆",
+                  "name": "儿童书籍",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "香水",
+                  "name": "少儿书籍",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "儿童图书",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "少儿图书",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "绘本",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "BB霜",
+                  "name": "童话书",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "儿童读物",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "美容工具",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "口红",
+                  "name": "儿童文学",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "隔离",
+                  "name": "亲子读物",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "粉底",
+                  "name": "故事书",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "粉饼",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "气垫bb",
+                  "name": "图画书",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "指甲油",
+                  "name": "剪贴画",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "美甲工具",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "眉笔",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "睫毛膏",
+                  "name": "启蒙书",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "眼线",
+                  "name": "少儿科普",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "唇彩",
+                  "name": "学前书籍",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "眼影",
+                  "name": "学前教育",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "蜜粉",
+                  "name": "畅销童书",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "彩妆套装",
+                  "name": "童话故事",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "彩妆盘",
+                  "name": "儿童教育",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "遮瑕",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "腮红",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "假睫毛",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "化妆刷",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "双眼皮贴",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "高光阴影",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "化妆棉",
+                  "name": "少儿英语",
                   "url": "mainPage",
                   "isHighLight": false
                 }
@@ -7353,112 +7323,165 @@
             ]
           },
           {
-            "name": "个人护理",
+            "name": "学习",
             "url": "mainPage",
             "isHasMore": false,
             "iconPosition": {
               "x": "-25",
-              "y": "-491"
+              "y": "-2613"
             },
             "itemList": [
               [
                 {
-                  "name": "洗发水",
+                  "name": "国考",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "护发素",
+                  "name": "省考",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "洗护套装",
+                  "name": "司法考试",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "计算机考试",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "头发造型",
+                  "name": "四级考试",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "染发烫发",
+                  "name": "六级考试",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "假发",
+                  "name": "医药卫生",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "卫生巾",
+                  "name": "考研",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "护垫",
+                  "name": "高等成人教育",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "牙膏",
+                  "name": "中学教辅",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "小学教辅",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "建筑工程",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "牙刷",
+                  "name": "外语考试",
+                  "url": "mainPage",
+                  "isHighLight": false
+                }
+              ]
+            ]
+          },
+          {
+            "name": "乐器",
+            "url": "mainPage",
+            "isHasMore": false,
+            "iconPosition": {
+              "x": "-24",
+              "y": "-2659"
+            },
+            "itemList": [
+              [
+                {
+                  "name": "乐器",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "漱口水",
+                  "name": "钢琴",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "牙线",
+                  "name": "智能钢琴",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "口腔美白",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "沐浴露",
+                  "name": "电钢琴",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "香皂",
+                  "name": "电子琴",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "泡澡浴盐",
+                  "name": "吉他",
                   "url": "mainPage",
                   "isHighLight": false
                 },
                 {
-                  "name": "护足",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "洗手液",
-                  "url": "mainPage",
-                  "isHighLight": false
-                },
-                {
-                  "name": "剃须刀",
+                  "name": "尤克里里",
                   "url": "mainPage",
                   "isHighLight": true
                 },
                 {
-                  "name": "私处洗液",
+                  "name": "古筝",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "萨克斯",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "小提琴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "儿童乐器",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "口琴",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "电吉他",
+                  "url": "mainPage",
+                  "isHighLight": true
+                },
+                {
+                  "name": "电贝司",
+                  "url": "mainPage",
+                  "isHighLight": false
+                },
+                {
+                  "name": "民谣吉他",
                   "url": "mainPage",
                   "isHighLight": false
                 }
@@ -7472,57 +7495,42 @@
             "url": "mainPage",
             "itemList": [
               {
-                "name": "兰芝",
+                "name": "当当网",
                 "url": "mainPage",
                 "isHighLight": true
               },
               {
-                "name": "innisfree",
+                "name": "博库",
                 "url": "mainPage",
                 "isHighLight": true
               },
               {
-                "name": "梦妆",
+                "name": "新华文轩",
                 "url": "mainPage",
                 "isHighLight": true
               },
               {
-                "name": "HR赫莲娜",
-                "url": "mainPage",
-                "isHighLight": true
-              },
-              {
-                "name": "lancome兰蔻",
+                "name": "晨应",
                 "url": "mainPage",
                 "isHighLight": false
               },
               {
-                "name": "biotherm碧欧泉",
+                "name": "葫芦弟弟",
                 "url": "mainPage",
                 "isHighLight": false
               },
               {
-                "name": "eskin",
-                "url": "mainPage",
-                "isHighLight": true
-              },
-              {
-                "name": "欧莱雅",
+                "name": "梦在书乡",
                 "url": "mainPage",
                 "isHighLight": false
               },
               {
-                "name": "美宝莲旗舰店",
-                "url": "mainPage",
-                "isHighLight": true
-              },
-              {
-                "name": "美即",
+                "name": "岳麓书社",
                 "url": "mainPage",
                 "isHighLight": false
               },
               {
-                "name": "羽西",
+                "name": "杂志铺",
                 "url": "mainPage",
                 "isHighLight": false
               }
@@ -7548,7 +7556,7 @@
         ]
       },
       "secondLevelMenu": {
-        "fontColor": "color_4",
+        "fontColor": "color_16",
         "leftList": [
           {
             "name": "化妆品",
