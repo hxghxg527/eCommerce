@@ -445,12 +445,29 @@
               }
               &.ec-highlight {
                 a {
-                  color: #9fb000;
+                  color: #00b78b;
                 }
               }
               &:hover {
                 a {
-                  color: #9fb000;
+                  color: #00b78b;
+                }
+              }
+            }
+          }
+          &.color_14 {
+            .ec-third-level-menu-li {
+              a {
+                color: #666;
+              }
+              &.ec-highlight {
+                a {
+                  color: #00b78b;
+                }
+              }
+              &:hover {
+                a {
+                  color: #00b78b;
                 }
               }
             }
