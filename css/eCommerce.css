@@ -480,8 +480,6 @@ html, body {
             transform: rotate(-30deg); }
           .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li:hover .first-level-menu-li-content .arrow {
             display: block; }
-        .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li:hover .second-level-menu-container {
-          display: block; }
         .ec-main-menu .menu-container .first-level-menu-container .first-level-menu-li .first-level-menu-li-content {
           height: 31px;
           line-height: 31px;
