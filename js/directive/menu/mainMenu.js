@@ -9,11 +9,10 @@ angular.module('ec.directive.mainMenu', [])
         return {
             restrict: 'C',
             link: function (scope, element, attr) {
-                scope.$watch(function () {
-                    return scope.activeIndex;
-                }, function (activeIndex) {
-                    $('.first-level-menu-li').removeClass('active');
-                    if (activeIndex > -1) $('.first-level-menu-li').eq(activeIndex).addClass('active');
+                scope.$watch('activeIndex', function (activeIndex) {
+                    var liElement = $(element).find('.first-level-menu-li');
+                    liElement.removeClass('active');
+                    if (activeIndex > -1) liElement.eq(activeIndex).addClass('active');
                 });
             }
         };
