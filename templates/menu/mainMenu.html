@@ -19,47 +19,87 @@
                     </div>
                 </li>
 
-                <div class="second-level-menu-container clearfix {{s_menu.secondLevelMenu.fontColor}}" ng-if="s_menu">
-                    <ul class="second-level-menu-ul-left">
-                        <li class="second-level-menu-ul-left-li"
-                            ng-repeat="leftList in s_menu.secondLevelMenu.leftList track by $index">
-                            <h3 class="ec-title clearfix">
-                                <a class="ec_detail ec_f_l"
-                                   style="background-position-x: {{leftList.iconPosition.x + 'px'}}; background-position-y: {{leftList.iconPosition.y + 'px'}};"
-                                   ui-sref="{{leftList.url}}">{{leftList.name}}</a>
-                                <a class="ec_more ec_f_r" ng-if="leftList.isHasMore" ui-sref="{{leftList.url}}">更多</a>
-                            </h3>
-                            <ul class="ec-third-level-menu-ul clearfix"
-                                ng-repeat="itemListArr in leftList.itemList track by $index">
-                                <li class="ec-third-level-menu-li ec_f_l"
-                                    ng-class="{true: 'ec-highlight'}[item.isHighLight]"
-                                    ng-repeat="item in itemListArr track by $index">
-                                    <a ui-sref="{{item.url}}">{{item.name}}</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="second-level-menu-ul-right">
-                        <li class="second-level-menu-ul-right-li">
-                            <h3 class="ec-title clearfix">
-                                <a class="ec_detail ec_f_l"
-                                   ui-sref="{{s_menu.secondLevelMenu.rightList.characteristicBrand.url}}">{{s_menu.secondLevelMenu.rightList.characteristicBrand.name}}</a>
-                            </h3>
-                            <ul class="ec-third-level-menu-ul clearfix">
-                                <li class="ec-third-level-menu-li ec_f_l"
-                                    ng-class="{true:'ec-highlight'}[item.isHighLight]"
-                                    ng-repeat="item in s_menu.secondLevelMenu.rightList.characteristicBrand.itemList track by $index">
-                                    <a ui-sref="{{item.url}}">{{item.name}}</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="second-level-menu-ul-right-li-for-img"
-                            ng-repeat="brandImageUrl in s_menu.secondLevelMenu.rightList.brandImageUrls track by $index">
-                            <a ui-sref="{{brandImageUrl.url}}">
-                                <img class="ec-li-img" ng-src="{{brandImageUrl.imageUrl}}">
-                            </a>
-                        </li>
-                    </ul>
+                <div class="second-level-menu-container {{s_menu.secondLevelMenu.fontColor}}" ng-if="s_menu">
+                    <div class="clearfix" ng-if="activeIndex > -1 && activeIndex < ecMainMenu.mainMenuList.length - 1">
+                        <ul class="second-level-menu-ul-left">
+                            <li class="second-level-menu-ul-left-li"
+                                ng-repeat="leftList in s_menu.secondLevelMenu.leftList track by $index">
+                                <h3 class="ec-title clearfix">
+                                    <a class="ec_detail ec_f_l"
+                                       style="background-position-x: {{leftList.iconPosition.x + 'px'}}; background-position-y: {{leftList.iconPosition.y + 'px'}};"
+                                       ui-sref="{{leftList.url}}">{{leftList.name}}</a>
+                                    <a class="ec_more ec_f_r" ng-if="leftList.isHasMore"
+                                       ui-sref="{{leftList.url}}">更多</a>
+                                </h3>
+                                <ul class="ec-third-level-menu-ul clearfix"
+                                    ng-repeat="itemListArr in leftList.itemList track by $index">
+                                    <li class="ec-third-level-menu-li ec_f_l"
+                                        ng-class="{true: 'ec-highlight'}[item.isHighLight]"
+                                        ng-repeat="item in itemListArr track by $index">
+                                        <a ui-sref="{{item.url}}">{{item.name}}</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="second-level-menu-ul-right">
+                            <li class="second-level-menu-ul-right-li">
+                                <h3 class="ec-title clearfix">
+                                    <a class="ec_detail ec_f_l"
+                                       ui-sref="{{s_menu.secondLevelMenu.rightList.characteristicBrand.url}}">{{s_menu.secondLevelMenu.rightList.characteristicBrand.name}}</a>
+                                </h3>
+                                <ul class="ec-third-level-menu-ul clearfix">
+                                    <li class="ec-third-level-menu-li ec_f_l"
+                                        ng-class="{true:'ec-highlight'}[item.isHighLight]"
+                                        ng-repeat="item in s_menu.secondLevelMenu.rightList.characteristicBrand.itemList track by $index">
+                                        <a ui-sref="{{item.url}}">{{item.name}}</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="second-level-menu-ul-right-li-for-img"
+                                ng-repeat="brandImageUrl in s_menu.secondLevelMenu.rightList.brandImageUrls track by $index">
+                                <a ui-sref="{{brandImageUrl.url}}">
+                                    <img class="ec-li-img" ng-src="{{brandImageUrl.imageUrl}}">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ec-container-for-supermarket" ng-if="activeIndex == ecMainMenu.mainMenuList.length - 1">
+                        <div class="ec-second-level-menu-top-container">
+                            <div class="ec-level-menu-bar clearfix">
+                                <a class="ec-header ec_f_l" ng-bind="s_menu.firstLevelMenu.tags[0].name"
+                                   ui-sref="{{s_menu.firstLevelMenu.tags[0].url}}"></a>
+
+                                <div class="ec-promise ec_f_r"></div>
+                            </div>
+                            <div class="ec-level-menu-img-container">
+                                <a class="ec_f_l" ui-sref="{{brandImage.url}}"
+                                   ng-repeat="brandImage in s_menu.secondLevelMenu.brandImageUrls track by $index">
+                                    <img class="ec_f_l" ng-src="{{brandImage.imageUrl}}">
+                                </a>
+                            </div>
+                        </div>
+
+                        <ul class="second-level-menu-ul-left clearfix">
+                            <li class="second-level-menu-ul-left-li ec_f_l"
+                                ng-repeat="leftList in s_menu.secondLevelMenu.leftList track by $index">
+                                <h3 class="ec-title clearfix">
+                                    <a class="ec_detail ec_f_l"
+                                       style="background-position-x: {{leftList.iconPosition.x + 'px'}}; background-position-y: {{leftList.iconPosition.y + 'px'}};"
+                                       ui-sref="{{leftList.url}}">{{leftList.name}}</a>
+                                    <a class="ec_more ec_f_r" ng-if="leftList.isHasMore"
+                                       ui-sref="{{leftList.url}}">更多</a>
+                                </h3>
+                                <ul class="ec-third-level-menu-ul clearfix"
+                                    ng-repeat="itemListArr in leftList.itemList track by $index">
+                                    <li class="ec-third-level-menu-li ec_f_l"
+                                        ng-class="{true: 'ec-highlight'}[item.isHighLight]"
+                                        ng-repeat="item in itemListArr track by $index">
+                                        <a ui-sref="{{item.url}}">{{item.name}}</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </ul>
         </div>

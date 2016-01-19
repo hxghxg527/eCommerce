@@ -121,6 +121,53 @@
         color: #000;
         overflow: hidden;
 
+        .ec-container-for-supermarket {
+          .ec-second-level-menu-top-container {
+            .ec-level-menu-bar {
+              padding: 10px 0 2px;
+              margin: 0 14px;
+              border-bottom: 1px solid #000;
+
+              .ec-header {
+                font-size: 14px;
+                margin-left: 20px;
+                cursor: pointer;
+                color: #000;
+                font-weight: bold;
+              }
+              .ec-promise {
+                width: 616px;
+                height: 21px;
+                background: url("../images/TB14Ei0JVXXXXbgXFXX1HAwZVXX-616-44.png") no-repeat right top;
+                background-size: auto 21px;
+              }
+            }
+            .ec-level-menu-img-container {
+              padding-top: 10px;
+              margin: 0 14px;
+              width: 100%;
+              height: 100%;
+
+              a {
+                margin-right: 16px;
+                margin-bottom: 10px;
+                cursor: pointer;
+              }
+            }
+          }
+
+          .second-level-menu-ul-left {
+            float: none;
+            width: 800px;
+            margin-left: -15px;
+
+            .second-level-menu-ul-left-li {
+              width: 180px;
+              margin-left: 10px;
+            }
+          }
+        }
+
         .second-level-menu-ul-left {
           float: left;
           padding: 5px 20px 0;
