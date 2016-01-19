@@ -15,12 +15,12 @@ angular.module('ec.controller.mainMenu', [])
         });
 
         $scope.enterMenu = function (idx) {
-            $scope.menu = self.mainMenuList[idx];
+            $scope.s_menu = self.mainMenuList[idx];
             $scope.activeIndex = idx;
         };
 
         $scope.leaveMenu = function () {
-            $scope.menu = null;
+            $scope.s_menu = null;
             $scope.activeIndex = -1;
         };
     });
