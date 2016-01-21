@@ -72,7 +72,7 @@ html, body {
   background-color: #f5f5f5;
   border-bottom: 1px solid #eeeeee;
   position: fixed;
-  z-index: 100;
+  z-index: 200;
   width: 100%;
   height: 34px;
   top: 0;
@@ -749,23 +749,49 @@ html, body {
       color: #c40000; }
 
 .ec-carousel .ec-carousel-content-container {
-  width: 200px;
+  width: 300px;
   height: 500px;
   background: yellow;
-  margin: 0 0 0 250px;
+  margin: 0 0 0 253px;
   position: relative; }
   .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container {
     position: absolute;
-    left: -100%;
+    left: 0%;
     top: 0%;
-    width: 400%;
-    height: 90%;
+    width: 600%;
+    height: 98%;
     background: green; }
     .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container {
-      width: 200px;
-      height: 90%;
-      background: red; }
+      width: 16.6666667%;
+      height: 98%;
+      background: red;
+      text-align: center;
+      line-height: 500px; }
       .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(2n) {
-        background: pink; }
+        background: yellow; }
+      .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:first-child {
+        height: 100%; }
+  .ec-carousel .ec-carousel-content-container .ec-carousel-indicators {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    height: 18px;
+    text-align: center;
+    font-size: 12px; }
+    .ec-carousel .ec-carousel-content-container .ec-carousel-indicators .ec-carousel-indicators-point {
+      width: 18px;
+      height: 18px;
+      line-height: 16px;
+      border-radius: 100%;
+      background: #999;
+      border: 1px solid #999;
+      display: inline-block;
+      margin-left: 10px;
+      cursor: pointer; }
+      .ec-carousel .ec-carousel-content-container .ec-carousel-indicators .ec-carousel-indicators-point:hover {
+        background: #eeeeee; }
+      .ec-carousel .ec-carousel-content-container .ec-carousel-indicators .ec-carousel-indicators-point:first-child {
+        margin-left: 0; }
 
 /*# sourceMappingURL=eCommerce.css.map */
