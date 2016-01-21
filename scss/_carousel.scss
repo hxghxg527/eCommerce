@@ -1,11 +1,11 @@
 .ec-carousel {
   .ec-carousel-content-container {
-    width: 300px;
+    width: 500px;
     height: 500px;
     background: yellow;
     margin: 0 0 0 253px;
     position: relative;
-    //overflow: hidden;
+    overflow: hidden;
 
     .ec-carousel-outer-container {
       position: absolute;
@@ -51,12 +51,11 @@
         margin-left: 10px;
         cursor: pointer;
 
-        &:hover {
-          background: #eeeeee;
-        }
-
         &:first-child {
           margin-left: 0;
+        }
+        &.selected {
+          background: #eeeeee;
         }
       }
     }
