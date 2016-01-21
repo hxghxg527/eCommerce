@@ -6,5 +6,6 @@
 
 angular.module('ec.directive', [
     'ec.directive.template',
-    'ec.directive.mainMenu'
+    'ec.directive.mainMenu',
+    'ec.directive.carousel'
 ]);

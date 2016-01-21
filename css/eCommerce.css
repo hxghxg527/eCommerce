@@ -747,4 +747,7 @@ html, body {
     .ec-sub-menu ul li:hover a {
       color: #c40000; }
 
+.ec-carousel {
+  color: red; }
+
 /*# sourceMappingURL=eCommerce.css.map */

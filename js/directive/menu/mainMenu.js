@@ -8,7 +8,7 @@ angular.module('ec.directive.mainMenu', [])
     .directive('ecMainMenu', function () {
         return {
             restrict: 'C',
-            link: function (scope, element, attr) {
+            link: function (scope, element, attrs) {
                 scope.$watch('activeIndex', function (activeIndex) {
                     var liElement = $(element).find('.first-level-menu-li');
                     liElement.removeClass('active');

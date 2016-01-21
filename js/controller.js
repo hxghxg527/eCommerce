@@ -11,5 +11,6 @@ angular.module('ec.controller', [
     'ec.controller.login',
     'ec.controller.searchBar',
     'ec.controller.mainMenu',
-    'ec.controller.subMenu'
+    'ec.controller.subMenu',
+    'ec.controller.carousel'
 ]);
