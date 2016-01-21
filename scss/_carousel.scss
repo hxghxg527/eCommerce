@@ -1,3 +1,27 @@
 .ec-carousel {
-  color: red;
+  .ec-carousel-content-container {
+    width: 200px;
+    height: 500px;
+    background: yellow;
+    margin: 0 0 0 250px;
+    position: relative;
+    //overflow: hidden;
+
+    .ec-carousel-outer-container {
+      position: absolute;
+      left: -100%;
+      top: 0%;
+      width: 400%;
+      height: 90%;
+      background: green;
+      .ec-carousel-inner-container {
+        width: 200px;
+        height: 90%;
+        background: red;
+        &:nth-child(2n) {
+          background: pink;
+        }
+      }
+    }
+  }
 }

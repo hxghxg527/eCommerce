@@ -440,7 +440,8 @@ html, body {
   position: absolute;
   left: 0;
   top: 0;
-  font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "宋体", 宋体, sans-serif; }
+  font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "宋体", 宋体, sans-serif;
+  z-index: 100; }
   .ec-main-menu .menu-container {
     width: 200px; }
     .ec-main-menu .menu-container:hover .first-level-menu-container {
@@ -747,7 +748,24 @@ html, body {
     .ec-sub-menu ul li:hover a {
       color: #c40000; }
 
-.ec-carousel {
-  color: red; }
+.ec-carousel .ec-carousel-content-container {
+  width: 200px;
+  height: 500px;
+  background: yellow;
+  margin: 0 0 0 250px;
+  position: relative; }
+  .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container {
+    position: absolute;
+    left: -100%;
+    top: 0%;
+    width: 400%;
+    height: 90%;
+    background: green; }
+    .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container {
+      width: 200px;
+      height: 90%;
+      background: red; }
+      .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(2n) {
+        background: pink; }
 
 /*# sourceMappingURL=eCommerce.css.map */
