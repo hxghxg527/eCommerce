@@ -5,7 +5,7 @@
 'use strict';
 
 angular.module('ec.directive.carousel', [])
-    .directive('ecCarousel', function ($timeout) {
+    .directive('ecCarousel', function ($timeout, $interval) {
         return {
             restrict: 'EA',
             templateUrl: 'templates/carousel.html',
@@ -18,32 +18,76 @@ angular.module('ec.directive.carousel', [])
                 var carouselEl = $(element),
                     contentContainerEl = carouselEl.find('.ec-carousel-outer-container'),
                     indicatorPoints = carouselEl.find('.ec-carousel-indicators-point'),
-                    timer = null;
+                    timer1 = null,
+                    timer2 = null,
+                    interval = null,
+                    canInterval = true,
+                    currentIdx = 0,
+                    totalNum = indicatorPoints.length;
 
-                indicatorPoints.bind('mouseenter', function () {
-                    indicatorPoints.removeClass('selected');
-                    $(this).addClass('selected');
-                    var idx = $(this).index();
+                carouselEl.find('.ec-carousel-content-container').width('100%');
+                contentContainerEl.width(totalNum * 100 + '%');
+                carouselEl.find('.ec-carousel-inner-container').width(100 / totalNum + '%');
 
-                    if (timer) {
-                        $timeout.cancel(timer);
-                        timer = null;
+
+                interval = $interval(function () {
+                    if (!canInterval) return;
+                    currentIdx++;
+                    if (currentIdx == totalNum) currentIdx = 0;
+                    indicatorPoints.removeClass('selected').eq(currentIdx).addClass('selected');
+                    contentContainerEl.stop(true).animate({
+                        left: '-' + currentIdx + '00%'
+                    }, 700);
+                }, 5600, false);
+
+                indicatorPoints.on('mouseenter', function () {
+                    if (timer2) {
+                        $timeout.cancel(timer2);
+                        timer2 = null;
                     }
-                    timer = $timeout(function () {
-                        $timeout.cancel(timer);
-                        timer = null;
+                    canInterval = false;
+                    if (currentIdx == $(this).index()) return;
+                    currentIdx = $(this).index();
+                    indicatorPoints.removeClass('selected').eq(currentIdx).addClass('selected');
 
+                    if (timer1) {
+                        $timeout.cancel(timer1);
+                        timer1 = null;
+                    }
+                    timer1 = $timeout(function () {
+                        $timeout.cancel(timer1);
+                        timer1 = null;
                         contentContainerEl.stop(true).animate({
-                            left: '-' + idx + '00%'
+                            left: '-' + currentIdx + '00%'
                         }, 'slow');
-                    }, 1000);
+                    }, 800, false);
+                });
+
+                indicatorPoints.on('mouseleave', function () {
+                    if (timer2) {
+                        $timeout.cancel(timer2);
+                        timer2 = null;
+                    }
+                    timer2 = $timeout(function () {
+                        $timeout.cancel(timer2);
+                        timer2 = null;
+                        canInterval = true;
+                    }, 1400, false);
                 });
 
                 scope.$destroy(function () {
                     contentContainerEl.stop();
-                    if (timer) {
-                        $timeout.cancel(timer);
-                        timer = null;
+                    if (timer1) {
+                        $timeout.cancel(timer1);
+                        timer1 = null;
+                    }
+                    if (timer2) {
+                        $timeout.cancel(timer2);
+                        timer2 = null;
+                    }
+                    if (interval) {
+                        $interval.cancel(interval);
+                        interval = null;
                     }
                 });
             }

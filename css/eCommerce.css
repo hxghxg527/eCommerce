@@ -749,29 +749,20 @@ html, body {
       color: #c40000; }
 
 .ec-carousel .ec-carousel-content-container {
-  width: 500px;
   height: 500px;
-  background: yellow;
-  margin: 0 0 0 253px;
   position: relative;
   overflow: hidden; }
   .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container {
     position: absolute;
     left: 0%;
     top: 0%;
-    width: 600%;
-    height: 98%;
-    background: green; }
+    height: 100%; }
     .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container {
-      width: 16.6666667%;
-      height: 98%;
-      background: red;
+      height: 100%;
       text-align: center;
-      line-height: 500px; }
+      background: rgba(0, 0, 0, 0.6); }
       .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(2n) {
-        background: yellow; }
-      .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:first-child {
-        height: 100%; }
+        background: rgba(0, 0, 0, 0.7); }
   .ec-carousel .ec-carousel-content-container .ec-carousel-indicators {
     position: absolute;
     left: 0;
@@ -783,16 +774,14 @@ html, body {
     .ec-carousel .ec-carousel-content-container .ec-carousel-indicators .ec-carousel-indicators-point {
       width: 18px;
       height: 18px;
-      line-height: 16px;
       border-radius: 100%;
-      background: #999;
-      border: 1px solid #999;
+      border: 2px solid #000;
       display: inline-block;
-      margin-left: 10px;
+      margin-left: 15px;
       cursor: pointer; }
       .ec-carousel .ec-carousel-content-container .ec-carousel-indicators .ec-carousel-indicators-point:first-child {
         margin-left: 0; }
       .ec-carousel .ec-carousel-content-container .ec-carousel-indicators .ec-carousel-indicators-point.selected {
-        background: #eeeeee; }
+        background: rgba(255, 255, 255, 0.2); }
 
 /*# sourceMappingURL=eCommerce.css.map */

@@ -1,9 +1,7 @@
 .ec-carousel {
   .ec-carousel-content-container {
-    width: 500px;
+    //width: 100%; //example
     height: 500px;
-    background: yellow;
-    margin: 0 0 0 253px;
     position: relative;
     overflow: hidden;
 
@@ -11,22 +9,17 @@
       position: absolute;
       left: 0%;
       top: 0%;
-      width: 600%;
-      height: 98%;
-      background: green;
+      //width: 600%; //example
+      height: 100%;
 
       .ec-carousel-inner-container {
-        width: 16.6666667%;
-        height: 98%;
-        background: red;
+        //width: 16.6666667%; //example
+        height: 100%;
         text-align: center;
-        line-height: 500px;
+        background: rgba(0, 0, 0, .6);
 
         &:nth-child(2n) {
-          background: yellow;
-        }
-        &:first-child {
-          height: 100%;
+          background: rgba(0, 0, 0, .7);
         }
       }
     }
@@ -43,19 +36,17 @@
       .ec-carousel-indicators-point {
         width: 18px;
         height: 18px;
-        line-height: 16px;
         border-radius: 100%;
-        background: #999;
-        border: 1px solid #999;
+        border: 2px solid #000;
         display: inline-block;
-        margin-left: 10px;
+        margin-left: 15px;
         cursor: pointer;
 
         &:first-child {
           margin-left: 0;
         }
         &.selected {
-          background: #eeeeee;
+          background: rgba(255, 255, 255, .2);
         }
       }
     }
