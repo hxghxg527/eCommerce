@@ -760,9 +760,28 @@ html, body {
     .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container {
       height: 100%;
       text-align: center;
-      background: rgba(0, 0, 0, 0.6); }
-      .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(2n) {
-        background: rgba(0, 0, 0, 0.7); }
+      cursor: pointer; }
+      .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(1) {
+        background: url("../images/ijnq24kq59_1920_400.jpg") no-repeat center;
+        background-size: cover; }
+      .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(2) {
+        background: url("../images/ijpfwp1b98_1920_400.jpg") no-repeat center;
+        background-size: cover; }
+      .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(3) {
+        background: url("../images/ijpgfeqz84_1920_400.jpg") no-repeat center;
+        background-size: cover; }
+      .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(4) {
+        background: url("../images/ijpgvvc611_1920_400.jpg") no-repeat center;
+        background-size: cover; }
+      .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(5) {
+        background: url("../images/ijpgy6s88_1920_400.jpg") no-repeat center;
+        background-size: cover; }
+      .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(6) {
+        background: url("../images/ijpnj8kc12_1920_400.jpg") no-repeat center;
+        background-size: cover; }
+      .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(7) {
+        background: url("../images/ijpv4dxq56_1920_400.jpg") no-repeat center;
+        background-size: cover; }
   .ec-carousel .ec-carousel-content-container .ec-carousel-indicators {
     position: absolute;
     left: 0;
@@ -782,6 +801,6 @@ html, body {
       .ec-carousel .ec-carousel-content-container .ec-carousel-indicators .ec-carousel-indicators-point:first-child {
         margin-left: 0; }
       .ec-carousel .ec-carousel-content-container .ec-carousel-indicators .ec-carousel-indicators-point.selected {
-        background: rgba(255, 255, 255, 0.2); }
+        background: rgba(255, 255, 255, 0.92); }
 
 /*# sourceMappingURL=eCommerce.css.map */

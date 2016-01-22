@@ -25,10 +25,13 @@ angular.module('ec.directive.carousel', [])
                     currentIdx = 0,
                     totalNum = indicatorPoints.length;
 
-                carouselEl.find('.ec-carousel-content-container').width('100%');
-                contentContainerEl.width(totalNum * 100 + '%');
-                carouselEl.find('.ec-carousel-inner-container').width(100 / totalNum + '%');
+                init();
 
+                function init() {
+                    carouselEl.find('.ec-carousel-content-container').width('100%');
+                    contentContainerEl.width(totalNum * 100 + '%');
+                    carouselEl.find('.ec-carousel-inner-container').width(100 / totalNum + '%');
+                }
 
                 interval = $interval(function () {
                     if (!canInterval) return;
@@ -37,7 +40,7 @@ angular.module('ec.directive.carousel', [])
                     indicatorPoints.removeClass('selected').eq(currentIdx).addClass('selected');
                     contentContainerEl.stop(true).animate({
                         left: '-' + currentIdx + '00%'
-                    }, 700);
+                    }, 600);
                 }, 5600, false);
 
                 indicatorPoints.on('mouseenter', function () {
