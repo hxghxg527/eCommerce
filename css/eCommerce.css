@@ -333,6 +333,7 @@ html, body {
             .ec-login .middle-container .middle .login-container .form-container .username-container input, .ec-login .middle-container .middle .login-container .form-container .password-container input {
               width: 298px;
               height: 40px;
+              line-height: 40px;
               float: right;
               border: none;
               padding: 0 10px; }
