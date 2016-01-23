@@ -19,7 +19,8 @@ angular.module('ec.service.interaction', [])
                 'HOT_QUERY_WORDS': 'data/hotQueryWords.json',
                 'SEARCH_PLACEHOLDER': 'data/searchPlaceHolder.json',
                 'MAIN_MENU': 'data/mainMenu.json',
-                'SUB_MENU': 'data/subMenu.json'
+                'SUB_MENU': 'data/subMenu.json',
+                'MAIN_CAROUSEL': 'data/mainCarousel.json'
             };
 
         interaction.getCurrentUserInfo = function (callBack) {
@@ -107,6 +108,17 @@ angular.module('ec.service.interaction', [])
             $http({
                 'method': AJAX_METHOD.GET,
                 'url': AJAX_URL.SUB_MENU
+            }).success(function (data, status, headers, config, statusText) {
+                callBack(ecConstant.SUCCESS, data);
+            }).error(function (data, status, headers, config, statusText) {
+                console.log('Get subMenu.json failed.');
+            });
+        };
+
+        interaction.getMainCarousel = function (callBack) {
+            $http({
+                'method': AJAX_METHOD.GET,
+                'url': AJAX_URL.MAIN_CAROUSEL
             }).success(function (data, status, headers, config, statusText) {
                 callBack(ecConstant.SUCCESS, data);
             }).error(function (data, status, headers, config, statusText) {

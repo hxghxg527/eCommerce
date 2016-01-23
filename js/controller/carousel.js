@@ -6,5 +6,12 @@
 
 angular.module('ec.controller.carousel', [])
     .controller('ecCarouselController', function ($scope, ecInteractionService, ecConstant) {
-        var self = this;
+        $scope.hasGotData = false;
+
+        ecInteractionService.getMainCarousel(function (status, carousel) {
+            if (ecConstant.SUCCESS == status && carousel) {
+                $scope.carousel = carousel;
+                $scope.hasGotData = true;
+            }
+        });
     });
