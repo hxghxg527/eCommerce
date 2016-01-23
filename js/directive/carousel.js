@@ -20,6 +20,7 @@ angular.module('ec.directive.carousel', [])
                     indicatorPoints = carouselEl.find('.ec-carousel-indicators-point'),
                     timer1 = null,
                     timer2 = null,
+                    timer3 = null,
                     interval = null,
                     canInterval = true,
                     currentIdx = 0,
@@ -41,29 +42,36 @@ angular.module('ec.directive.carousel', [])
                     contentContainerEl.stop(true).animate({
                         left: '-' + currentIdx + '00%'
                     }, 600);
-                }, 5600, false);
+                }, 8600, false);
 
                 indicatorPoints.on('mouseenter', function () {
-                    if (timer2) {
-                        $timeout.cancel(timer2);
-                        timer2 = null;
-                    }
+                    var self = this;
                     canInterval = false;
-                    if (currentIdx == $(this).index()) return;
-                    currentIdx = $(this).index();
-                    indicatorPoints.removeClass('selected').eq(currentIdx).addClass('selected');
+                    timer3 = $timeout(function () {
+                        if (timer2) {
+                            $timeout.cancel(timer2);
+                            timer2 = null;
+                        }
+                        if (timer3) {
+                            $timeout.cancel(timer3);
+                            timer3 = null;
+                        }
+                        if (currentIdx == $(self).index()) return;
+                        currentIdx = $(self).index();
+                        indicatorPoints.removeClass('selected').eq(currentIdx).addClass('selected');
 
-                    if (timer1) {
-                        $timeout.cancel(timer1);
-                        timer1 = null;
-                    }
-                    timer1 = $timeout(function () {
-                        $timeout.cancel(timer1);
-                        timer1 = null;
-                        contentContainerEl.stop(true).animate({
-                            left: '-' + currentIdx + '00%'
-                        }, 'slow');
-                    }, 800, false);
+                        if (timer1) {
+                            $timeout.cancel(timer1);
+                            timer1 = null;
+                        }
+                        timer1 = $timeout(function () {
+                            $timeout.cancel(timer1);
+                            timer1 = null;
+                            contentContainerEl.stop(true).animate({
+                                left: '-' + currentIdx + '00%'
+                            }, 'slow');
+                        }, 800, false);
+                    }, 300, false);
                 });
 
                 indicatorPoints.on('mouseleave', function () {
@@ -71,11 +79,17 @@ angular.module('ec.directive.carousel', [])
                         $timeout.cancel(timer2);
                         timer2 = null;
                     }
-                    timer2 = $timeout(function () {
-                        $timeout.cancel(timer2);
-                        timer2 = null;
+                    if (timer3) {
+                        $timeout.cancel(timer3);
+                        timer3 = null;
                         canInterval = true;
-                    }, 1400, false);
+                    } else {
+                        timer2 = $timeout(function () {
+                            $timeout.cancel(timer2);
+                            timer2 = null;
+                            canInterval = true;
+                        }, 1700, false);
+                    }
                 });
 
                 scope.$destroy(function () {
@@ -87,6 +101,10 @@ angular.module('ec.directive.carousel', [])
                     if (timer2) {
                         $timeout.cancel(timer2);
                         timer2 = null;
+                    }
+                    if (timer3) {
+                        $timeout.cancel(timer3);
+                        timer3 = null;
                     }
                     if (interval) {
                         $interval.cancel(interval);

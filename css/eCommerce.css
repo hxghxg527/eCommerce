@@ -762,16 +762,16 @@ html, body {
       text-align: center;
       cursor: pointer; }
       .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(1) {
-        background: url("../images/ijnq24kq59_1920_400.jpg") no-repeat center;
-        background-size: cover; }
-      .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(2) {
         background: url("../images/ijpfwp1b98_1920_400.jpg") no-repeat center;
         background-size: cover; }
-      .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(3) {
+      .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(2) {
         background: url("../images/ijpgfeqz84_1920_400.jpg") no-repeat center;
         background-size: cover; }
-      .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(4) {
+      .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(3) {
         background: url("../images/ijpgvvc611_1920_400.jpg") no-repeat center;
+        background-size: cover; }
+      .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(4) {
+        background: url("../images/ijnq24kq59_1920_400.jpg") no-repeat center;
         background-size: cover; }
       .ec-carousel .ec-carousel-content-container .ec-carousel-outer-container .ec-carousel-inner-container:nth-child(5) {
         background: url("../images/ijpgy6s88_1920_400.jpg") no-repeat center;
