@@ -12,5 +12,6 @@ angular.module('ec.controller', [
     'ec.controller.searchBar',
     'ec.controller.mainMenu',
     'ec.controller.subMenu',
-    'ec.controller.carousel'
+    'ec.controller.carousel',
+    'ec.controller.featuredChannel'
 ]);
