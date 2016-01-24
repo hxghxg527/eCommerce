@@ -923,6 +923,16 @@ html, body {
           width: 150px;
           height: 80px;
           background: url("../images/hotBrand/TB1dR6tKVXXXXbzXFXXSutbFXXX.jpg_140x100q90.jpg_.webp") no-repeat center;
-          background-size: 90px auto; }
+          background-size: 90px auto;
+          position: relative; }
+          .ec-hot-brand .ec-hot-brand-container .ec-hot-brand-content .ec-hot-brand-left-container .ec-hot-brand-left-container-ul .ec-hot-brand-left-container-li .ec-like {
+            color: #c40000;
+            font-size: 12px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            display: none; }
+          .ec-hot-brand .ec-hot-brand-container .ec-hot-brand-content .ec-hot-brand-left-container .ec-hot-brand-left-container-ul .ec-hot-brand-left-container-li:hover .ec-like {
+            display: block; }
 
 /*# sourceMappingURL=eCommerce.css.map */

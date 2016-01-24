@@ -58,6 +58,19 @@
             height: 80px;
             background: url("../images/hotBrand/TB1dR6tKVXXXXbzXFXXSutbFXXX.jpg_140x100q90.jpg_.webp") no-repeat center;
             background-size: 90px auto;
+            position: relative;
+
+            .ec-like {
+              color: $mainColor;
+              font-size: 12px;
+              position: absolute;
+              right: 10px;
+              top: 10px;
+              display: none;
+            }
+            &:hover .ec-like {
+              display: block;
+            }
           }
         }
       }
