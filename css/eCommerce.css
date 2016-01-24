@@ -62,8 +62,9 @@ html, body {
   height: 100%; }
 
 .ec-main-page {
-  height: 900px;
   padding-top: 34px; }
+  .ec-main-page .ec-main-page-items-container {
+    background-color: whitesmoke; }
 
 .ec-top-bar {
   font-size: 12px;
@@ -825,5 +826,55 @@ html, body {
     .ec-carousel.ec-vertical .ec-carousel-content-container .ec-carousel-indicators .ec-carousel-indicators-point.selected {
       opacity: 1;
       transform: scale(1.15, 1.15); }
+
+.ec-featured-channel {
+  height: 358px; }
+  .ec-featured-channel .ec-featured-channel-container {
+    width: 1200px;
+    margin: auto;
+    padding-top: 10px; }
+    .ec-featured-channel .ec-featured-channel-container .ec-featured-channel-header {
+      height: 30px;
+      line-height: 30px;
+      font-weight: bold;
+      font-size: 17px;
+      padding-left: 5px; }
+    .ec-featured-channel .ec-featured-channel-container .ec-featured-channel-content {
+      background-color: #fff; }
+      .ec-featured-channel .ec-featured-channel-container .ec-featured-channel-content .ec-featured-channel-first-img-link {
+        width: 300px;
+        height: 318px;
+        background: url("../images/featuredChannel/TB1gTz2LpXXXXaqXFXXZeZMQVXX-405-420.jpg") no-repeat center;
+        background-size: cover; }
+      .ec-featured-channel .ec-featured-channel-container .ec-featured-channel-content .ec-featured-channel-left-container {
+        width: 900px;
+        overflow: hidden; }
+        .ec-featured-channel .ec-featured-channel-container .ec-featured-channel-content .ec-featured-channel-left-container .ec-featured-channel-left-container-ul {
+          margin-left: -1px; }
+          .ec-featured-channel .ec-featured-channel-container .ec-featured-channel-content .ec-featured-channel-left-container .ec-featured-channel-left-container-ul .ec-featured-channel-left-container-li {
+            height: 159px;
+            width: 300px; }
+            .ec-featured-channel .ec-featured-channel-container .ec-featured-channel-content .ec-featured-channel-left-container .ec-featured-channel-left-container-ul .ec-featured-channel-left-container-li .ec-featured-channel-li-inner-container {
+              display: block;
+              height: 100%;
+              cursor: pointer; }
+              .ec-featured-channel .ec-featured-channel-container .ec-featured-channel-content .ec-featured-channel-left-container .ec-featured-channel-left-container-ul .ec-featured-channel-left-container-li .ec-featured-channel-li-inner-container .ec-featured-channel-li-left-text {
+                height: 115px;
+                overflow: hidden;
+                margin-top: 22px;
+                padding-left: 20px;
+                border-left: 1px solid #e7e7e7; }
+                .ec-featured-channel .ec-featured-channel-container .ec-featured-channel-content .ec-featured-channel-left-container .ec-featured-channel-left-container-ul .ec-featured-channel-left-container-li .ec-featured-channel-li-inner-container .ec-featured-channel-li-left-text .ec-featured-channel-text {
+                  font-size: 14px;
+                  color: #666; }
+                  .ec-featured-channel .ec-featured-channel-container .ec-featured-channel-content .ec-featured-channel-left-container .ec-featured-channel-left-container-ul .ec-featured-channel-left-container-li .ec-featured-channel-li-inner-container .ec-featured-channel-li-left-text .ec-featured-channel-text:first-child {
+                    color: #2f2f2f;
+                    font-weight: bold;
+                    font-size: 18px; }
+              .ec-featured-channel .ec-featured-channel-container .ec-featured-channel-content .ec-featured-channel-left-container .ec-featured-channel-left-container-ul .ec-featured-channel-left-container-li .ec-featured-channel-li-inner-container .ec-featured-channel-li-right-img {
+                background: url("../images/featuredChannel/TB1p2YGKVXXXXbTXXXXQAsJYXXX-180-180.jpg") no-repeat center;
+                background-size: 75%;
+                height: 100%;
+                width: 180px; }
 
 /*# sourceMappingURL=eCommerce.css.map */
