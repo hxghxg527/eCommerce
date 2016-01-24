@@ -7,6 +7,7 @@
         </div>
         <div class="ec-carousel-indicators">
             <div class="ec-carousel-indicators-point" ng-class="{true:'selected'}[$first]"
+                 ng-style="{'background-image':'url({{carouselItem.imageUrl}})'}"
                  ng-repeat="carouselItem in carousel.carouselData track by $index"></div>
         </div>
     </div>

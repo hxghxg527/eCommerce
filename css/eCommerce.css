@@ -768,22 +768,28 @@ html, body {
   .ec-carousel .ec-carousel-content-container .ec-carousel-indicators {
     position: absolute;
     left: 0;
-    bottom: 50px;
+    bottom: 0;
     width: 100%;
-    height: 18px;
+    height: 64px;
     text-align: center;
-    font-size: 12px; }
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 8px; }
     .ec-carousel .ec-carousel-content-container .ec-carousel-indicators .ec-carousel-indicators-point {
-      width: 18px;
-      height: 18px;
-      border-radius: 100%;
-      border: 2px solid #000;
+      width: 80px;
+      height: 48px;
+      border: 2px solid #fff;
       display: inline-block;
       margin-left: 15px;
-      cursor: pointer; }
+      cursor: pointer;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: .7;
+      transition: transform .45s ease-out, opacity .45s ease-out; }
       .ec-carousel .ec-carousel-content-container .ec-carousel-indicators .ec-carousel-indicators-point:first-child {
         margin-left: 0; }
       .ec-carousel .ec-carousel-content-container .ec-carousel-indicators .ec-carousel-indicators-point.selected {
-        background: rgba(255, 255, 255, 0.92); }
+        opacity: 1;
+        transform: scale(1.15, 1.15); }
 
 /*# sourceMappingURL=eCommerce.css.map */
