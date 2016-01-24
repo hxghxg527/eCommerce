@@ -877,8 +877,52 @@ html, body {
                     font-size: 18px; }
               .ec-featured-channel .ec-featured-channel-container .ec-featured-channel-content .ec-featured-channel-left-container .ec-featured-channel-left-container-ul .ec-featured-channel-left-container-li .ec-featured-channel-li-inner-container .ec-featured-channel-li-right-img {
                 background: url("../images/featuredChannel/TB1p2YGKVXXXXbTXXXXQAsJYXXX-180-180.jpg") no-repeat center;
-                background-size: 75%;
+                background-size: 140px auto;
                 height: 100%;
                 width: 180px; }
+
+.ec-hot-brand {
+  height: 360px; }
+  .ec-hot-brand .ec-hot-brand-container {
+    width: 1200px;
+    margin: auto;
+    padding-top: 10px; }
+    .ec-hot-brand .ec-hot-brand-container .ec-hot-brand-header .ec-header-left {
+      height: 30px;
+      line-height: 30px;
+      font-weight: bold;
+      font-size: 17px;
+      padding-left: 5px; }
+      .ec-hot-brand .ec-hot-brand-container .ec-hot-brand-header .ec-header-left i {
+        padding-left: 3px;
+        color: #ccc;
+        font-weight: normal; }
+    .ec-hot-brand .ec-hot-brand-container .ec-hot-brand-header .ec-header-right {
+      font-size: 14px; }
+      .ec-hot-brand .ec-hot-brand-container .ec-hot-brand-header .ec-header-right span {
+        color: #666;
+        display: inline-block;
+        cursor: pointer;
+        margin: 0 15px; }
+        .ec-hot-brand .ec-hot-brand-container .ec-hot-brand-header .ec-header-right span.selected {
+          color: #2f2f2f;
+          border-bottom: 2px solid #000; }
+    .ec-hot-brand .ec-hot-brand-container .ec-hot-brand-content {
+      background-color: #fff; }
+      .ec-hot-brand .ec-hot-brand-container .ec-hot-brand-content .ec-hot-brand-first-img-link {
+        width: 300px;
+        height: 320px;
+        background: url("../images/hotBrand/TB1uP6GJVXXXXcoXXXXXXXXXXXX-398-422.jpg_q75.jpg_.webp") no-repeat center;
+        background-size: cover; }
+      .ec-hot-brand .ec-hot-brand-container .ec-hot-brand-content .ec-hot-brand-left-container {
+        width: 900px;
+        overflow: hidden; }
+        .ec-hot-brand .ec-hot-brand-container .ec-hot-brand-content .ec-hot-brand-left-container .ec-hot-brand-left-container-ul .ec-hot-brand-left-container-li {
+          border-bottom: 1px solid #f2f2f2;
+          border-right: 1px solid #f2f2f2;
+          width: 150px;
+          height: 80px;
+          background: url("../images/hotBrand/TB1dR6tKVXXXXbzXFXXSutbFXXX.jpg_140x100q90.jpg_.webp") no-repeat center;
+          background-size: 90px auto; }
 
 /*# sourceMappingURL=eCommerce.css.map */

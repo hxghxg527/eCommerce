@@ -13,5 +13,6 @@ angular.module('ec.controller', [
     'ec.controller.mainMenu',
     'ec.controller.subMenu',
     'ec.controller.carousel',
-    'ec.controller.featuredChannel'
+    'ec.controller.featuredChannel',
+    'ec.controller.hotBrand'
 ]);

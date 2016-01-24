@@ -8,5 +8,6 @@ angular.module('ec.directive', [
     'ec.directive.template',
     'ec.directive.mainMenu',
     'ec.directive.carousel',
-    'ec.directive.featuredChannel'
+    'ec.directive.featuredChannel',
+    'ec.directive.hotBrand'
 ]);
