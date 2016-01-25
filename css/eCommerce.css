@@ -928,6 +928,7 @@ html, body {
           background-repeat: no-repeat;
           background-position: center;
           background-size: 90px auto;
+          background-image: url("../images/loading2.gif");
           position: relative; }
           .ec-hot-brand .ec-hot-brand-container .ec-hot-brand-content .ec-hot-brand-left-container .ec-hot-brand-left-container-ul .ec-hot-brand-left-container-li .ec-like {
             color: #c40000;
@@ -938,5 +939,24 @@ html, body {
             display: none; }
           .ec-hot-brand .ec-hot-brand-container .ec-hot-brand-content .ec-hot-brand-left-container .ec-hot-brand-left-container-ul .ec-hot-brand-left-container-li:hover .ec-like {
             display: block; }
+
+.ec-hot-channel {
+  height: 358px; }
+  .ec-hot-channel .ec-hot-channel-container {
+    width: 1200px;
+    margin: auto;
+    padding-top: 10px; }
+    .ec-hot-channel .ec-hot-channel-container .ec-hot-channel-header {
+      height: 30px;
+      line-height: 30px;
+      font-weight: bold;
+      font-size: 17px;
+      padding-left: 5px; }
+      .ec-hot-channel .ec-hot-channel-container .ec-hot-channel-header i {
+        padding-left: 3px;
+        color: #ccc;
+        font-weight: normal; }
+    .ec-hot-channel .ec-hot-channel-container .ec-featured-hot-content {
+      background-color: #fff; }
 
 /*# sourceMappingURL=eCommerce.css.map */

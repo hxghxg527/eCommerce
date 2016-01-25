@@ -9,5 +9,6 @@ angular.module('ec.directive', [
     'ec.directive.mainMenu',
     'ec.directive.carousel',
     'ec.directive.featuredChannel',
-    'ec.directive.hotBrand'
+    'ec.directive.hotBrand',
+    'ec.directive.hotChannel'
 ]);
