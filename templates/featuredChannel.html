@@ -2,74 +2,24 @@
     <div class="ec-featured-channel-container">
         <div class="ec-featured-channel-header">特色市场<i>FEATURED CHANNEL</i></div>
         <div class="ec-featured-channel-content clearfix">
-            <a class="ec-featured-channel-first-img-link ec_f_l" ui-sref="mainPage"></a>
+            <a class="ec-featured-channel-first-img-link ec_f_l"
+               ng-if="featuredChannel && featuredChannel.mainLinkUrl"
+               ui-sref="{{featuredChannel.mainLinkUrl}}"
+               ng-style="{'background-image':'url({{featuredChannel.mainImgUrl}})'}"></a>
 
             <div class="ec-featured-channel-left-container ec_f_l">
                 <ul class="ec-featured-channel-left-container-ul clearfix">
-                    <li class="ec-featured-channel-left-container-li ec_f_l">
-                        <a class="ec-featured-channel-li-inner-container clearfix" ui-sref="mainPage">
+                    <li class="ec-featured-channel-left-container-li ec_f_l"
+                        ng-repeat="channelItem in featuredChannel.list track by $index">
+                        <a class="ec-featured-channel-li-inner-container clearfix" ui-sref="{{channelItem.url}}">
                             <div class="ec-featured-channel-li-left-text ec_f_l">
-                                <div class="ec-featured-channel-text">焕新</div>
-                                <div class="ec-featured-channel-text">女装新品</div>
-                                <div class="ec-featured-channel-text">国际大牌精选</div>
-                                <img src="images/featuredChannel/TB1pdqcKFXXXXX0XXXXrWImIFXX-75-55.jpg">
+                                <div class="ec-featured-channel-text" ng-bind="channelItem.type"></div>
+                                <div class="ec-featured-channel-text" ng-bind="channelItem.tag1"></div>
+                                <div class="ec-featured-channel-text" ng-bind="channelItem.tag2">国际大牌精选</div>
+                                <img ng-src="{{channelItem.imageUrl1}}">
                             </div>
-                            <div class="ec-featured-channel-li-right-img ec_f_r"></div>
-                        </a>
-                    </li>
-                    <li class="ec-featured-channel-left-container-li ec_f_l">
-                        <a class="ec-featured-channel-li-inner-container clearfix" ui-sref="mainPage">
-                            <div class="ec-featured-channel-li-left-text ec_f_l">
-                                <div class="ec-featured-channel-text">焕新</div>
-                                <div class="ec-featured-channel-text">女装新品</div>
-                                <div class="ec-featured-channel-text">国际大牌精选</div>
-                                <img src="images/featuredChannel/TB1pdqcKFXXXXX0XXXXrWImIFXX-75-55.jpg">
-                            </div>
-                            <div class="ec-featured-channel-li-right-img ec_f_r"></div>
-                        </a>
-                    </li>
-                    <li class="ec-featured-channel-left-container-li ec_f_l">
-                        <a class="ec-featured-channel-li-inner-container clearfix" ui-sref="mainPage">
-                            <div class="ec-featured-channel-li-left-text ec_f_l">
-                                <div class="ec-featured-channel-text">焕新</div>
-                                <div class="ec-featured-channel-text">女装新品</div>
-                                <div class="ec-featured-channel-text">国际大牌精选</div>
-                                <img src="images/featuredChannel/TB1pdqcKFXXXXX0XXXXrWImIFXX-75-55.jpg">
-                            </div>
-                            <div class="ec-featured-channel-li-right-img ec_f_r"></div>
-                        </a>
-                    </li>
-                    <li class="ec-featured-channel-left-container-li ec_f_l">
-                        <a class="ec-featured-channel-li-inner-container clearfix" ui-sref="mainPage">
-                            <div class="ec-featured-channel-li-left-text ec_f_l">
-                                <div class="ec-featured-channel-text">焕新</div>
-                                <div class="ec-featured-channel-text">女装新品</div>
-                                <div class="ec-featured-channel-text">国际大牌精选</div>
-                                <img src="images/featuredChannel/TB1pdqcKFXXXXX0XXXXrWImIFXX-75-55.jpg">
-                            </div>
-                            <div class="ec-featured-channel-li-right-img ec_f_r"></div>
-                        </a>
-                    </li>
-                    <li class="ec-featured-channel-left-container-li ec_f_l">
-                        <a class="ec-featured-channel-li-inner-container clearfix" ui-sref="mainPage">
-                            <div class="ec-featured-channel-li-left-text ec_f_l">
-                                <div class="ec-featured-channel-text">焕新</div>
-                                <div class="ec-featured-channel-text">女装新品</div>
-                                <div class="ec-featured-channel-text">国际大牌精选</div>
-                                <img src="images/featuredChannel/TB1pdqcKFXXXXX0XXXXrWImIFXX-75-55.jpg">
-                            </div>
-                            <div class="ec-featured-channel-li-right-img ec_f_r"></div>
-                        </a>
-                    </li>
-                    <li class="ec-featured-channel-left-container-li ec_f_l">
-                        <a class="ec-featured-channel-li-inner-container clearfix" ui-sref="mainPage">
-                            <div class="ec-featured-channel-li-left-text ec_f_l">
-                                <div class="ec-featured-channel-text">焕新</div>
-                                <div class="ec-featured-channel-text">女装新品</div>
-                                <div class="ec-featured-channel-text">国际大牌精选</div>
-                                <img src="images/featuredChannel/TB1pdqcKFXXXXX0XXXXrWImIFXX-75-55.jpg">
-                            </div>
-                            <div class="ec-featured-channel-li-right-img ec_f_r"></div>
+                            <div class="ec-featured-channel-li-right-img ec_f_r"
+                                 ng-style="{'background-image':'url({{channelItem.imageUrl2}})'}"></div>
                         </a>
                     </li>
                 </ul>

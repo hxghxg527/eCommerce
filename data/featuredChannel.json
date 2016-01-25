@@ -1,0 +1,16 @@
+{
+  "featuredChannel": {
+    "mainImgUrl": "images/featuredChannel/TB1gTz2LpXXXXaqXFXXZeZMQVXX-405-420.jpg",
+    "mainLinkUrl": "mainPage",
+    "list": [
+      {
+        "type": "焕新",
+        "tag1": "女装新品",
+        "tag2": "国际大牌精选",
+        "imageUrl1": "images/featuredChannel/TB1pdqcKFXXXXX0XXXXrWImIFXX-75-55.jpg",
+        "imageUrl2": "images/featuredChannel/TB1p2YGKVXXXXbTXXXXQAsJYXXX-180-180.jpg",
+        "url": "mainPage"
+      }
+    ]
+  }
+}

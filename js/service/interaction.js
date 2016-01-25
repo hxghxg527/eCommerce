@@ -20,7 +20,8 @@ angular.module('ec.service.interaction', [])
                 'SEARCH_PLACEHOLDER': 'data/searchPlaceHolder.json',
                 'MAIN_MENU': 'data/mainMenu.json',
                 'SUB_MENU': 'data/subMenu.json',
-                'MAIN_CAROUSEL': 'data/mainCarousel.json'
+                'MAIN_CAROUSEL': 'data/mainCarousel.json',
+                'FEATURED_CHANNEL': 'data/featuredChannel.json'
             };
 
         interaction.getCurrentUserInfo = function (callBack) {
@@ -122,7 +123,18 @@ angular.module('ec.service.interaction', [])
             }).success(function (data, status, headers, config, statusText) {
                 callBack(ecConstant.SUCCESS, data);
             }).error(function (data, status, headers, config, statusText) {
-                console.log('Get subMenu.json failed.');
+                console.log('Get mainCarousel.json failed.');
+            });
+        };
+
+        interaction.getFeaturedChannel = function (callBack) {
+            $http({
+                'method': AJAX_METHOD.GET,
+                'url': AJAX_URL.FEATURED_CHANNEL
+            }).success(function (data, status, headers, config, statusText) {
+                callBack(ecConstant.SUCCESS, data);
+            }).error(function (data, status, headers, config, statusText) {
+                console.log('Get featuredCarousel.json failed.');
             });
         };
 

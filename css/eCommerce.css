@@ -848,7 +848,8 @@ html, body {
       .ec-featured-channel .ec-featured-channel-container .ec-featured-channel-content .ec-featured-channel-first-img-link {
         width: 300px;
         height: 318px;
-        background: url("../images/featuredChannel/TB1gTz2LpXXXXaqXFXXZeZMQVXX-405-420.jpg") no-repeat center;
+        background-repeat: no-repeat;
+        background-position: center;
         background-size: cover; }
       .ec-featured-channel .ec-featured-channel-container .ec-featured-channel-content .ec-featured-channel-left-container {
         width: 900px;
@@ -876,7 +877,8 @@ html, body {
                     font-weight: bold;
                     font-size: 18px; }
               .ec-featured-channel .ec-featured-channel-container .ec-featured-channel-content .ec-featured-channel-left-container .ec-featured-channel-left-container-ul .ec-featured-channel-left-container-li .ec-featured-channel-li-inner-container .ec-featured-channel-li-right-img {
-                background: url("../images/featuredChannel/TB1p2YGKVXXXXbTXXXXQAsJYXXX-180-180.jpg") no-repeat center;
+                background-repeat: no-repeat;
+                background-position: center;
                 background-size: 140px auto;
                 height: 100%;
                 width: 180px; }
