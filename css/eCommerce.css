@@ -914,7 +914,8 @@ html, body {
       .ec-hot-brand .ec-hot-brand-container .ec-hot-brand-content .ec-hot-brand-first-img-link {
         width: 300px;
         height: 320px;
-        background: url("../images/hotBrand/TB1uP6GJVXXXXcoXXXXXXXXXXXX-398-422.jpg_q75.jpg_.webp") no-repeat center;
+        background-repeat: no-repeat;
+        background-position: center;
         background-size: cover; }
       .ec-hot-brand .ec-hot-brand-container .ec-hot-brand-content .ec-hot-brand-left-container {
         width: 900px;
@@ -924,7 +925,8 @@ html, body {
           border-right: 1px solid #f2f2f2;
           width: 150px;
           height: 80px;
-          background: url("../images/hotBrand/TB1dR6tKVXXXXbzXFXXSutbFXXX.jpg_140x100q90.jpg_.webp") no-repeat center;
+          background-repeat: no-repeat;
+          background-position: center;
           background-size: 90px auto;
           position: relative; }
           .ec-hot-brand .ec-hot-brand-container .ec-hot-brand-content .ec-hot-brand-left-container .ec-hot-brand-left-container-ul .ec-hot-brand-left-container-li .ec-like {

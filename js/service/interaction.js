@@ -21,7 +21,8 @@ angular.module('ec.service.interaction', [])
                 'MAIN_MENU': 'data/mainMenu.json',
                 'SUB_MENU': 'data/subMenu.json',
                 'MAIN_CAROUSEL': 'data/mainCarousel.json',
-                'FEATURED_CHANNEL': 'data/featuredChannel.json'
+                'FEATURED_CHANNEL': 'data/featuredChannel.json',
+                'HOT_BRAND': 'data/hotBrand.json'
             };
 
         interaction.getCurrentUserInfo = function (callBack) {
@@ -135,6 +136,17 @@ angular.module('ec.service.interaction', [])
                 callBack(ecConstant.SUCCESS, data);
             }).error(function (data, status, headers, config, statusText) {
                 console.log('Get featuredCarousel.json failed.');
+            });
+        };
+
+        interaction.getHotBrand = function (callBack) {
+            $http({
+                'method': AJAX_METHOD.GET,
+                'url': AJAX_URL.HOT_BRAND
+            }).success(function (data, status, headers, config, statusText) {
+                callBack(ecConstant.SUCCESS, data);
+            }).error(function (data, status, headers, config, statusText) {
+                console.log('Get hotBrand.json failed.');
             });
         };
 

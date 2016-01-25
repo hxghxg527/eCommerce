@@ -1,0 +1,30 @@
+{
+  "hotBrand": {
+    "mainImgUrl": "images/hotBrand/TB1uP6GJVXXXXcoXXXXXXXXXXXX-398-422.jpg_q75.jpg_.webp",
+    "mainLinkUrl": "mainPage",
+    "list": [
+      {
+        "type": "国际大牌",
+        "imageList": [
+          {
+            "imageUrl": "images/hotBrand/TB1dR6tKVXXXXbzXFXXSutbFXXX.jpg_140x100q90.jpg_.webp",
+            "url": "mainPage"
+          }
+        ]
+      },
+      {
+        "type": "时尚潮牌",
+        "imageList": [
+          {
+            "imageUrl": "images/hotBrand/TB1lP2_HpXXXXbHXXXXSutbFXXX.jpg_140x100q90.jpg_.webp",
+            "url": "mainPage"
+          },
+          {
+            "imageUrl": "images/hotBrand/TB1bhLKHpXXXXarXVXXSutbFXXX.jpg_140x100q90.jpg_.webp",
+            "url": "mainPage"
+          }
+        ]
+      }
+    ]
+  }
+}
