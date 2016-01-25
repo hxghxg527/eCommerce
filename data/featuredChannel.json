@@ -10,6 +10,41 @@
         "imageUrl1": "images/featuredChannel/TB1pdqcKFXXXXX0XXXXrWImIFXX-75-55.jpg",
         "imageUrl2": "images/featuredChannel/TB1p2YGKVXXXXbTXXXXQAsJYXXX-180-180.jpg",
         "url": "mainPage"
+      },{
+        "type": "免费试用",
+        "tag1": "年货爆款产品",
+        "tag2": "包邮试用",
+        "imageUrl1": "images/featuredChannel/TB2ruqjjVXXXXcTXXXXXXXXXXXX_!!1661982204.jpg",
+        "imageUrl2": "images/featuredChannel/TB2N1SAjVXXXXXWXXXXXXXXXXXX_!!1661982204.jpg",
+        "url": "mainPage"
+      },{
+        "type": "酷玩街",
+        "tag1": "新潮 智能",
+        "tag2": "卡通大白充电宝",
+        "imageUrl1": "images/featuredChannel/TB2xPsLjXXXXXb9XpXXXXXXXXXX-2328870297.jpg",
+        "imageUrl2": "images/featuredChannel/TB1UQIoLXXXXXcHXVXXSutbFXXX.jpg",
+        "url": "mainPage"
+      },{
+        "type": "天天搞机",
+        "tag1": "过年送礼",
+        "tag2": "手机焕新",
+        "imageUrl1": "images/featuredChannel/TB1r7HzLXXXXXXjXpXXGJxuIpXX-70-55.jpg",
+        "imageUrl2": "images/featuredChannel/TB1qYluLpXXXXbjXXXXQAsJYXXX-180-180.jpg",
+        "url": "mainPage"
+      },{
+        "type": "鲨鲜生",
+        "tag1": "青芒年货预售",
+        "tag2": "直采包邮闪发",
+        "imageUrl1": "images/featuredChannel/TB1xmVHKpXXXXc0XVXXGJxuIpXX-70-55.jpg",
+        "imageUrl2": "images/featuredChannel/TB1gs27LpXXXXaQXXXXjUmX.FXX-180-180.jpeg",
+        "url": "mainPage"
+      },{
+        "type": "花呗分期",
+        "tag1": "分期购焕新家",
+        "tag2": "3期0首付",
+        "imageUrl1": "images/featuredChannel/TB12fV4LXXXXXXfXpXXSutbFXXX.jpg",
+        "imageUrl2": "images/featuredChannel/TB1CDpYLXXXXXcCXpXXSutbFXXX.jpg",
+        "url": "mainPage"
       }
     ]
   }
