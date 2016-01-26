@@ -1033,5 +1033,13 @@ html, body {
             .ec-hot-channel .ec-hot-channel-container .ec-hot-channel-content .ec-hot-channel-content-row .ec-hot-channel-content-column-item .ec-hot-channel-content-inner-item .ec-hot-channel-inner-item-text-container > div:last-child {
               margin-top: 3px;
               font-size: 14px; }
+    .ec-hot-channel .ec-hot-channel-container .ec-hot-channel-content .ad-image {
+      height: 90px;
+      display: block;
+      margin-top: 10px;
+      cursor: pointer;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url("../images/hotChannel/TB1x0GjLXXXXXcoXFXXSutbFXXX.jpg"); }
 
 /*# sourceMappingURL=eCommerce.css.map */
