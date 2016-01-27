@@ -192,32 +192,32 @@
             ]
           },
           {
-            "type": "母婴",
-            "typeIconText": "",
-            "typeBackPositionX": "0",
+            "type": "医药",
+            "typeIconText": "",
+            "typeBackPositionX": "-612",
             "typeUrl": "mainPage",
-            "backImageUrl": "images/hotChannel/",
+            "backImageUrl": "images/hotChannel/TB1djvHLpXXXXX_aXXXcKtRZVXX-394-418.jpg",
             "topUrl": "mainPage",
-            "topText1": "疯狂嗨购",
-            "topText2": "辣妈最爱大牌",
+            "topText1": "滋补品年货返场",
+            "topText2": "抢百万优惠券",
             "bottomList": [
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1KSmbKFXXXXb2XXXX5qTAJFXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "保暖必备清单",
-                "text2": "帮你选尖货"
+                "text1": "蛋白粉",
+                "text2": "营养滋补佳品"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1jFyiKFXXXXXcXXXX5qTAJFXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "童装保暖季",
-                "text2": "低价狂欢"
+                "text1": "这里的蜂蜜棒棒哒",
+                "text2": "滋补正当时"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB11xG3KVXXXXXnXFXX5qTAJFXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "星战会场",
-                "text2": "全场送优惠券"
+                "text1": "营养打折了?",
+                "text2": "善存补充多种维生素"
               }
             ]
           },
