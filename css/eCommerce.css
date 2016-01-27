@@ -1023,6 +1023,7 @@ html, body {
           .ec-hot-channel .ec-hot-channel-container .ec-hot-channel-content .ec-hot-channel-content-row .ec-hot-channel-content-column-item .ec-hot-channel-content-inner-item .ec-hot-channel-inner-item-image {
             width: 70px;
             height: 70px;
+            margin-left: 5px;
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain; }

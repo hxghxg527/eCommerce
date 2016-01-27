@@ -32,11 +32,169 @@
                 "text2": "全场送优惠券"
               }
             ]
+          },
+          {
+            "type": "箱包",
+            "typeIconText": "",
+            "typeBackPositionX": "-102",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB1_YHLJVXXXXcHXFXXcKtRZVXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "鲸鲨箱包",
+            "topText2": "新年包您满意",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1VgZlLpXXXXbTXVXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "年货聚会聚有年味",
+                "text2": "丝丝顺意暖心归家"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1iN2SLpXXXXbXXpXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "金利来男士皮带",
+                "text2": "男人的世界"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1ZQf2LpXXXXcwXVXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "专属女人的时尚",
+                "text2": "买即送赠品"
+              }
+            ]
+          },
+          {
+            "type": "箱包",
+            "typeIconText": "",
+            "typeBackPositionX": "-102",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/",
+            "topUrl": "mainPage",
+            "topText1": "疯狂嗨购",
+            "topText2": "辣妈最爱大牌",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/",
+                "url": "mainPage",
+                "text1": "保暖必备清单",
+                "text2": "帮你选尖货"
+              },
+              {
+                "imageUrl": "images/hotChannel/",
+                "url": "mainPage",
+                "text1": "童装保暖季",
+                "text2": "低价狂欢"
+              },
+              {
+                "imageUrl": "images/hotChannel/",
+                "url": "mainPage",
+                "text1": "星战会场",
+                "text2": "全场送优惠券"
+              }
+            ]
+          },
+          {
+            "type": "箱包",
+            "typeIconText": "",
+            "typeBackPositionX": "-102",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/",
+            "topUrl": "mainPage",
+            "topText1": "疯狂嗨购",
+            "topText2": "辣妈最爱大牌",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/",
+                "url": "mainPage",
+                "text1": "保暖必备清单",
+                "text2": "帮你选尖货"
+              },
+              {
+                "imageUrl": "images/hotChannel/",
+                "url": "mainPage",
+                "text1": "童装保暖季",
+                "text2": "低价狂欢"
+              },
+              {
+                "imageUrl": "images/hotChannel/",
+                "url": "mainPage",
+                "text1": "星战会场",
+                "text2": "全场送优惠券"
+              }
+            ]
           }
         ],
         "adImage": {
           "url": "mainPage",
           "imageUrl": "images/hotChannel/TB1jZazLpXXXXaQaXXXSutbFXXX.jpg"
+        }
+      },
+      {
+        "columnList": [
+          {
+            "type": "母婴",
+            "typeIconText": "",
+            "typeBackPositionX": "0",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/",
+            "topUrl": "mainPage",
+            "topText1": "疯狂嗨购",
+            "topText2": "辣妈最爱大牌",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/",
+                "url": "mainPage",
+                "text1": "保暖必备清单",
+                "text2": "帮你选尖货"
+              },
+              {
+                "imageUrl": "images/hotChannel/",
+                "url": "mainPage",
+                "text1": "童装保暖季",
+                "text2": "低价狂欢"
+              },
+              {
+                "imageUrl": "images/hotChannel/",
+                "url": "mainPage",
+                "text1": "星战会场",
+                "text2": "全场送优惠券"
+              }
+            ]
+          },
+          {
+            "type": "母婴",
+            "typeIconText": "",
+            "typeBackPositionX": "0",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/",
+            "topUrl": "mainPage",
+            "topText1": "疯狂嗨购",
+            "topText2": "辣妈最爱大牌",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/",
+                "url": "mainPage",
+                "text1": "保暖必备清单",
+                "text2": "帮你选尖货"
+              },
+              {
+                "imageUrl": "images/hotChannel/",
+                "url": "mainPage",
+                "text1": "童装保暖季",
+                "text2": "低价狂欢"
+              },
+              {
+                "imageUrl": "images/hotChannel/",
+                "url": "mainPage",
+                "text1": "星战会场",
+                "text2": "全场送优惠券"
+              }
+            ]
+          }
+        ],
+        "adImage": {
+          "url": "mainPage",
+          "imageUrl": "images/hotChannel/"
         }
       }
     ]

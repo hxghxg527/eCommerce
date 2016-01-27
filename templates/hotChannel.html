@@ -2,8 +2,9 @@
     <div class="ec-hot-channel-container">
         <div class="ec-hot-channel-header">热门市场<i>HOT CHANNEL</i></div>
         <div class="ec-hot-channel-content" ng-repeat="row in ::hotChannel.rowList track by $index">
-            <div class="ec-hot-channel-content-row clearfix" ng-repeat="column in row.columnList track by $index">
-                <div class="ec-hot-channel-content-column-item ec_f_l">
+            <div class="ec-hot-channel-content-row clearfix">
+                <div class="ec-hot-channel-content-column-item ec_f_l"
+                     ng-repeat="column in row.columnList track by $index">
                     <div class="ec-hot-channel-type"
                          ng-style="{'background-position-x':'{{column.typeBackPositionX}}px'}">
                         <a class="ec-hot-channel-type-text" ui-sref="{{column.typeUrl}}" ng-bind="column.type"></a>
