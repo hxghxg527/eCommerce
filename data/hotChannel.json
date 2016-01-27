@@ -64,39 +64,39 @@
             ]
           },
           {
-            "type": "箱包",
-            "typeIconText": "",
-            "typeBackPositionX": "-102",
+            "type": "内衣",
+            "typeIconText": "",
+            "typeBackPositionX": "-204",
             "typeUrl": "mainPage",
-            "backImageUrl": "images/hotChannel/",
+            "backImageUrl": "images/hotChannel/TB1lkHaLpXXXXbQXVXXXXXXXXXX-394-418.jpg",
             "topUrl": "mainPage",
-            "topText1": "疯狂嗨购",
-            "topText2": "辣妈最爱大牌",
+            "topText1": "舒适贴身必选",
+            "topText2": "无钢圈文胸",
             "bottomList": [
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1tdbnLpXXXXafXFXXXXXXXXXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "保暖必备清单",
-                "text2": "帮你选尖货"
+                "text1": "性感爆款",
+                "text2": "重塑自我"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB13RcNLpXXXXbvXFXXXXXXXXXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "童装保暖季",
-                "text2": "低价狂欢"
+                "text1": "少女时代 青春气息扑面",
+                "text2": "我喜欢的样子你都有"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1Lqc8LpXXXXaLXXXXXXXXXXXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "星战会场",
-                "text2": "全场送优惠券"
+                "text1": "家居服 新年嗨购",
+                "text2": "温暖贴身 时尚大牌"
               }
             ]
           },
           {
-            "type": "箱包",
-            "typeIconText": "",
-            "typeBackPositionX": "-102",
+            "type": "女鞋",
+            "typeIconText": "",
+            "typeBackPositionX": "-306",
             "typeUrl": "mainPage",
             "backImageUrl": "images/hotChannel/",
             "topUrl": "mainPage",
