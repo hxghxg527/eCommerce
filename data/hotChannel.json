@@ -162,32 +162,32 @@
             ]
           },
           {
-            "type": "母婴",
-            "typeIconText": "",
-            "typeBackPositionX": "0",
+            "type": "男装",
+            "typeIconText": "",
+            "typeBackPositionX": "-510",
             "typeUrl": "mainPage",
-            "backImageUrl": "images/hotChannel/",
+            "backImageUrl": "images/hotChannel/TB1AkvpLpXXXXXdXpXXcKtRZVXX-394-418.jpg",
             "topUrl": "mainPage",
-            "topText1": "疯狂嗨购",
-            "topText2": "辣妈最爱大牌",
+            "topText1": "男装新品",
+            "topText2": "必备商场同款",
             "bottomList": [
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB2z9hMXFXXXXcFXpXXXXXXXXXX_!!1910887896.jpg",
                 "url": "mainPage",
-                "text1": "保暖必备清单",
-                "text2": "帮你选尖货"
+                "text1": "10周年庆十大品牌贺岁狂",
+                "text2": "尊享5重好礼"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1jwbYLpXXXXXNXVXX5qTAJFXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "童装保暖季",
-                "text2": "低价狂欢"
+                "text1": "你说你想要一件百搭的毛衣",
+                "text2": "所以织了一件给你"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB10gwALpXXXXaaXXXX5qTAJFXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "星战会场",
-                "text2": "全场送优惠券"
+                "text1": "潮男是一种风格",
+                "text2": "选一种适合自己的"
               }
             ]
           },
