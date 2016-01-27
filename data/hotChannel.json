@@ -222,32 +222,32 @@
             ]
           },
           {
-            "type": "母婴",
-            "typeIconText": "",
-            "typeBackPositionX": "0",
+            "type": "腕表",
+            "typeIconText": "",
+            "typeBackPositionX": "-714",
             "typeUrl": "mainPage",
-            "backImageUrl": "images/hotChannel/",
+            "backImageUrl": "images/hotChannel/TB2hVfRfVXXXXaDXpXXXXXXXXXX-749901026.jpg",
             "topUrl": "mainPage",
-            "topText1": "疯狂嗨购",
-            "topText2": "辣妈最爱大牌",
+            "topText1": "黑金浪潮",
+            "topText2": "潮品精选 有型有范",
             "bottomList": [
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1Li5eJVXXXXbKXVXXXXXXXXXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "保暖必备清单",
-                "text2": "帮你选尖货"
+                "text1": "匠人精神与潮流的碰撞",
+                "text2": "跃动于腕间的个性"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB2A.r9fVXXXXarXXXXXXXXXXXX_!!2040121137.jpg",
                 "url": "mainPage",
-                "text1": "童装保暖季",
-                "text2": "低价狂欢"
+                "text1": "瑞表出游季买表狂送出境",
+                "text2": "买就送惊喜礼品"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB24fYGfVXXXXchXpXXXXXXXXXX_!!1125378539.jpg",
                 "url": "mainPage",
-                "text1": "星战会场",
-                "text2": "全场送优惠券"
+                "text1": "国表大牌时尚新品倾情奉上",
+                "text2": "精致腕表新上市"
               }
             ]
           }
