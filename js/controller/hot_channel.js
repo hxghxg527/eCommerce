@@ -6,9 +6,9 @@
 
 angular.module('ec.controller.hotChannel', [])
     .controller('ecHotChannelController', function ($scope, ecInteractionService, ecConstant) {
-        ecInteractionService.getFeaturedChannel(function (status, featuredChannel) {
-            if (ecConstant.SUCCESS == status && featuredChannel) {
-                $scope.featuredChannel = featuredChannel.featuredChannel;
+        ecInteractionService.getHotChannel(function (status, hotChannel) {
+            if (ecConstant.SUCCESS == status && hotChannel) {
+                $scope.hotChannel = hotChannel.hotChannel;
             }
         });
     });

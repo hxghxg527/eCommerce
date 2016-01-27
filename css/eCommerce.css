@@ -972,7 +972,7 @@ html, body {
           height: 100px;
           background-image: url("../images/hotChannel/TB1qaIdKXXXXXXHXVXXBOphYpXX-1945-178.png");
           background-repeat: no-repeat;
-          background-position: 0 0;
+          background-position-y: 0;
           padding: 10px 0 0 10px;
           position: absolute;
           z-index: 10; }
@@ -993,7 +993,6 @@ html, body {
           background-repeat: no-repeat;
           background-position: center;
           background-size: cover;
-          background-image: url("../images/hotChannel/TB1sdLPLpXXXXXtXFXXcKtRZVXX-394-418.jpg");
           color: #0f0f0f; }
           .ec-hot-channel .ec-hot-channel-container .ec-hot-channel-content .ec-hot-channel-content-row .ec-hot-channel-content-column-item .ec-hot-channel-type-content .ec-hot-channel-type-content-inner {
             width: 234px;
@@ -1024,12 +1023,12 @@ html, body {
           .ec-hot-channel .ec-hot-channel-container .ec-hot-channel-content .ec-hot-channel-content-row .ec-hot-channel-content-column-item .ec-hot-channel-content-inner-item .ec-hot-channel-inner-item-image {
             width: 70px;
             height: 70px;
-            background-image: url("../images/hotChannel/TB1YLCoKVXXXXcsaXXX5qTAJFXX-92-92.jpg");
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain; }
           .ec-hot-channel .ec-hot-channel-container .ec-hot-channel-content .ec-hot-channel-content-row .ec-hot-channel-content-column-item .ec-hot-channel-content-inner-item .ec-hot-channel-inner-item-text-container {
-            padding-top: 10px; }
+            padding-top: 10px;
+            padding-left: 10px; }
             .ec-hot-channel .ec-hot-channel-container .ec-hot-channel-content .ec-hot-channel-content-row .ec-hot-channel-content-column-item .ec-hot-channel-content-inner-item .ec-hot-channel-inner-item-text-container > div:last-child {
               margin-top: 3px;
               font-size: 14px; }
@@ -1039,7 +1038,6 @@ html, body {
       margin-top: 10px;
       cursor: pointer;
       background-position: center;
-      background-repeat: no-repeat;
-      background-image: url("../images/hotChannel/TB1x0GjLXXXXXcoXFXXSutbFXXX.jpg"); }
+      background-repeat: no-repeat; }
 
 /*# sourceMappingURL=eCommerce.css.map */

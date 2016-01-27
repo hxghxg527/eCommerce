@@ -22,7 +22,8 @@ angular.module('ec.service.interaction', [])
                 'SUB_MENU': 'data/subMenu.json',
                 'MAIN_CAROUSEL': 'data/mainCarousel.json',
                 'FEATURED_CHANNEL': 'data/featuredChannel.json',
-                'HOT_BRAND': 'data/hotBrand.json'
+                'HOT_BRAND': 'data/hotBrand.json',
+                'HOT_CHANNEL': 'data/hotChannel.json'
             };
 
         interaction.getCurrentUserInfo = function (callBack) {
@@ -135,7 +136,7 @@ angular.module('ec.service.interaction', [])
             }).success(function (data, status, headers, config, statusText) {
                 callBack(ecConstant.SUCCESS, data);
             }).error(function (data, status, headers, config, statusText) {
-                console.log('Get featuredCarousel.json failed.');
+                console.log('Get featuredChannel.json failed.');
             });
         };
 
@@ -147,6 +148,17 @@ angular.module('ec.service.interaction', [])
                 callBack(ecConstant.SUCCESS, data);
             }).error(function (data, status, headers, config, statusText) {
                 console.log('Get hotBrand.json failed.');
+            });
+        };
+
+        interaction.getHotChannel = function (callBack) {
+            $http({
+                'method': AJAX_METHOD.GET,
+                'url': AJAX_URL.HOT_CHANNEL
+            }).success(function (data, status, headers, config, statusText) {
+                callBack(ecConstant.SUCCESS, data);
+            }).error(function (data, status, headers, config, statusText) {
+                console.log('Get hotChannel.json failed.');
             });
         };
 

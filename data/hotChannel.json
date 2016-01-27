@@ -1,0 +1,44 @@
+{
+  "hotChannel": {
+    "rowList": [
+      {
+        "columnList": [
+          {
+            "type": "母婴",
+            "typeIconText": "",
+            "typeBackPositionX": "0",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB1SGtiKpXXXXbrXXXXcKtRZVXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "疯狂嗨购",
+            "topText2": "辣妈最爱大牌",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1YLCoKVXXXXcsaXXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "保暖必备清单",
+                "text2": "帮你选尖货"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1QNKVKVXXXXa6XVXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "童装保暖季",
+                "text2": "低价狂欢"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1Yg95LpXXXXXPXVXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "星战会场",
+                "text2": "全场送优惠券"
+              }
+            ]
+          }
+        ],
+        "adImage": {
+          "url": "mainPage",
+          "imageUrl": "images/hotChannel/TB1jZazLpXXXXaQaXXXSutbFXXX.jpg"
+        }
+      }
+    ]
+  }
+}
