@@ -320,62 +320,62 @@
             ]
           },
           {
-            "type": "母婴",
-            "typeIconText": "",
-            "typeBackPositionX": "0",
+            "type": "配饰",
+            "typeIconText": "",
+            "typeBackPositionX": "-1020",
             "typeUrl": "mainPage",
-            "backImageUrl": "images/hotChannel/",
+            "backImageUrl": "images/hotChannel/TB1M7MlLXXXXXaUXVXXXXXXXXXX-394-418.jpg",
             "topUrl": "mainPage",
-            "topText1": "疯狂嗨购",
-            "topText2": "辣妈最爱大牌",
+            "topText1": "黄金首饰",
+            "topText2": "高端珠宝鉴赏",
             "bottomList": [
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1Bx9qLpXXXXcKXpXXSutbFXXX.jpg",
                 "url": "mainPage",
-                "text1": "保暖必备清单",
-                "text2": "帮你选尖货"
+                "text1": "宝岛力荐年货",
+                "text2": "2件8折"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1JE8rLpXXXXcvXXXXSutbFXXX.jpg",
                 "url": "mainPage",
-                "text1": "童装保暖季",
-                "text2": "低价狂欢"
+                "text1": "艾夫斯老花镜",
+                "text2": "给家人的一副好眼镜"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1I8fuLXXXXXaPaXXXSutbFXXX.jpg",
                 "url": "mainPage",
-                "text1": "星战会场",
-                "text2": "全场送优惠券"
+                "text1": "镜中视界 , 集结焕丽",
+                "text2": "2016 带你去看看"
               }
             ]
           },
           {
-            "type": "母婴",
-            "typeIconText": "",
-            "typeBackPositionX": "0",
+            "type": "家装",
+            "typeIconText": "",
+            "typeBackPositionX": "-1122",
             "typeUrl": "mainPage",
             "backImageUrl": "images/hotChannel/",
             "topUrl": "mainPage",
-            "topText1": "疯狂嗨购",
-            "topText2": "辣妈最爱大牌",
+            "topText1": "清仓大促满就送",
+            "topText2": "年终抢家具",
             "bottomList": [
               {
                 "imageUrl": "images/hotChannel/",
                 "url": "mainPage",
-                "text1": "保暖必备清单",
-                "text2": "帮你选尖货"
+                "text1": "互联网装修上鲸鲨",
+                "text2": "包你满意"
               },
               {
                 "imageUrl": "images/hotChannel/",
                 "url": "mainPage",
-                "text1": "童装保暖季",
-                "text2": "低价狂欢"
+                "text1": "吸顶灯套餐",
+                "text2": "立省666元"
               },
               {
                 "imageUrl": "images/hotChannel/",
                 "url": "mainPage",
-                "text1": "星战会场",
-                "text2": "全场送优惠券"
+                "text1": "神偷也无奈",
+                "text2": "新年保平安"
               }
             ]
           }
