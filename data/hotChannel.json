@@ -418,32 +418,32 @@
             ]
           },
           {
-            "type": "母婴",
-            "typeIconText": "",
-            "typeBackPositionX": "0",
+            "type": "美妆",
+            "typeIconText": "",
+            "typeBackPositionX": "-1326",
             "typeUrl": "mainPage",
-            "backImageUrl": "images/hotChannel/",
+            "backImageUrl": "images/hotChannel/TB1Di24KpXXXXawXFXXXXXXXXXX-394-418.jpg",
             "topUrl": "mainPage",
-            "topText1": "疯狂嗨购",
-            "topText2": "辣妈最爱大牌",
+            "topText1": "官方直售",
+            "topText2": "正品保障",
             "bottomList": [
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1.pd2LXXXXXbuXVXXXXXXXXXX-92-92.png",
                 "url": "mainPage",
-                "text1": "保暖必备清单",
-                "text2": "帮你选尖货"
+                "text1": "官方直售",
+                "text2": "100%贴心服务"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1.G.bKpXXXXXQXpXXXXXXXXXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "童装保暖季",
-                "text2": "低价狂欢"
+                "text1": "正品保障",
+                "text2": "专柜体验"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1FGD2KpXXXXb_XFXXXXXXXXXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "星战会场",
-                "text2": "全场送优惠券"
+                "text1": "线上专柜",
+                "text2": "美丽直达"
               }
             ]
           },
