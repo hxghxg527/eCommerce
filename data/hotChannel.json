@@ -290,32 +290,32 @@
             ]
           },
           {
-            "type": "母婴",
-            "typeIconText": "",
-            "typeBackPositionX": "0",
+            "type": "男鞋",
+            "typeIconText": "",
+            "typeBackPositionX": "-918",
             "typeUrl": "mainPage",
-            "backImageUrl": "images/hotChannel/",
+            "backImageUrl": "images/hotChannel/TB1wxfrKpXXXXaQXVXXXXXXXXXX-394-418.jpg",
             "topUrl": "mainPage",
-            "topText1": "疯狂嗨购",
-            "topText2": "辣妈最爱大牌",
+            "topText1": "早春上新男士休闲鞋",
+            "topText2": "你想要的这儿都有",
             "bottomList": [
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1n8.eLpXXXXawXXXXSutbFXXX.jpg",
                 "url": "mainPage",
-                "text1": "保暖必备清单",
-                "text2": "帮你选尖货"
+                "text1": "羽绒服新年购",
+                "text2": "满199包邮"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1WvtiLpXXXXcPXpXXSutbFXXX.jpg",
                 "url": "mainPage",
-                "text1": "童装保暖季",
-                "text2": "低价狂欢"
+                "text1": "马克华菲贺岁狂欢",
+                "text2": "满499减50"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1zExHLpXXXXbZXXXXSutbFXXX.jpg",
                 "url": "mainPage",
-                "text1": "星战会场",
-                "text2": "全场送优惠券"
+                "text1": "心灵之初",
+                "text2": "江南独立设计师品牌"
               }
             ]
           },
