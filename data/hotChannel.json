@@ -576,32 +576,32 @@
             ]
           },
           {
-            "type": "母婴",
-            "typeIconText": "",
-            "typeBackPositionX": "0",
+            "type": "食品",
+            "typeIconText": "",
+            "typeBackPositionX": "-1836",
             "typeUrl": "mainPage",
-            "backImageUrl": "images/hotChannel/",
+            "backImageUrl": "images/hotChannel/TB1qFNOKFXXXXXZXFXXcKtRZVXX-394-418.jpg",
             "topUrl": "mainPage",
-            "topText1": "疯狂嗨购",
-            "topText2": "辣妈最爱大牌",
+            "topText1": "拯救严寒,围炉吃火锅",
+            "topText2": "火锅原料9.9元起",
             "bottomList": [
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1D_1cLpXXXXcBXFXX5qTAJFXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "保暖必备清单",
-                "text2": "帮你选尖货"
+                "text1": "年味礼盒今日开抢",
+                "text2": "百万赠品等你拿"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1etqaLpXXXXapXVXX5qTAJFXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "童装保暖季",
-                "text2": "低价狂欢"
+                "text1": "柴米油盐酱醋肉",
+                "text2": "囤足过大年"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1MxarLpXXXXcxXXXX5qTAJFXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "星战会场",
-                "text2": "全场送优惠券"
+                "text1": "新年团圆暖心酒",
+                "text2": "直供放心不贵"
               }
             ]
           },
