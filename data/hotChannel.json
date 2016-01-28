@@ -516,32 +516,32 @@
       {
         "columnList": [
           {
-            "type": "母婴",
-            "typeIconText": "",
-            "typeBackPositionX": "0",
+            "type": "家用电器",
+            "typeIconText": "",
+            "typeBackPositionX": "-1632",
             "typeUrl": "mainPage",
-            "backImageUrl": "images/hotChannel/",
+            "backImageUrl": "images/hotChannel/TB1fulmKFXXXXcOXpXXcKtRZVXX-394-418.jpg",
             "topUrl": "mainPage",
-            "topText1": "疯狂嗨购",
-            "topText2": "辣妈最爱大牌",
+            "topText1": "开心回家过年",
+            "topText2": "大牌爆款供您选",
             "bottomList": [
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1hlymLpXXXXaVXFXX5qTAJFXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "保暖必备清单",
-                "text2": "帮你选尖货"
+                "text1": "预约配送次日达",
+                "text2": "今年过年不打烊"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1dD6wLpXXXXXRXVXX1sAeLpXX-500-500.jpg",
                 "url": "mainPage",
-                "text1": "童装保暖季",
-                "text2": "低价狂欢"
+                "text1": "美的新年",
+                "text2": "好礼送不停"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1HvfbLpXXXXaCXFXX5qTAJFXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "星战会场",
-                "text2": "全场送优惠券"
+                "text1": "过年季",
+                "text2": "好礼享不停"
               }
             ]
           },
