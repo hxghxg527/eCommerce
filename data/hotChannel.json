@@ -478,32 +478,32 @@
             ]
           },
           {
-            "type": "母婴",
-            "typeIconText": "",
-            "typeBackPositionX": "0",
+            "type": "家居",
+            "typeIconText": "",
+            "typeBackPositionX": "-1530",
             "typeUrl": "mainPage",
-            "backImageUrl": "images/hotChannel/",
+            "backImageUrl": "images/hotChannel/TB19N_DLpXXXXa6aXXXcKtRZVXX-394-418.jpg",
             "topUrl": "mainPage",
-            "topText1": "疯狂嗨购",
-            "topText2": "辣妈最爱大牌",
+            "topText1": "家纺新年狂欢",
+            "topText2": "好货折上折",
             "bottomList": [
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB12qgjLpXXXXXQXXXX5qTAJFXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "保暖必备清单",
-                "text2": "帮你选尖货"
+                "text1": "鲸鲨家居一站购齐",
+                "text2": "新春焕新首选"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1EeARLXXXXXblXVXX5qTAJFXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "童装保暖季",
-                "text2": "低价狂欢"
+                "text1": "家纺布艺年终大促",
+                "text2": "全场9.9起包邮"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1_p6sLXXXXXXfXFXX5qTAJFXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "星战会场",
-                "text2": "全场送优惠券"
+                "text1": "全球羽绒盛宴",
+                "text2": "新春钜献羽绒被1元秒杀"
               }
             ]
           }
