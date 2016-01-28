@@ -1043,4 +1043,11 @@ html, body {
       background-position: center;
       background-repeat: no-repeat; }
 
+.ec-guess-like .ec-guess-like-container {
+  width: 1200px;
+  margin: auto;
+  padding-top: 10px; }
+  .ec-guess-like .ec-guess-like-container .ec-guess-like-content {
+    overflow: hidden; }
+
 /*# sourceMappingURL=eCommerce.css.map */

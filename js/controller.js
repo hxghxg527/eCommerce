@@ -15,5 +15,6 @@ angular.module('ec.controller', [
     'ec.controller.carousel',
     'ec.controller.featuredChannel',
     'ec.controller.hotBrand',
-    'ec.controller.hotChannel'
+    'ec.controller.hotChannel',
+    'ec.controller.guessLike'
 ]);

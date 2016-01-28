@@ -1,0 +1,15 @@
+.ec-guess-like {
+  .ec-guess-like-container {
+    width: $maxWidth;
+    margin: auto;
+    padding-top: 10px;
+
+    .ec-guess-like-header {
+
+    }
+
+    .ec-guess-like-content {
+      overflow: hidden;
+    }
+  }
+}
