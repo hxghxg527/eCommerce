@@ -388,32 +388,32 @@
       {
         "columnList": [
           {
-            "type": "母婴",
-            "typeIconText": "",
-            "typeBackPositionX": "0",
+            "type": "汽车",
+            "typeIconText": "",
+            "typeBackPositionX": "-1224",
             "typeUrl": "mainPage",
-            "backImageUrl": "images/hotChannel/",
+            "backImageUrl": "images/hotChannel/TB1vQIDLpXXXXbUaXXXcKtRZVXX-394-418.jpg",
             "topUrl": "mainPage",
-            "topText1": "疯狂嗨购",
-            "topText2": "辣妈最爱大牌",
+            "topText1": "新年新车大钜惠",
+            "topText2": "特价限量抢",
             "bottomList": [
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1hh1_LXXXXXb5XFXXSutbFXXX.jpg",
                 "url": "mainPage",
-                "text1": "保暖必备清单",
-                "text2": "帮你选尖货"
+                "text1": "沿途车载手机支架行车好",
+                "text2": "全场3折起款式任你选"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1N6OJLpXXXXcoXpXXSutbFXXX.jpg",
                 "url": "mainPage",
-                "text1": "童装保暖季",
-                "text2": "低价狂欢"
+                "text1": "过年不打烊",
+                "text2": "智能后视镜专场"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1YbEeLpXXXXcqXXXXSutbFXXX.jpg",
                 "url": "mainPage",
-                "text1": "星战会场",
-                "text2": "全场送优惠券"
+                "text1": "买天之眼导航送春节红包",
+                "text2": "全国免费安装"
               }
             ]
           },
