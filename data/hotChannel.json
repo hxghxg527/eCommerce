@@ -260,32 +260,32 @@
       {
         "columnList": [
           {
-            "type": "母婴",
-            "typeIconText": "",
-            "typeBackPositionX": "0",
+            "type": "图书",
+            "typeIconText": "",
+            "typeBackPositionX": "-816",
             "typeUrl": "mainPage",
-            "backImageUrl": "images/hotChannel/",
+            "backImageUrl": "images/hotChannel/TB2bfAFjFXXXXcZXXXXXXXXXXXX-101450072.jpg",
             "topUrl": "mainPage",
-            "topText1": "疯狂嗨购",
-            "topText2": "辣妈最爱大牌",
+            "topText1": "鲸鲨图书",
+            "topText2": "全球文化娱乐精品",
             "bottomList": [
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB2b1gOjFXXXXbKXXXXXXXXXXXX-101450072.jpg",
                 "url": "mainPage",
-                "text1": "保暖必备清单",
-                "text2": "帮你选尖货"
+                "text1": "新华文轩网络书店",
+                "text2": "新华正版图书"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB2wm3ljFXXXXXXXFXXXXXXXXXX-101450072.jpg",
                 "url": "mainPage",
-                "text1": "童装保暖季",
-                "text2": "低价狂欢"
+                "text1": "龙族4",
+                "text2": "江南热血小说"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB2.og5jFXXXXXVXXXXXXXXXXXX-101450072.jpg",
                 "url": "mainPage",
-                "text1": "星战会场",
-                "text2": "全场送优惠券"
+                "text1": "罗辑思维新店开业",
+                "text2": "罗胖帮你选最值得看的书"
               }
             ]
           },
