@@ -45,11 +45,11 @@
             .ec-hot-channel-type-text {
               display: block;
               color: #fff;
+              font-size: 14px;
             }
             .ec-hot-channel-type-icon {
               font-family: 'tbFontIcon';
-              margin-left: 5px;
-              font-size: 18px;
+              font-size: 19px;
               display: block;
               color: #fff;
             }
@@ -111,6 +111,7 @@
               & > div:last-child {
                 margin-top: 3px;
                 font-size: 14px;
+                color: #666;
               }
             }
           }

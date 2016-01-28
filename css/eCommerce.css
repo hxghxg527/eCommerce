@@ -978,11 +978,11 @@ html, body {
           z-index: 10; }
           .ec-hot-channel .ec-hot-channel-container .ec-hot-channel-content .ec-hot-channel-content-row .ec-hot-channel-content-column-item .ec-hot-channel-type .ec-hot-channel-type-text {
             display: block;
-            color: #fff; }
+            color: #fff;
+            font-size: 14px; }
           .ec-hot-channel .ec-hot-channel-container .ec-hot-channel-content .ec-hot-channel-content-row .ec-hot-channel-content-column-item .ec-hot-channel-type .ec-hot-channel-type-icon {
             font-family: 'tbFontIcon';
-            margin-left: 5px;
-            font-size: 18px;
+            font-size: 19px;
             display: block;
             color: #fff; }
         .ec-hot-channel .ec-hot-channel-container .ec-hot-channel-content .ec-hot-channel-content-row .ec-hot-channel-content-column-item .ec-hot-channel-type-content {
@@ -1032,7 +1032,8 @@ html, body {
             padding-left: 10px; }
             .ec-hot-channel .ec-hot-channel-container .ec-hot-channel-content .ec-hot-channel-content-row .ec-hot-channel-content-column-item .ec-hot-channel-content-inner-item .ec-hot-channel-inner-item-text-container > div:last-child {
               margin-top: 3px;
-              font-size: 14px; }
+              font-size: 14px;
+              color: #666; }
     .ec-hot-channel .ec-hot-channel-container .ec-hot-channel-content .ad-image {
       height: 90px;
       display: block;
