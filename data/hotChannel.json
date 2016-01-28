@@ -606,32 +606,32 @@
             ]
           },
           {
-            "type": "母婴",
-            "typeIconText": "",
+            "type": "超市",
+            "typeIconText": "",
             "typeBackPositionX": "0",
             "typeUrl": "mainPage",
-            "backImageUrl": "images/hotChannel/",
+            "backImageUrl": "images/hotChannel/TB14bJ8LpXXXXbGXpXXcKtRZVXX-394-418.jpg",
             "topUrl": "mainPage",
-            "topText1": "疯狂嗨购",
-            "topText2": "辣妈最爱大牌",
+            "topText1": "玩具盛宴",
+            "topText2": "满99减30",
             "bottomList": [
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1ZjB_LpXXXXauXpXX5qTAJFXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "保暖必备清单",
-                "text2": "帮你选尖货"
+                "text1": "年货盛宴",
+                "text2": "均价4.9元起"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1pEbELXXXXXc7XpXX5qTAJFXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "童装保暖季",
-                "text2": "低价狂欢"
+                "text1": "买2付1",
+                "text2": "零食不停歇"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB25agijpXXXXXQXpXXXXXXXXXX-1032555792.jpg",
                 "url": "mainPage",
-                "text1": "星战会场",
-                "text2": "全场送优惠券"
+                "text1": "美容江湖",
+                "text2": "冬季护肤必备"
               }
             ]
           }
