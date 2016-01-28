@@ -448,32 +448,32 @@
             ]
           },
           {
-            "type": "母婴",
-            "typeIconText": "",
-            "typeBackPositionX": "0",
+            "type": "女装",
+            "typeIconText": "",
+            "typeBackPositionX": "-1428",
             "typeUrl": "mainPage",
-            "backImageUrl": "images/hotChannel/",
+            "backImageUrl": "images/hotChannel/TB1fCYiLpXXXXbQXpXXW5wdZXXX-393-418.jpg",
             "topUrl": "mainPage",
-            "topText1": "疯狂嗨购",
-            "topText2": "辣妈最爱大牌",
+            "topText1": "女装精品",
+            "topText2": "不美不过年",
             "bottomList": [
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1odYlKVXXXXXjaXXXQAsJYXXX-180-180.jpg",
                 "url": "mainPage",
-                "text1": "保暖必备清单",
-                "text2": "帮你选尖货"
+                "text1": "女装特卖",
+                "text2": "大牌1折起"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1pjIyLXXXXXaCXVXX5qTAJFXX-92-92.jpg",
                 "url": "mainPage",
-                "text1": "童装保暖季",
-                "text2": "低价狂欢"
+                "text1": "保暖单品",
+                "text2": "暖洋洋过大年"
               },
               {
-                "imageUrl": "images/hotChannel/",
+                "imageUrl": "images/hotChannel/TB1VHDqKVXXXXchXFXXQAsJYXXX-180-180.jpg",
                 "url": "mainPage",
-                "text1": "星战会场",
-                "text2": "全场送优惠券"
+                "text1": "我的少女时代",
+                "text2": "青春不能错过"
               }
             ]
           },
