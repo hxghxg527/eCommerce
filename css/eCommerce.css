@@ -1065,14 +1065,21 @@ html, body {
       margin: 0 0 10px 10px; }
       .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item:hover {
         border-color: #c40000; }
+        .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item:hover .ec-guess-like-img-container .ec-guess-like-item-img {
+          transform: scale(1.15, 1.15); }
         .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item:hover .ec-guess-like-item-content .ec-guess-like-item-content-text {
           color: #333; }
-      .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item .ec-guess-like-item-img {
+      .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item .ec-guess-like-img-container {
         width: 100%;
         height: 230px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; }
+        overflow: hidden; }
+        .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item .ec-guess-like-img-container .ec-guess-like-item-img {
+          width: 100%;
+          height: 230px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          transition: transform 1s ease; }
       .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item .ec-guess-like-item-content {
         padding: 14px 12px 0; }
         .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item .ec-guess-like-item-content .ec-guess-like-item-content-text {

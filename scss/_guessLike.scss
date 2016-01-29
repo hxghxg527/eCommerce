@@ -27,6 +27,12 @@
 
         &:hover {
           border-color: $mainColor;
+
+          .ec-guess-like-img-container {
+            .ec-guess-like-item-img {
+              transform: scale(1.15, 1.15);
+            }
+          }
           .ec-guess-like-item-content {
             .ec-guess-like-item-content-text {
               color: #333;
@@ -34,12 +40,18 @@
           }
         }
 
-        .ec-guess-like-item-img {
+        .ec-guess-like-img-container {
           width: 100%;
           height: 230px;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
+          overflow: hidden;
+          .ec-guess-like-item-img {
+            width: 100%;
+            height: 230px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            transition: transform 1s ease;
+          }
         }
 
         .ec-guess-like-item-content {

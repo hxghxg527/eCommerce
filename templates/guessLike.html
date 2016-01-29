@@ -4,7 +4,10 @@
         <div class="ec-guess-like-content clearfix">
             <a class="ec-guess-like-item ec_f_l" ui-sref="{{likeItem.url}}"
                ng-repeat="likeItem in ::guessLike track by $index">
-                <div class="ec-guess-like-item-img" ng-style="{'background-image':'url({{likeItem.imgUrl}})'}"></div>
+                <div class="ec-guess-like-img-container">
+                    <div class="ec-guess-like-item-img"
+                         ng-style="{'background-image':'url({{likeItem.imgUrl}})'}"></div>
+                </div>
                 <div class="ec-guess-like-item-content">
                     <div class="ec-guess-like-item-content-text" ng-bind="likeItem.description"></div>
                     <div class="ec-guess-like-item-content-price">
