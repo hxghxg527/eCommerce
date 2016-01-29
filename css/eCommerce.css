@@ -1046,8 +1046,7 @@ html, body {
 .ec-guess-like .ec-guess-like-container {
   width: 1200px;
   margin: auto;
-  padding-top: 10px;
-  background-color: yellow; }
+  padding-top: 10px; }
   .ec-guess-like .ec-guess-like-container .ec-guess-like-header {
     background-image: url("../images/TB1qaIdKXXXXXXHXVXXBOphYpXX-1945-178.png");
     background-repeat: no-repeat;
@@ -1056,10 +1055,35 @@ html, body {
     height: 43px;
     margin: auto; }
   .ec-guess-like .ec-guess-like-container .ec-guess-like-content {
-    overflow: hidden; }
+    overflow: hidden;
+    margin-left: -10px; }
     .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item {
-      width: 230px;
-      height: 319px;
-      background-color: #fff; }
+      width: 232px;
+      height: 325px;
+      background-color: #fff;
+      border: 2px solid #fff;
+      margin: 0 0 10px 10px; }
+      .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item:hover {
+        border-color: #c40000; }
+        .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item:hover .ec-guess-like-item-content .ec-guess-like-item-content-text {
+          color: #333; }
+      .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item .ec-guess-like-item-img {
+        width: 100%;
+        height: 230px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../images/guessLike/TB1Lx53KXXXXXXlXFXXXXXXXXXX_!!0-item_pic.jpg_400x400q60.jpg"); }
+      .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item .ec-guess-like-item-content {
+        padding: 14px 12px 0; }
+        .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item .ec-guess-like-item-content .ec-guess-like-item-content-text {
+          height: 45px;
+          font-size: 13px;
+          color: #666; }
+        .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item .ec-guess-like-item-content .ec-guess-like-item-content-price {
+          color: red;
+          font-size: 16px; }
+          .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item .ec-guess-like-item-content .ec-guess-like-item-content-price > span:nth-child(2n-1) {
+            font-size: 14px; }
 
 /*# sourceMappingURL=eCommerce.css.map */

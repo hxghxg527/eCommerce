@@ -1,10 +1,9 @@
 .ec-guess-like {
+
   .ec-guess-like-container {
     width: $maxWidth;
     margin: auto;
     padding-top: 10px;
-    //padding-bottom: 10px;
-    background-color: yellow;
 
     .ec-guess-like-header {
       background-image: url("../images/TB1qaIdKXXXXXXHXVXXBOphYpXX-1945-178.png");
@@ -17,11 +16,49 @@
 
     .ec-guess-like-content {
       overflow: hidden;
+      margin-left: -10px;
 
       .ec-guess-like-item {
-        width: 230px;
-        height: 319px;
+        width: 232px;
+        height: 325px;
         background-color: #fff;
+        border: 2px solid #fff;
+        margin: 0 0 10px 10px;
+
+        &:hover {
+          border-color: $mainColor;
+          .ec-guess-like-item-content {
+            .ec-guess-like-item-content-text {
+              color: #333;
+            }
+          }
+        }
+
+        .ec-guess-like-item-img {
+          width: 100%;
+          height: 230px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url("../images/guessLike/TB1Lx53KXXXXXXlXFXXXXXXXXXX_!!0-item_pic.jpg_400x400q60.jpg");
+        }
+
+        .ec-guess-like-item-content {
+          padding: 14px 12px 0;
+
+          .ec-guess-like-item-content-text {
+            height: 45px;
+            font-size: 13px;
+            color: #666;
+          }
+          .ec-guess-like-item-content-price {
+            color: red;
+            font-size: 16px;
+            & > span:nth-child(2n-1) {
+              font-size: 14px;
+            }
+          }
+        }
       }
     }
   }
