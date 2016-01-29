@@ -1091,5 +1091,12 @@ html, body {
           font-size: 16px; }
           .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item .ec-guess-like-item-content .ec-guess-like-item-content-price > span:nth-child(2n-1) {
             font-size: 14px; }
+  .ec-guess-like .ec-guess-like-container .ec-guess-like-end {
+    background-image: url("../images/TB1qaIdKXXXXXXHXVXXBOphYpXX-1945-178.png");
+    background-repeat: no-repeat;
+    background-position: 0px -103px;
+    width: 130px;
+    height: 72px;
+    margin: auto; }
 
 /*# sourceMappingURL=eCommerce.css.map */
