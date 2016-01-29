@@ -6,9 +6,9 @@
 
 angular.module('ec.controller.guessLike', [])
     .controller('ecGuessLikeController', function ($scope, ecInteractionService, ecConstant) {
-        ecInteractionService.getHotChannel(function (status, hotChannel) {
-            if (ecConstant.SUCCESS == status && hotChannel) {
-                //$scope.hotChannel = hotChannel.hotChannel;
+        ecInteractionService.getGuessLike(function (status, guessLike) {
+            if (ecConstant.SUCCESS == status && guessLike) {
+                $scope.guessLike = guessLike.guessLike;
             }
         });
     });

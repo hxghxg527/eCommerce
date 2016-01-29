@@ -23,7 +23,8 @@ angular.module('ec.service.interaction', [])
                 'MAIN_CAROUSEL': 'data/mainCarousel.json',
                 'FEATURED_CHANNEL': 'data/featuredChannel.json',
                 'HOT_BRAND': 'data/hotBrand.json',
-                'HOT_CHANNEL': 'data/hotChannel.json'
+                'HOT_CHANNEL': 'data/hotChannel.json',
+                'GUESS_LIKE': 'data/guessLike.json'
             };
 
         interaction.getCurrentUserInfo = function (callBack) {
@@ -159,6 +160,17 @@ angular.module('ec.service.interaction', [])
                 callBack(ecConstant.SUCCESS, data);
             }).error(function (data, status, headers, config, statusText) {
                 console.log('Get hotChannel.json failed.');
+            });
+        };
+
+        interaction.getGuessLike = function (callBack) {
+            $http({
+                'method': AJAX_METHOD.GET,
+                'url': AJAX_URL.GUESS_LIKE
+            }).success(function (data, status, headers, config, statusText) {
+                callBack(ecConstant.SUCCESS, data);
+            }).error(function (data, status, headers, config, statusText) {
+                console.log('Get guessLike.json failed.');
             });
         };
 

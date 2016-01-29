@@ -281,7 +281,7 @@ html, body {
         position: absolute;
         width: 100%;
         height: 100%;
-        background: url("../images/login_bg.jpg") no-repeat center;
+        background: url("../images/login_bg.png") no-repeat center;
         background-size: cover; }
       .ec-login .middle-container .middle .login-container {
         width: 380px;
@@ -1072,8 +1072,7 @@ html, body {
         height: 230px;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url("../images/guessLike/TB1Lx53KXXXXXXlXFXXXXXXXXXX_!!0-item_pic.jpg_400x400q60.jpg"); }
+        background-size: cover; }
       .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item .ec-guess-like-item-content {
         padding: 14px 12px 0; }
         .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item .ec-guess-like-item-content .ec-guess-like-item-content-text {
