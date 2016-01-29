@@ -3,13 +3,26 @@
     width: $maxWidth;
     margin: auto;
     padding-top: 10px;
+    //padding-bottom: 10px;
+    background-color: yellow;
 
     .ec-guess-like-header {
-
+      background-image: url("../images/TB1qaIdKXXXXXXHXVXXBOphYpXX-1945-178.png");
+      background-repeat: no-repeat;
+      background-position: -726px -100px;
+      width: 200px;
+      height: 43px;
+      margin: auto;
     }
 
     .ec-guess-like-content {
       overflow: hidden;
+
+      .ec-guess-like-item {
+        width: 230px;
+        height: 319px;
+        background-color: #fff;
+      }
     }
   }
 }

@@ -970,7 +970,7 @@ html, body {
         .ec-hot-channel .ec-hot-channel-container .ec-hot-channel-content .ec-hot-channel-content-row .ec-hot-channel-content-column-item .ec-hot-channel-type {
           width: 100px;
           height: 100px;
-          background-image: url("../images/hotChannel/TB1qaIdKXXXXXXHXVXXBOphYpXX-1945-178.png");
+          background-image: url("../images/TB1qaIdKXXXXXXHXVXXBOphYpXX-1945-178.png");
           background-repeat: no-repeat;
           background-position-y: 0;
           padding: 10px 0 0 10px;
@@ -1046,8 +1046,20 @@ html, body {
 .ec-guess-like .ec-guess-like-container {
   width: 1200px;
   margin: auto;
-  padding-top: 10px; }
+  padding-top: 10px;
+  background-color: yellow; }
+  .ec-guess-like .ec-guess-like-container .ec-guess-like-header {
+    background-image: url("../images/TB1qaIdKXXXXXXHXVXXBOphYpXX-1945-178.png");
+    background-repeat: no-repeat;
+    background-position: -726px -100px;
+    width: 200px;
+    height: 43px;
+    margin: auto; }
   .ec-guess-like .ec-guess-like-container .ec-guess-like-content {
     overflow: hidden; }
+    .ec-guess-like .ec-guess-like-container .ec-guess-like-content .ec-guess-like-item {
+      width: 230px;
+      height: 319px;
+      background-color: #fff; }
 
 /*# sourceMappingURL=eCommerce.css.map */
