@@ -1,8 +1,20 @@
 .ec-footer-description {
+  border-top: 1px solid #D1D7DC;
 
   .ec-footer-description-container {
-    width: $maxWidth;
+    width: 1190px;
     margin: auto;
-    padding-top: 10px;
+    border-bottom: 1px solid #ededed;
+
+    .ec-footer-description-rules {
+      background: url("../images/bottomContent/T1ZjhhFpRkXXX1CdwH-1190-100.jpg") no-repeat center;
+      padding-left: 10px;
+
+      .ec-footer-description-rules-item {
+        width: 25%;
+        height: 100px;
+        cursor: pointer;
+      }
+    }
   }
 }

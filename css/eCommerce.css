@@ -1099,9 +1099,18 @@ html, body {
     height: 72px;
     margin: auto; }
 
-.ec-footer-description .ec-footer-description-container {
-  width: 1200px;
-  margin: auto;
-  padding-top: 10px; }
+.ec-footer-description {
+  border-top: 1px solid #D1D7DC; }
+  .ec-footer-description .ec-footer-description-container {
+    width: 1190px;
+    margin: auto;
+    border-bottom: 1px solid #ededed; }
+    .ec-footer-description .ec-footer-description-container .ec-footer-description-rules {
+      background: url("../images/bottomContent/T1ZjhhFpRkXXX1CdwH-1190-100.jpg") no-repeat center;
+      padding-left: 10px; }
+      .ec-footer-description .ec-footer-description-container .ec-footer-description-rules .ec-footer-description-rules-item {
+        width: 25%;
+        height: 100px;
+        cursor: pointer; }
 
 /*# sourceMappingURL=eCommerce.css.map */
