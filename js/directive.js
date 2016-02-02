@@ -11,5 +11,6 @@ angular.module('ec.directive', [
     'ec.directive.featuredChannel',
     'ec.directive.hotBrand',
     'ec.directive.hotChannel',
-    'ec.directive.guessLike'
+    'ec.directive.guessLike',
+    'ec.directive.footerDescription'
 ]);

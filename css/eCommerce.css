@@ -1099,4 +1099,9 @@ html, body {
     height: 72px;
     margin: auto; }
 
+.ec-footer-description .ec-footer-description-container {
+  width: 1200px;
+  margin: auto;
+  padding-top: 10px; }
+
 /*# sourceMappingURL=eCommerce.css.map */

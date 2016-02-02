@@ -16,5 +16,6 @@ angular.module('ec.controller', [
     'ec.controller.featuredChannel',
     'ec.controller.hotBrand',
     'ec.controller.hotChannel',
-    'ec.controller.guessLike'
+    'ec.controller.guessLike',
+    'ec.controller.footerDescription'
 ]);
