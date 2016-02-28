@@ -93,6 +93,7 @@
                     <i class="fa fa-angle-down"></i>
                 </a>
                 <ul class="second-level-web-site-navigation clearfix">
+                    <li class="loading-img" ng-show="showLoadingImg"></li>
                     <li class="second-level-menu-ul-li" ng-repeat="webSite in webSites track by $index"
                         ng-class="{'hotSpotRecommendation' : 'hot-spot-recommendation','market' : 'market','brand' : 'brand','help' : 'help'}[webSite.type]">
                         <h2>{{webSite.caption}}</h2>
@@ -102,7 +103,6 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="loading-img" ng-show="showLoadingImg"></li>
                 </ul>
             </li>
         </ul>
