@@ -1,0 +1,7 @@
+/node_modules
+.idea
+*.orig
+*.sass-cache
+
+phantomjs.exe
+unit-test-results.png
