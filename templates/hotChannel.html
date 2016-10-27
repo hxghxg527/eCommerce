@@ -1,0 +1,39 @@
+<div class="ec-hot-channel">
+    <div class="ec-hot-channel-container">
+        <div class="ec-hot-channel-header">热门市场<i>HOT CHANNEL</i></div>
+        <div class="ec-hot-channel-content" ng-repeat="row in ::hotChannel.rowList track by $index">
+            <div class="ec-hot-channel-content-row clearfix">
+                <div class="ec-hot-channel-content-column-item ec_f_l"
+                     ng-repeat="column in row.columnList track by $index">
+                    <div class="ec-hot-channel-type"
+                         ng-style="{'background-position-x':'{{column.typeBackPositionX}}px'}">
+                        <a class="ec-hot-channel-type-text" ui-sref="{{column.typeUrl}}" ng-bind="column.type"></a>
+                        <a class="ec-hot-channel-type-icon" ui-sref="{{column.typeUrl}}"
+                           ng-bind="column.typeIconText"></a>
+                    </div>
+                    <a class="ec-hot-channel-type-content" ui-sref="{{column.topUrl}}"
+                       ng-style="{'background-image':'url({{column.backImageUrl}})'}">
+                        <div class="ec-hot-channel-type-content-inner">
+                            <div class="ec-hot-channel-type-content-inner-cell">
+                                <div class="ec-hot-channel-type-content-inner-text1" ng-bind="column.topText1"></div>
+                                <div class="ec-hot-channel-type-content-inner-text2" ng-bind="column.topText2"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="ec-hot-channel-content-inner-item clearfix" ui-sref="{{bottomItem.url}}"
+                       ng-repeat="bottomItem in column.bottomList track by $index">
+                        <div class="ec-hot-channel-inner-item-image ec_f_l"
+                             ng-style="{'background-image':'url({{bottomItem.imageUrl}})'}"></div>
+                        <div class="ec-hot-channel-inner-item-text-container ec_f_l">
+                            <div ng-bind="bottomItem.text1"></div>
+                            <div ng-bind="bottomItem.text2"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a class="ad-image"
+               ui-sref="{{row.adImage.url}}"
+               ng-style="{'background-image':'url({{row.adImage.imageUrl}})'}"></a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,569 @@
+.ec-main-menu {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: $fontFamily1;
+  z-index: 100;
+
+  .menu-container {
+    width: 200px;
+
+    &:hover {
+      .first-level-menu-container {
+        display: block;
+      }
+      .btn-container {
+        i {
+          transform: rotate(180deg);
+        }
+      }
+    }
+
+    .btn-container {
+      background-color: #B1191A;
+      padding: 0 16px;
+      color: #fff;
+      cursor: pointer;
+
+      .btn {
+        height: 42px;
+        line-height: 40px;
+        float: left;
+        font-size: 16px;
+      }
+      & > i {
+        float: right;
+        line-height: 40px;
+        transition: transform .25s ease-in-out;
+        display: none;
+      }
+    }
+
+    .first-level-menu-container {
+      position: absolute;
+      width: 200px;
+      height: 500px;
+      left: 0;
+      top: 42px;
+      color: #fff;
+      background-color: rgba(0, 0, 0, .8);
+      display: block;
+
+      .first-level-menu-ul {
+        &:hover {
+          .second-level-menu-container {
+            display: block;
+          }
+        }
+      }
+
+      .first-level-menu-li {
+        font-size: 14px;
+
+        &.active {
+          .first-level-menu-li-content {
+            background-color: #000;
+            .first-level-icon {
+              opacity: 1;
+              transform: rotate(-30deg);
+            }
+            .arrow {
+              display: block;
+            }
+          }
+        }
+
+        .first-level-menu-li-content {
+          height: 31px;
+          line-height: 31px;
+          padding: 0 12px;
+          position: relative;
+
+          .first-level-icon {
+            margin-right: 3px;
+            opacity: .5;
+            height: 31px;
+            line-height: 31px;
+            display: inline-block;
+            vertical-align: 1px;
+            font-family: 'tbFontIcon';
+            transition: transform .5s, opacity .5s;
+          }
+
+          a {
+            cursor: pointer;
+            color: #fff;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+
+          .arrow {
+            position: absolute;
+            height: 0;
+            border-style: solid;
+            border-width: 7px 7px 7px 0;
+            border-color: transparent #f3f3f3;
+            right: 0;
+            top: 9px;
+            display: none;
+          }
+        }
+      }
+
+      .second-level-menu-container {
+        position: absolute;
+        width: 780px;
+        height: 500px;
+        left: 200px;
+        top: 0;
+        background-color: rgba(253, 253, 253, .98);
+        display: none;
+        color: #000;
+        overflow: hidden;
+
+        .ec-container-for-supermarket {
+          .ec-second-level-menu-top-container {
+            .ec-level-menu-bar {
+              padding: 10px 0 2px;
+              margin: 0 14px;
+              border-bottom: 1px solid #000;
+
+              .ec-header {
+                font-size: 14px;
+                margin-left: 20px;
+                cursor: pointer;
+                color: #000;
+                font-weight: bold;
+              }
+              .ec-promise {
+                width: 616px;
+                height: 21px;
+                background: url("../images/TB14Ei0JVXXXXbgXFXX1HAwZVXX-616-44.png") no-repeat right top;
+                background-size: auto 21px;
+              }
+            }
+            .ec-level-menu-img-container {
+              padding-top: 10px;
+              margin: 0 14px;
+              width: 100%;
+              height: 100%;
+
+              a {
+                margin-right: 16px;
+                margin-bottom: 10px;
+                cursor: pointer;
+              }
+            }
+          }
+
+          .second-level-menu-ul-left {
+            float: none;
+            width: 800px;
+            margin-left: -15px;
+
+            .second-level-menu-ul-left-li {
+              width: 180px;
+              margin-left: 10px;
+            }
+          }
+        }
+
+        .second-level-menu-ul-left {
+          float: left;
+          padding: 5px 20px 0;
+          width: 480px;
+
+          .second-level-menu-ul-left-li {
+            overflow: hidden;
+
+            .ec-title {
+              font-size: 14px;
+              border-bottom: 1px solid #000;
+              padding: 0 8px 0 5px;
+
+              a.ec_detail {
+                cursor: pointer;
+                width: auto;
+                background: url("../images/menu_icons.png") no-repeat;
+                padding: 19px 0 0 60px;
+                height: 40px;
+                color: #000;
+              }
+              a.ec_more {
+                margin-top: 19px;
+                cursor: pointer;
+                color: #000;
+              }
+            }
+
+            .ec-third-level-menu-ul {
+              padding-top: 2px;
+              padding-bottom: 12px;
+              margin-left: -1px;
+              border-bottom: 1px dotted #000;
+
+              &:last-child {
+                border-bottom: none;
+              }
+
+              .ec-third-level-menu-li {
+                padding: 0 7px;
+                margin-top: 12px;
+                color: #666;
+                font-size: 13px;
+                line-height: 13px;
+                cursor: pointer;
+                border-left: 1px solid #ccc;
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+        }
+
+        .second-level-menu-ul-right {
+          float: left;
+          padding: 5px 20px 0;
+          width: 300px;
+
+          .second-level-menu-ul-right-li {
+            overflow: hidden;
+
+            .ec-title {
+              font-size: 14px;
+              border-bottom: 1px solid #000;
+              padding: 0 0 0 9px;
+
+              a.ec_detail {
+                cursor: pointer;
+                width: auto;
+                padding: 19px 0 0 0px;
+                height: 40px;
+                color: #000;
+              }
+            }
+            .ec-third-level-menu-ul {
+              padding-top: 2px;
+              padding-bottom: 12px;
+              margin-left: -1px;
+              border-bottom: 1px dotted #000;
+
+              &:last-child {
+                border-bottom: none;
+              }
+
+              .ec-third-level-menu-li {
+                padding: 0 7px;
+                margin-top: 12px;
+                color: #666;
+                font-size: 13px;
+                line-height: 13px;
+                cursor: pointer;
+                border-left: 1px solid #ccc;
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+
+          .second-level-menu-ul-right-li-for-img {
+            margin-top: 6px;
+            margin-bottom: 15px;
+
+            a {
+              width: 100%;
+              height: 100%;
+              display: block;
+              .ec-li-img {
+                width: 260px;
+                display: block;
+                cursor: pointer;
+              }
+            }
+          }
+
+        }
+      }
+
+      .second-level-menu-container {
+        &.color_1 {
+          .ec-third-level-menu-li {
+            a {
+              color: #666;
+            }
+            &.ec-highlight {
+              a {
+                color: #d01f47;
+              }
+            }
+            &:hover {
+              a {
+                color: #d01f47;
+              }
+            }
+          }
+        }
+        &.color_2 {
+          .ec-third-level-menu-li {
+            a {
+              color: #666;
+            }
+            &.ec-highlight {
+              a {
+                color: #1291cf;
+              }
+            }
+            &:hover {
+              a {
+                color: #1291cf;
+              }
+            }
+          }
+        }
+        &.color_3 {
+          .ec-third-level-menu-li {
+            a {
+              color: #666;
+            }
+            &.ec-highlight {
+              a {
+                color: #8b478b;
+              }
+            }
+            &:hover {
+              a {
+                color: #8b478b;
+              }
+            }
+          }
+        }
+        &.color_4 {
+          .ec-third-level-menu-li {
+            a {
+              color: #666;
+            }
+            &.ec-highlight {
+              a {
+                color: #d8468d;
+              }
+            }
+            &:hover {
+              a {
+                color: #d8468d;
+              }
+            }
+          }
+        }
+        &.color_5 {
+          .ec-third-level-menu-li {
+            a {
+              color: #666;
+            }
+            &.ec-highlight {
+              a {
+                color: #2062d3;
+              }
+            }
+            &:hover {
+              a {
+                color: #2062d3;
+              }
+            }
+          }
+        }
+        &.color_6 {
+          .ec-third-level-menu-li {
+            a {
+              color: #666;
+            }
+            &.ec-highlight {
+              a {
+                color: #df3f4e;
+              }
+            }
+            &:hover {
+              a {
+                color: #df3f4e;
+              }
+            }
+          }
+        }
+        &.color_7 {
+          .ec-third-level-menu-li {
+            a {
+              color: #666;
+            }
+            &.ec-highlight {
+              a {
+                color: #f56a00;
+              }
+            }
+            &:hover {
+              a {
+                color: #f56a00;
+              }
+            }
+          }
+        }
+        &.color_8 {
+          .ec-third-level-menu-li {
+            a {
+              color: #666;
+            }
+            &.ec-highlight {
+              a {
+                color: #2262d3;
+              }
+            }
+            &:hover {
+              a {
+                color: #2262d3;
+              }
+            }
+          }
+        }
+        &.color_9 {
+          .ec-third-level-menu-li {
+            a {
+              color: #666;
+            }
+            &.ec-highlight {
+              a {
+                color: #cb3a0a;
+              }
+            }
+            &:hover {
+              a {
+                color: #cb3a0a;
+              }
+            }
+          }
+        }
+        &.color_10 {
+          .ec-third-level-menu-li {
+            a {
+              color: #666;
+            }
+            &.ec-highlight {
+              a {
+                color: #B38E63;
+              }
+            }
+            &:hover {
+              a {
+                color: #B38E63;
+              }
+            }
+          }
+        }
+        &.color_11 {
+          .ec-third-level-menu-li {
+            a {
+              color: #666;
+            }
+            &.ec-highlight {
+              a {
+                color: #4459A3;
+              }
+            }
+            &:hover {
+              a {
+                color: #4459A3;
+              }
+            }
+          }
+        }
+        &.color_12 {
+          .ec-third-level-menu-li {
+            a {
+              color: #666;
+            }
+            &.ec-highlight {
+              a {
+                color: #9fb000;
+              }
+            }
+            &:hover {
+              a {
+                color: #9fb000;
+              }
+            }
+          }
+        }
+        &.color_13 {
+          .ec-third-level-menu-li {
+            a {
+              color: #666;
+            }
+            &.ec-highlight {
+              a {
+                color: #00b78b;
+              }
+            }
+            &:hover {
+              a {
+                color: #00b78b;
+              }
+            }
+          }
+        }
+        &.color_14 {
+          .ec-third-level-menu-li {
+            a {
+              color: #666;
+            }
+            &.ec-highlight {
+              a {
+                color: #6ba536;
+              }
+            }
+            &:hover {
+              a {
+                color: #6ba536;
+              }
+            }
+          }
+        }
+        &.color_15 {
+          .ec-third-level-menu-li {
+            a {
+              color: #666;
+            }
+            &.ec-highlight {
+              a {
+                color: #0190b2;
+              }
+            }
+            &:hover {
+              a {
+                color: #0190b2;
+              }
+            }
+          }
+        }
+        &.color_16 {
+          .ec-third-level-menu-li {
+            a {
+              color: #666;
+            }
+            &.ec-highlight {
+              a {
+                color: #2262d3;
+              }
+            }
+            &:hover {
+              a {
+                color: #2262d3;
+              }
+            }
+          }
+        }
+
+      }
+    }
+
+  }
+}

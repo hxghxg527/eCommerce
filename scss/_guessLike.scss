@@ -1,0 +1,85 @@
+.ec-guess-like {
+
+  .ec-guess-like-container {
+    width: $maxWidth;
+    margin: auto;
+    padding-top: 10px;
+
+    .ec-guess-like-header {
+      background-image: url("../images/TB1qaIdKXXXXXXHXVXXBOphYpXX-1945-178.png");
+      background-repeat: no-repeat;
+      background-position: -726px -100px;
+      width: 200px;
+      height: 43px;
+      margin: auto;
+    }
+
+    .ec-guess-like-content {
+      overflow: hidden;
+      margin-left: -10px;
+
+      .ec-guess-like-item {
+        width: 232px;
+        height: 325px;
+        background-color: #fff;
+        border: 2px solid #fff;
+        margin: 0 0 10px 10px;
+
+        &:hover {
+          border-color: $mainColor;
+
+          .ec-guess-like-img-container {
+            .ec-guess-like-item-img {
+              transform: scale(1.15, 1.15);
+            }
+          }
+          .ec-guess-like-item-content {
+            .ec-guess-like-item-content-text {
+              color: #333;
+            }
+          }
+        }
+
+        .ec-guess-like-img-container {
+          width: 100%;
+          height: 230px;
+          overflow: hidden;
+          .ec-guess-like-item-img {
+            width: 100%;
+            height: 230px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            transition: transform 1s ease;
+          }
+        }
+
+        .ec-guess-like-item-content {
+          padding: 14px 12px 0;
+
+          .ec-guess-like-item-content-text {
+            height: 45px;
+            font-size: 13px;
+            color: #666;
+          }
+          .ec-guess-like-item-content-price {
+            color: red;
+            font-size: 16px;
+            & > span:nth-child(2n-1) {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+
+    .ec-guess-like-end {
+      background-image: url("../images/TB1qaIdKXXXXXXHXVXXBOphYpXX-1945-178.png");
+      background-repeat: no-repeat;
+      background-position: 0px -103px;
+      width: 130px;
+      height: 72px;
+      margin: auto;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.ec-sub-menu {
+  font-size: 16px;
+  padding-left: 200px;
+
+  ul {
+    li {
+      float: left;
+      cursor: pointer;
+      height: 40px;
+      line-height: 40px;
+
+      a {
+        display: inline-block;
+        padding: 0 20px;
+        color: #000;
+      }
+      i {
+        color: #ccc;
+      }
+
+      &:hover {
+        a {
+          color: $mainColor;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,646 @@
+{
+  "hotChannel": {
+    "rowList": [
+      {
+        "columnList": [
+          {
+            "type": "母婴",
+            "typeIconText": "",
+            "typeBackPositionX": "0",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB1SGtiKpXXXXbrXXXXcKtRZVXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "疯狂嗨购",
+            "topText2": "辣妈最爱大牌",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1YLCoKVXXXXcsaXXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "保暖必备清单",
+                "text2": "帮你选尖货"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1QNKVKVXXXXa6XVXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "童装保暖季",
+                "text2": "低价狂欢"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1Yg95LpXXXXXPXVXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "星战会场",
+                "text2": "全场送优惠券"
+              }
+            ]
+          },
+          {
+            "type": "箱包",
+            "typeIconText": "",
+            "typeBackPositionX": "-102",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB1_YHLJVXXXXcHXFXXcKtRZVXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "鲸鲨箱包",
+            "topText2": "新年包您满意",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1VgZlLpXXXXbTXVXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "年货聚会聚有年味",
+                "text2": "丝丝顺意暖心归家"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1iN2SLpXXXXbXXpXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "金利来男士皮带",
+                "text2": "男人的世界"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1ZQf2LpXXXXcwXVXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "专属女人的时尚",
+                "text2": "买即送赠品"
+              }
+            ]
+          },
+          {
+            "type": "内衣",
+            "typeIconText": "",
+            "typeBackPositionX": "-204",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB1lkHaLpXXXXbQXVXXXXXXXXXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "舒适贴身必选",
+            "topText2": "无钢圈文胸",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1tdbnLpXXXXafXFXXXXXXXXXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "性感爆款",
+                "text2": "重塑自我"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB13RcNLpXXXXbvXFXXXXXXXXXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "少女时代 青春气息扑面",
+                "text2": "我喜欢的样子你都有"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1Lqc8LpXXXXaLXXXXXXXXXXXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "家居服 新年嗨购",
+                "text2": "温暖贴身 时尚大牌"
+              }
+            ]
+          },
+          {
+            "type": "女鞋",
+            "typeIconText": "",
+            "typeBackPositionX": "-306",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB1SZHgKpXXXXXSapXXXXXXXXXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "大牌女靴2折起",
+            "topText2": "主要看气质",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1Yv3sLXXXXXbAXpXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "年末回馈",
+                "text2": "感恩放价"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1DajcLXXXXXbAXVXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "达芙妮跨年新品",
+                "text2": "包邮运送费险"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1bSG7LpXXXXcaXXXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "2016春季新品发布",
+                "text2": "全场顺丰包邮"
+              }
+            ]
+          }
+        ],
+        "adImage": {
+          "url": "mainPage",
+          "imageUrl": "images/hotChannel/TB1jZazLpXXXXaQaXXXSutbFXXX.jpg"
+        }
+      },
+      {
+        "columnList": [
+          {
+            "type": "运动",
+            "typeIconText": "",
+            "typeBackPositionX": "-408",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB13yQdLpXXXXb1aXXXcKtRZVXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "运动户外",
+            "topText2": "只做有型人",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1jw7tLpXXXXa3XFXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "只做有型人",
+                "text2": "健身不停歇"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1J_J0KVXXXXXxXVXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "冬季新品",
+                "text2": "品牌优选"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1si5oLpXXXXXIXpXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "轻质膨松羽绒服",
+                "text2": "非凡保暖体验"
+              }
+            ]
+          },
+          {
+            "type": "男装",
+            "typeIconText": "",
+            "typeBackPositionX": "-510",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB1AkvpLpXXXXXdXpXXcKtRZVXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "男装新品",
+            "topText2": "必备商场同款",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB2z9hMXFXXXXcFXpXXXXXXXXXX_!!1910887896.jpg",
+                "url": "mainPage",
+                "text1": "10周年庆十大品牌贺岁狂",
+                "text2": "尊享5重好礼"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1jwbYLpXXXXXNXVXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "你说你想要一件百搭的毛衣",
+                "text2": "所以织了一件给你"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB10gwALpXXXXaaXXXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "潮男是一种风格",
+                "text2": "选一种适合自己的"
+              }
+            ]
+          },
+          {
+            "type": "医药",
+            "typeIconText": "",
+            "typeBackPositionX": "-612",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB1djvHLpXXXXX_aXXXcKtRZVXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "滋补品年货返场",
+            "topText2": "抢百万优惠券",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1KSmbKFXXXXb2XXXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "蛋白粉",
+                "text2": "营养滋补佳品"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1jFyiKFXXXXXcXXXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "这里的蜂蜜棒棒哒",
+                "text2": "滋补正当时"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB11xG3KVXXXXXnXFXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "营养打折了?",
+                "text2": "善存补充多种维生素"
+              }
+            ]
+          },
+          {
+            "type": "腕表",
+            "typeIconText": "",
+            "typeBackPositionX": "-714",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB2hVfRfVXXXXaDXpXXXXXXXXXX-749901026.jpg",
+            "topUrl": "mainPage",
+            "topText1": "黑金浪潮",
+            "topText2": "潮品精选 有型有范",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1Li5eJVXXXXbKXVXXXXXXXXXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "匠人精神与潮流的碰撞",
+                "text2": "跃动于腕间的个性"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB2A.r9fVXXXXarXXXXXXXXXXXX_!!2040121137.jpg",
+                "url": "mainPage",
+                "text1": "瑞表出游季买表狂送出境",
+                "text2": "买就送惊喜礼品"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB24fYGfVXXXXchXpXXXXXXXXXX_!!1125378539.jpg",
+                "url": "mainPage",
+                "text1": "国表大牌时尚新品倾情奉上",
+                "text2": "精致腕表新上市"
+              }
+            ]
+          }
+        ],
+        "adImage": {
+          "url": "mainPage",
+          "imageUrl": "images/hotChannel/TB1SB5gLXXXXXaFXVXXSutbFXXX.jpg"
+        }
+      },
+      {
+        "columnList": [
+          {
+            "type": "图书",
+            "typeIconText": "",
+            "typeBackPositionX": "-816",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB2bfAFjFXXXXcZXXXXXXXXXXXX-101450072.jpg",
+            "topUrl": "mainPage",
+            "topText1": "鲸鲨图书",
+            "topText2": "全球文化娱乐精品",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB2b1gOjFXXXXbKXXXXXXXXXXXX-101450072.jpg",
+                "url": "mainPage",
+                "text1": "新华文轩网络书店",
+                "text2": "新华正版图书"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB2wm3ljFXXXXXXXFXXXXXXXXXX-101450072.jpg",
+                "url": "mainPage",
+                "text1": "龙族4",
+                "text2": "江南热血小说"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB2.og5jFXXXXXVXXXXXXXXXXXX-101450072.jpg",
+                "url": "mainPage",
+                "text1": "罗辑思维新店开业",
+                "text2": "罗胖帮你选最值得看的书"
+              }
+            ]
+          },
+          {
+            "type": "男鞋",
+            "typeIconText": "",
+            "typeBackPositionX": "-918",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB1wxfrKpXXXXaQXVXXXXXXXXXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "早春上新男士休闲鞋",
+            "topText2": "你想要的这儿都有",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1n8.eLpXXXXawXXXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "羽绒服新年购",
+                "text2": "满199包邮"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1WvtiLpXXXXcPXpXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "马克华菲贺岁狂欢",
+                "text2": "满499减50"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1zExHLpXXXXbZXXXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "心灵之初",
+                "text2": "江南独立设计师品牌"
+              }
+            ]
+          },
+          {
+            "type": "配饰",
+            "typeIconText": "",
+            "typeBackPositionX": "-1020",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB1M7MlLXXXXXaUXVXXXXXXXXXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "黄金首饰",
+            "topText2": "高端珠宝鉴赏",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1Bx9qLpXXXXcKXpXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "宝岛力荐年货",
+                "text2": "2件8折"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1JE8rLpXXXXcvXXXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "艾夫斯老花镜",
+                "text2": "给家人的一副好眼镜"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1I8fuLXXXXXaPaXXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "镜中视界 , 集结焕丽",
+                "text2": "2016 带你去看看"
+              }
+            ]
+          },
+          {
+            "type": "家装",
+            "typeIconText": "",
+            "typeBackPositionX": "-1122",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB154n2LpXXXXaqXFXXXXXXXXXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "清仓大促满就送",
+            "topText2": "年终抢家具",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1FLfALpXXXXacXpXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "互联网装修上鲸鲨",
+                "text2": "包你满意"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1IZPkLpXXXXX5XVXXIrnAJFXX-92-92.png",
+                "url": "mainPage",
+                "text1": "吸顶灯套餐",
+                "text2": "立省666元"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1n.P7LpXXXXaqXXXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "神偷也无奈",
+                "text2": "新年保平安"
+              }
+            ]
+          }
+        ],
+        "adImage": {
+          "url": "mainPage",
+          "imageUrl": "images/hotChannel/TB1tELGJFXXXXaLXFXXSutbFXXX.jpg"
+        }
+      },
+      {
+        "columnList": [
+          {
+            "type": "汽车",
+            "typeIconText": "",
+            "typeBackPositionX": "-1224",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB1vQIDLpXXXXbUaXXXcKtRZVXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "新年新车大钜惠",
+            "topText2": "特价限量抢",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1hh1_LXXXXXb5XFXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "沿途车载手机支架行车好",
+                "text2": "全场3折起款式任你选"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1N6OJLpXXXXcoXpXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "过年不打烊",
+                "text2": "智能后视镜专场"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1YbEeLpXXXXcqXXXXSutbFXXX.jpg",
+                "url": "mainPage",
+                "text1": "买天之眼导航送春节红包",
+                "text2": "全国免费安装"
+              }
+            ]
+          },
+          {
+            "type": "美妆",
+            "typeIconText": "",
+            "typeBackPositionX": "-1326",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB1Di24KpXXXXawXFXXXXXXXXXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "官方直售",
+            "topText2": "正品保障",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1.pd2LXXXXXbuXVXXXXXXXXXX-92-92.png",
+                "url": "mainPage",
+                "text1": "官方直售",
+                "text2": "100%贴心服务"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1.G.bKpXXXXXQXpXXXXXXXXXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "正品保障",
+                "text2": "专柜体验"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1FGD2KpXXXXb_XFXXXXXXXXXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "线上专柜",
+                "text2": "美丽直达"
+              }
+            ]
+          },
+          {
+            "type": "女装",
+            "typeIconText": "",
+            "typeBackPositionX": "-1428",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB1fCYiLpXXXXbQXpXXW5wdZXXX-393-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "女装精品",
+            "topText2": "不美不过年",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1odYlKVXXXXXjaXXXQAsJYXXX-180-180.jpg",
+                "url": "mainPage",
+                "text1": "女装特卖",
+                "text2": "大牌1折起"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1pjIyLXXXXXaCXVXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "保暖单品",
+                "text2": "暖洋洋过大年"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1VHDqKVXXXXchXFXXQAsJYXXX-180-180.jpg",
+                "url": "mainPage",
+                "text1": "我的少女时代",
+                "text2": "青春不能错过"
+              }
+            ]
+          },
+          {
+            "type": "家居",
+            "typeIconText": "",
+            "typeBackPositionX": "-1530",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB19N_DLpXXXXa6aXXXcKtRZVXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "家纺新年狂欢",
+            "topText2": "好货折上折",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB12qgjLpXXXXXQXXXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "鲸鲨家居一站购齐",
+                "text2": "新春焕新首选"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1EeARLXXXXXblXVXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "家纺布艺年终大促",
+                "text2": "全场9.9起包邮"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1_p6sLXXXXXXfXFXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "全球羽绒盛宴",
+                "text2": "新春钜献羽绒被1元秒杀"
+              }
+            ]
+          }
+        ],
+        "adImage": {
+          "url": "mainPage",
+          "imageUrl": "images/hotChannel/TB1x8DCJFXXXXc7XFXXSutbFXXX.jpg"
+        }
+      },
+      {
+        "columnList": [
+          {
+            "type": "家用电器",
+            "typeIconText": "",
+            "typeBackPositionX": "-1632",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB1fulmKFXXXXcOXpXXcKtRZVXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "开心回家过年",
+            "topText2": "大牌爆款供您选",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1hlymLpXXXXaVXFXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "预约配送次日达",
+                "text2": "今年过年不打烊"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1dD6wLpXXXXXRXVXX1sAeLpXX-500-500.jpg",
+                "url": "mainPage",
+                "text1": "美的新年",
+                "text2": "好礼送不停"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1HvfbLpXXXXaCXFXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "过年季",
+                "text2": "好礼享不停"
+              }
+            ]
+          },
+          {
+            "type": "手机数码",
+            "typeIconText": "",
+            "typeBackPositionX": "-1734",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB1_bclLpXXXXaMaXXXcKtRZVXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "潮酷数码",
+            "topText2": "春节狂欢买就送礼",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB13q.yLpXXXXcHXpXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "联想年货大buy年",
+                "text2": "劲爆抽免单 六重大礼"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1yxgALXXXXXcyXpXXIrnAJFXX-92-92.png",
+                "url": "mainPage",
+                "text1": "手机焕新季",
+                "text2": "特惠手机精选"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1ZpIELpXXXXb.XXXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "酷比魔方I9首发",
+                "text2": "第六代酷睿强芯"
+              }
+            ]
+          },
+          {
+            "type": "食品",
+            "typeIconText": "",
+            "typeBackPositionX": "-1836",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB1qFNOKFXXXXXZXFXXcKtRZVXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "拯救严寒,围炉吃火锅",
+            "topText2": "火锅原料9.9元起",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1D_1cLpXXXXcBXFXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "年味礼盒今日开抢",
+                "text2": "百万赠品等你拿"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1etqaLpXXXXapXVXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "柴米油盐酱醋肉",
+                "text2": "囤足过大年"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1MxarLpXXXXcxXXXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "新年团圆暖心酒",
+                "text2": "直供放心不贵"
+              }
+            ]
+          },
+          {
+            "type": "超市",
+            "typeIconText": "",
+            "typeBackPositionX": "0",
+            "typeUrl": "mainPage",
+            "backImageUrl": "images/hotChannel/TB14bJ8LpXXXXbGXpXXcKtRZVXX-394-418.jpg",
+            "topUrl": "mainPage",
+            "topText1": "玩具盛宴",
+            "topText2": "满99减30",
+            "bottomList": [
+              {
+                "imageUrl": "images/hotChannel/TB1ZjB_LpXXXXauXpXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "年货盛宴",
+                "text2": "均价4.9元起"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB1pEbELXXXXXc7XpXX5qTAJFXX-92-92.jpg",
+                "url": "mainPage",
+                "text1": "买2付1",
+                "text2": "零食不停歇"
+              },
+              {
+                "imageUrl": "images/hotChannel/TB25agijpXXXXXQXpXXXXXXXXXX-1032555792.jpg",
+                "url": "mainPage",
+                "text1": "美容江湖",
+                "text2": "冬季护肤必备"
+              }
+            ]
+          }
+        ],
+        "adImage": {
+          "url": "mainPage",
+          "imageUrl": "images/hotChannel/TB1AvzOJFXXXXblXpXXSutbFXXX.jpg"
+        }
+      }
+    ]
+  }
+}

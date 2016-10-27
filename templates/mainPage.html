@@ -1,0 +1,23 @@
+<div class="ec-main-page">
+    <ec-top-bar></ec-top-bar>
+    <ec-search-bar></ec-search-bar>
+
+    <ui-view>
+        <ec-menu></ec-menu>
+        <ec-carousel></ec-carousel>
+        <div class="ec-main-page-items-container">
+            <ec-featured-channel></ec-featured-channel>
+            <ec-hot-brand></ec-hot-brand>
+            <ec-hot-channel></ec-hot-channel>
+            <ec-guess-like></ec-guess-like>
+        </div>
+    </ui-view>
+
+    <div class="test" style="display: none;">
+        <a ui-sref="mainPage.test1">子页面1</a>
+        <a ui-sref="mainPage.test2">子页面2</a>
+        <a ui-sref="test3">页面1</a>
+        <a ui-sref="mainPage">主页</a>
+        <ui-view></ui-view>
+    </div>
+</div>

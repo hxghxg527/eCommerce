@@ -1,0 +1,31 @@
+<div class="ec-hot-brand">
+    <div class="ec-hot-brand-container">
+        <div class="ec-hot-brand-header clearfix">
+            <div class="ec-header-left ec_f_l">
+                热门品牌<i>HOT BRAND</i>
+            </div>
+            <div class="ec-header-right ec_f_r">
+                <span ng-class="{'true': 'selected'}[selectedIndex == $index]"
+                      ng-click="changeBrand($index);"
+                      ng-repeat="item in hotBrand.list track by $index">{{item.type}}</span>
+            </div>
+        </div>
+        <div class="ec-hot-brand-content clearfix">
+            <a class="ec-hot-brand-first-img-link ec_f_l"
+               ng-if="hotBrand && hotBrand.mainLinkUrl"
+               ui-sref="{{hotBrand.mainLinkUrl}}"
+               ng-style="{'background-image':'url({{hotBrand.mainImgUrl}})'}"></a>
+
+            <div class="ec-hot-brand-left-container ec_f_l">
+                <div class="ec-hot-brand-left-container-ul clearfix">
+                    <a class="ec-hot-brand-left-container-li ec_f_l"
+                       ui-sref="{{imageItem.url}}"
+                       ng-style="{'background-image':'url({{imageItem.imageUrl}})'}"
+                       ng-repeat="imageItem in imageList track by $index">
+                        <i class="ec-like fa fa-heart-o"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

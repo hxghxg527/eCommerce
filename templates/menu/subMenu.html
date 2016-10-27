@@ -1,0 +1,7 @@
+<div class="ec-sub-menu">
+    <ul class="clearfix">
+        <li ng-repeat="menu in ecSubMenu.subMenuList track by $index">
+            <a ui-sref="{{menu.url}}">{{menu.name}}</a><i ng-if="!$last">|</i>
+        </li>
+    </ul>
+</div>

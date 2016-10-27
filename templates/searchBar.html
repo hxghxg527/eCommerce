@@ -1,0 +1,17 @@
+<div class="ec-search-bar">
+    <div class="logo-container" ui-sref="mainPage">
+        {{$root.logoName}}
+    </div>
+    <div class="search-container">
+        <div class="input-container clearfix">
+            <input class="input-text" type="text" placeholder="{{placeHolder}}" ng-model="textValue">
+
+            <div class="search-btn">搜 索</div>
+        </div>
+        <ul class="hot-query-container clearfix">
+            <li ng-repeat="query in hotQuery track by $index" ng-class="{true: 'hot-query-highlight'}[query.highLight]">
+                <a ui-sref="{{query.url}}?q={{query.name}}&c={{query.category}}">{{query.name}}</a>
+            </li>
+        </ul>
+    </div>
+</div>

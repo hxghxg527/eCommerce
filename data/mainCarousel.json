@@ -1,0 +1,34 @@
+{
+  "width": "100%",
+  "height": "500px",
+  "carouselData": [
+    {
+      "imageUrl": "images/ijpfwp1b98_1920_400.jpg",
+      "url": "mainPage"
+    },
+    {
+      "imageUrl": "images/ijpgfeqz84_1920_400.jpg",
+      "url": "mainPage"
+    },
+    {
+      "imageUrl": "images/ijpgvvc611_1920_400.jpg",
+      "url": "mainPage"
+    },
+    {
+      "imageUrl": "images/ijnq24kq59_1920_400.jpg",
+      "url": "mainPage"
+    },
+    {
+      "imageUrl": "images/ijpgy6s88_1920_400.jpg",
+      "url": "mainPage"
+    },
+    {
+      "imageUrl": "images/ijpnj8kc12_1920_400.jpg",
+      "url": "mainPage"
+    },
+    {
+      "imageUrl": "images/ijpv4dxq56_1920_400.jpg",
+      "url": "mainPage"
+    }
+  ]
+}

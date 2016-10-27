@@ -1,0 +1,82 @@
+.ec-hot-brand {
+  height: 360px;
+
+  .ec-hot-brand-container {
+    width: $maxWidth;
+    margin: auto;
+    padding-top: 10px;
+
+    .ec-hot-brand-header {
+      .ec-header-left {
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        font-size: 17px;
+        padding-left: 5px;
+        i {
+          padding-left: 3px;
+          color: #ccc;
+          font-weight: normal;
+        }
+      }
+
+      .ec-header-right {
+        font-size: 14px;
+        span {
+          color: #666;
+          display: inline-block;
+          cursor: pointer;
+          margin: 0 15px;
+
+          &.selected {
+            color: #2f2f2f;
+            border-bottom: 2px solid #000;
+          }
+        }
+      }
+    }
+
+    .ec-hot-brand-content {
+      background-color: #fff;
+
+      .ec-hot-brand-first-img-link {
+        width: 300px;
+        height: 320px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .ec-hot-brand-left-container {
+        width: 900px;
+        overflow: hidden;
+
+        .ec-hot-brand-left-container-ul {
+          .ec-hot-brand-left-container-li {
+            border-bottom: 1px solid #f2f2f2;
+            border-right: 1px solid #f2f2f2;
+            width: 150px;
+            height: 80px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 90px auto;
+            background-image: url("../images/loading2.gif");
+            position: relative;
+
+            .ec-like {
+              color: $mainColor;
+              font-size: 12px;
+              position: absolute;
+              right: 10px;
+              top: 10px;
+              display: none;
+            }
+            &:hover .ec-like {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}

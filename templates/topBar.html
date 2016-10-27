@@ -1,0 +1,110 @@
+<div class="ec-top-bar">
+    <div class="bar-container clearfix">
+        <ul class="left-bar-container clearfix" ng-if="$root.isLogin">
+            <li class="left-bar-container-li">
+                <span>Hi,</span>
+                <a>{{currentUserInfo.userName}}</a>
+            </li>
+            <li class="left-bar-container-li">
+                <a class="grade" title="T{{currentUserInfo.grade}} 会员">
+                    <span ng-bind="'T' + currentUserInfo.grade"></span>
+                </a>
+            </li>
+            <li class="left-bar-container-li">
+                <a>积分 <b>{{currentUserInfo.points}}</b></a>
+            </li>
+            <li class="left-bar-container-li">
+                <a>消息 <b>{{currentUserInfo.messageNum}}</b></a>
+            </li>
+            <li class="left-bar-container-li" ui-sref="login">
+                <a>退出</a>
+            </li>
+        </ul>
+        <ul class="left-bar-container clearfix" ng-if="!$root.isLogin">
+            <li class="left-bar-container-li not-login">
+                <span>Hi, 欢迎来到{{$root.logoName}}</span>
+            </li>
+            <li class="left-bar-container-li not-login">
+                <a ui-sref="login">请登录</a>
+            </li>
+            <li class="left-bar-container-li not-login">
+                <a>免费注册</a>
+            </li>
+        </ul>
+        <ul class="right-bar-container clearfix">
+            <li class="right-bar-container-li has-second-level-menu">
+                <a class="right-li-link">
+                    <span class="text">我的{{$root.logoName}}</span>
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="second-level-menu-ul">
+                    <li class="second-level-menu-ul-li">我的订单</li>
+                    <li class="second-level-menu-ul-li">我的积分</li>
+                    <li class="second-level-menu-ul-li">我的足迹</li>
+                    <li class="second-level-menu-ul-li">我的抵用券</li>
+                </ul>
+            </li>
+            <li class="right-bar-container-li">
+                <a class="right-li-link">
+                    <i class="fa fa-heart no-second-level-menu-i has-scale"></i>
+                    <span class="text no-second-level-menu-text">我关注的品牌</span>
+                </a>
+            </li>
+            <li class="right-bar-container-li">
+                <a class="right-li-link">
+                    <i class="fa fa-shopping-cart no-second-level-menu-i"></i>
+                    <span class="text no-second-level-menu-text">购物车&nbsp;<span ng-if="shoppingCartGoods"><b>{{shoppingCartGoods.length}}</b>&nbsp;件</span></span>
+                </a>
+            </li>
+            <li class="right-bar-container-li has-second-level-menu">
+                <a class="right-li-link">
+                    <span class="text">收藏夹</span>
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="second-level-menu-ul">
+                    <li class="second-level-menu-ul-li">收藏的宝贝</li>
+                    <li class="second-level-menu-ul-li">收藏的店铺</li>
+                </ul>
+            </li>
+            <li class="vertical-split-line"></li>
+            <li class="right-bar-container-li">
+                <a class="right-li-link">
+                    <i class="fa fa-mobile no-second-level-menu-i fa-lg"></i>
+                    <span class="text no-second-level-menu-text">手机版</span>
+                </a>
+            </li>
+            <li class="right-bar-container-li has-second-level-menu">
+                <a class="right-li-link">
+                    <span class="text">客户服务</span>
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="second-level-menu-ul">
+                    <li class="second-level-menu-ul-li">包裹跟踪</li>
+                    <li class="second-level-menu-ul-li">常见问题</li>
+                    <li class="second-level-menu-ul-li">在线退换货</li>
+                    <li class="second-level-menu-ul-li">在线投诉</li>
+                    <li class="second-level-menu-ul-li">配送范围</li>
+                </ul>
+            </li>
+            <li class="right-bar-container-li has-second-level-menu">
+                <a class="right-li-link" ng-mouseover="getWebSiteNavigation();">
+                    <i class="fa fa-list-ul has-scale no-need-has-hover-effect-i"></i>
+                    <span class="text no-need-has-hover-effect-text">网站导航</span>
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="second-level-web-site-navigation clearfix">
+                    <li class="second-level-menu-ul-li" ng-repeat="webSite in webSites track by $index"
+                        ng-class="{'hotSpotRecommendation' : 'hot-spot-recommendation','market' : 'market','brand' : 'brand','help' : 'help'}[webSite.type]">
+                        <h2>{{webSite.caption}}</h2>
+                        <ul class="clearfix">
+                            <li ng-repeat="site in webSite.sites track by $index">
+                                <a ui-sref="{{site.url}}">{{site.siteName}}</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="loading-img" ng-show="showLoadingImg"></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="ec-login">
+    <div class="header-container">
+        <div class="header">
+            <a ui-sref="mainPage">{{$root.logoName}}</a>
+        </div>
+    </div>
+    <div class="middle-container">
+        <div class="middle">
+            <a class="login-image-link" ui-sref="mainPage"></a>
+
+            <div class="login-container">
+                <div class="caption">账户登录</div>
+                <div class="form-container">
+                    <div class="error-tips clearfix" ng-if="errorTip && errorTip != ''">
+                        <span>
+                            <i class="fa fa-minus-circle fa-fw"></i>
+                        </span>
+                        <span>{{errorTip}}</span>
+                    </div>
+                    <div class="username-container clearfix">
+                        <label>
+                            <i class="fa fa-user fa-lg fa-fw"></i>
+                        </label>
+                        <input ng-model="userName" type="text" placeholder="手机号/会员号/邮箱">
+                    </div>
+                    <div class="password-container clearfix">
+                        <label>
+                            <i class="fa fa-lock fa-lg fa-fw"></i>
+                        </label>
+                        <input ng-model="password" type="password">
+                    </div>
+                    <div class="tool-container clearfix">
+                        <a>忘记登录密码?</a>
+                        <a>免费注册</a>
+                    </div>
+                    <div class="login-button" ng-click="loginAccount();">{{buttonCaption}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

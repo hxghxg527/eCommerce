@@ -1,0 +1,21 @@
+<div class="ec-guess-like">
+    <div class="ec-guess-like-container">
+        <div class="ec-guess-like-header"></div>
+        <div class="ec-guess-like-content clearfix">
+            <a class="ec-guess-like-item ec_f_l" ui-sref="{{likeItem.url}}"
+               ng-repeat="likeItem in ::guessLike track by $index">
+                <div class="ec-guess-like-img-container">
+                    <div class="ec-guess-like-item-img"
+                         ng-style="{'background-image':'url({{likeItem.imgUrl}})'}"></div>
+                </div>
+                <div class="ec-guess-like-item-content">
+                    <div class="ec-guess-like-item-content-text" ng-bind="likeItem.description"></div>
+                    <div class="ec-guess-like-item-content-price">
+                        <span>￥</span><span ng-bind="likeItem.price"></span><span>.0</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="ec-guess-like-end"></div>
+    </div>
+</div>
